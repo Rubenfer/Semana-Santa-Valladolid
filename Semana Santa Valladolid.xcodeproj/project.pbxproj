@@ -28,6 +28,8 @@
 		0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
 		0C8F74D720F90C5100F9E952 /* Procesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D620F90C5100F9E952 /* Procesion.swift */; };
 		0C8F74D920F90CDE00F9E952 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
+		0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546120FBA01B00C35242 /* Crashlytics.framework */; };
+		0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546220FBA01B00C35242 /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		0C8F74D420F90BF600F9E952 /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
 		0C8F74D620F90C5100F9E952 /* Procesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procesion.swift; sourceTree = "<group>"; };
 		0C8F74D820F90CDE00F9E952 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0CB9546120FBA01B00C35242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */,
+				0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,8 @@
 		0C8F749220F8F8B700F9E952 = {
 			isa = PBXGroup;
 			children = (
+				0CB9546120FBA01B00C35242 /* Crashlytics.framework */,
+				0CB9546220FBA01B00C35242 /* Fabric.framework */,
 				0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */,
 				0C8F74B220F8F8B800F9E952 /* Semana Santa ValladolidTests */,
 				0C8F74BD20F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
@@ -209,6 +217,7 @@
 				0C8F749720F8F8B700F9E952 /* Sources */,
 				0C8F749820F8F8B700F9E952 /* Frameworks */,
 				0C8F749920F8F8B700F9E952 /* Resources */,
+				0CB9546020FB9F8100C35242 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -329,6 +338,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB9546020FB9F8100C35242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"\"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)\"",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 8fbc9dec94bbd0963e7ef2b8e834eb2fe03cabf0 4fd1a1e355280684ce0208ac26aabb99a44da7fc9f7fd1ad705d5bc7f2d92f35\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C8F749720F8F8B700F9E952 /* Sources */ = {
@@ -522,7 +552,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Semana Santa Valladolid/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -542,6 +577,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Semana Santa Valladolid/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
