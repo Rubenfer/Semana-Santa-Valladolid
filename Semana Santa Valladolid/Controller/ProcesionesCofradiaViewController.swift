@@ -14,9 +14,7 @@ class ProcesionesCofradiaViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tableView.reloadData()
-        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -31,13 +29,11 @@ class ProcesionesCofradiaViewController: UITableViewController {
         return cell
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
-        if let cell = sender as? UITableViewCell {
-            let row = tableView.indexPath(for: cell)!.row
-            let vc = segue.destination as! DetalleProcesionViewController
-            vc.procesion = cofradia.buscarProcesiones()[row]
-            self.tableView.deselectRow(at: tableView.indexPath(for: cell)!, animated: true)
-        }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetalleProcesionViewController()
+        vc.procesion = cofradia.buscarProcesiones()[indexPath.row]
+        self.tableView.deselectRow(at: indexPath, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }

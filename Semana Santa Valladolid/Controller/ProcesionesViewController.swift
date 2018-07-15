@@ -56,13 +56,11 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         return cell
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let cell = sender as? UITableViewCell {
-            let row = tableView.indexPath(for: cell)!.row
-            let vc = segue.destination as! DetalleProcesionViewController
-            vc.procesion = self.diaSeleccionado.procesiones[row]
-            self.tableView.deselectRow(at: tableView.indexPath(for: cell)!, animated: true)
-        }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = DetalleProcesionViewController()
+        vc.procesion = self.diaSeleccionado.procesiones[indexPath.row]
+        self.tableView.deselectRow(at: indexPath, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 }

@@ -8,20 +8,49 @@
 
 import UIKit
 
-class DetalleProcesionViewController: UIViewController {
+class DetalleProcesionViewController: UITableViewController {
     
     var procesion: Procesion!
-    
-    @IBOutlet var nombreProcesion: UILabel!
-    @IBOutlet var descripcionProcesion: UITextView!
-    @IBOutlet var recorridoProcesion: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        nombreProcesion.numberOfLines = 0
-        nombreProcesion.text = procesion.nombre
-        descripcionProcesion.text = procesion.horario
-        recorridoProcesion.text = procesion.recorrido
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.allowsSelection = false
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell")
+        switch indexPath.row {
+        case 0:
+            let attributes: [NSAttributedStringKey:Any] = [
+                .font : UIFont.systemFont(ofSize: 20, weight: .bold)
+            ]
+            let attributedText = NSAttributedString(string: procesion.nombre, attributes: attributes)
+            cell?.textLabel?.attributedText = attributedText
+            cell?.textLabel?.numberOfLines = 0
+            cell?.textLabel?.lineBreakMode = .byWordWrapping
+            cell?.textLabel?.textAlignment = .center
+            break
+        case 1:
+            cell?.textLabel?.text = "Detalles\n\n\(procesion.horario!)"
+            cell?.textLabel?.numberOfLines = 0
+            cell?.textLabel?.lineBreakMode = .byWordWrapping
+            cell?.textLabel?.textAlignment = .justified
+            break
+        case 2:
+            cell?.textLabel?.text = "Recorrido\n\n\(procesion.recorrido!)"
+            cell?.textLabel?.numberOfLines = 0
+            cell?.textLabel?.lineBreakMode = .byWordWrapping
+            cell?.textLabel?.textAlignment = .justified
+            break
+        default:
+            break
+        }
+        return cell
     }
 
 }

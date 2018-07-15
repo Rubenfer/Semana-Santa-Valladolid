@@ -39,8 +39,4 @@ class PasosViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return DataManager.cofradias[section].nombre
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-    }
-    
 }

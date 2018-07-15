@@ -25,11 +25,10 @@ class DetalleCofradiaViewController: UIViewController {
         texto.text = cofradia.descripcion
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "procesionesCofradia" {
-            let vc = segue.destination as! ProcesionesCofradiaViewController
-            vc.cofradia = cofradia
-        }
+    @IBAction func procesionesBtn(_ sender: Any) {
+        let vc = ProcesionesCofradiaViewController()
+        vc.cofradia = cofradia
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
