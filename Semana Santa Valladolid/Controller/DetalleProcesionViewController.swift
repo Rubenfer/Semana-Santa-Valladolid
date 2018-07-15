@@ -26,7 +26,7 @@ class DetalleProcesionViewController: UITableViewController {
         let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell")
         switch indexPath.row {
         case 0:
-            let attributes: [NSAttributedString.Key:Any] = [
+            let attributes: [NSAttributedStringKey:Any] = [
                 .font : UIFont.systemFont(ofSize: 20, weight: .bold)
             ]
             let attributedText = NSAttributedString(string: procesion.nombre, attributes: attributes)

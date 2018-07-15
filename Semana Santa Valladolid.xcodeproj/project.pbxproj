@@ -30,6 +30,7 @@
 		0C8F74D920F90CDE00F9E952 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
 		0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546120FBA01B00C35242 /* Crashlytics.framework */; };
 		0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546220FBA01B00C35242 /* Fabric.framework */; };
+		0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		0C8F74D820F90CDE00F9E952 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0CB9546120FBA01B00C35242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */,
+				0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */,
 				0C8F74C020F8F8B800F9E952 /* Info.plist */,
 			);
 			path = "Semana Santa ValladolidUITests";
@@ -395,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C8F74BF20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift in Sources */,
+				0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +570,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -589,7 +593,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

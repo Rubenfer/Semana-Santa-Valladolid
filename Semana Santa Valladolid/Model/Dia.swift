@@ -10,7 +10,7 @@ import Foundation
 
 class Dia: Codable {
     
-    var dia: String
+    var dia: String!
     var procesiones = [Procesion]()
     
 }
