@@ -23,8 +23,7 @@ class AjustesViewController: UITableViewController {
     }
     
     @IBAction func openSource(_ sender: Any) {
-        //TODO: Poner URL a repositorio GitHub
-         //UIApplication.shared.open(URL(string: "")!)
+         UIApplication.shared.open(URL(string: "https://github.com/Rubenfer/Semana-Santa-Valladolid")!)
     }
     
 }
