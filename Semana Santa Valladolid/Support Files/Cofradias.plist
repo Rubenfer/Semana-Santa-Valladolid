@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>nombre</key>
+		<string>Cofradía Penitencial y Sacramental de la Sagrada Cena</string>
+		<key>web</key>
+		<string>http://www.sagradacena.com/</string>
+		<key>descripcion</key>
+		<string>Fundada en 1940 por un grupo reducido de personas amantes de la Eucaristía, a la cabeza de las cuales se situaba el sacerdote D. Andrés Gamboa Murcia, se propuso desde el primer momento dotar a la Semana Santa de Valladolid de un nuevo paso que mostrara la institución de la Eucaristía.
+Las gestiones para la formación de la Cofradía fueron laboriosas y muchas de ellas infructuosas quedando oficialmente constituida el 26 de mayo de 1940, día en que se celebro su primera junta, para dar lectura al proyecto del reglamento por el que habría de regirse. La Cofradía se inició con 45 cofrades, a los 2 años de su fundación contaba ya con 400 cofrades, acompaño en principio al paso Camino del Calvario.
+En 1942 convoca la Cofradía un concurso para la realización de su paso titular, la Sagrada Cena siendo este adjudicado, el 15 de agosto de 1942 al escultor vasco Juan Guraya Urritia, que tardo 16 años en realizarlo. En 1958 fue la primera salida procesional con el paso de su propiedad.
+La Cofradía tuvo como primera sede la Iglesia de San Felipe Neri, posteriormente la de la Magdalena, nuevamente San Felipe Neri, y en 1961 el Convento de San Pablo. Fijando el Arzobispo D. José García Goldaraz la sede definitiva en la Parroquial de San Pedro Apóstol. Iglesia en donde se guarda su paso titular, en una casilla del lado de la epístola el de Jesús de la Esperanza y el del Lavatorio realizado por Mariano Nieto a finales de los 89 y primeros de los 90. Este último paso solo lo procesionara un año por su deficiente calidad artística, en la procesión de la Sagrada Cena que se celebra el Jueves Santo.
+Cabe destacar entre sus actividades la exaltación de la Eucaristía el día antes del Corpus Christi. Su principal fiesta religiosa es el Corpus Christi y el Jueves Santo, día en el cual alumbra en la Procesión de la Cena a sus pasos Jesús de la Esperanza y La Sagrada Cena.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>14</integer>
+			<integer>23</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>1. Jesús de la Esperanza</string>
+			<string>2. La Sagrada Cena</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>nombre</key>
+		<string>Cofradía Penitencial de la Oración del Huerto y San Pascual Bailón</string>
+		<key>web</key>
+		<string>http://www.oraciondelhuerto.es/</string>
+		<key>descripcion</key>
+		<string>Hacia 1923, a iniciativa del Arzobispo Gandásegui, Valladolid asiste a la recuperación de las celebraciones de la Semana Santa. Ayudado por el entonces Museo Provincial de Bellas Artes, a cargo de D. Francisco de Cossío, y otros colaboradores como Agapito y  Revilla, se vuelven a montar los pasos procesionales que tanta fama habían otorgado a  la ciudad. Al mismo tiempo, se empiezan a crear Cofradías y Hermandades alumbrarlos durante las procesiones. Sin embargo, este interés de la década de los años  20, se ve truncado por los acontecimientos de la década de los 30. A finales de la misma, hacia 1939, se retoma ese interés por la Semana Santa, se fundan nuevas Cofradías y Hermandades, bien sea para alumbrar pasos ya existentes, o para la creación de nuevos episodios de la Pasión que no tenían representación en ese momento.
+La fundación de la Cofradía tiene lugar el día 13 de marzo de 1939, lunes, en la Iglesia Penitencial de Nuestra Señora de Las Angustias, en una reunión presidida por el entonces párroco de San Pedro Apóstol, Don Ricardo Núñez, compuesta por un grupo de hortelanos y jardineros, siendo Arzobispo de Valladolid don Antonio García y García y ocupando la Cátedra de San Pedro S.S. Pío XII que había sido coronado como Sumo Pontífice el día 12 de marzo de 1939. Según Acta de constitución de la sesión de fecha 2 de mayo de 1939 acuerdan que esta Hermandad lleve por título  LA ORACIÓN DEL HUERTO Y SAN PASCUAL BAILÓN, tomando a éste último como Santo Patrón. La Cofradía tendrá como fin acompañar, dar culto y devoción al paso procesional de La Oración del Huerto, tallado por Andrés Solanes, y propiedad de la Cofradía Penitencial de La Santa Vera Cruz. Asimismo es en esta Iglesia Penitencial donde tendrá la sede canónica la nueva Cofradía vallisoletana.
+No era la primera vez que los hortelanos de Valladolid fundaban una Cofradía en la que se rendía culto a San Pascual Bailón. Recordemos que el 17 de mayo de 1739, se funda en el Convento de San Diego una Cofradía Sacramental bajo la advocación de San Diego y San Pascual Bailón. Pero, a diferencia de ésta, la nueva Cofradía que se funda en 1939 tiene un carácter Penitencial, acompañando a Cristo en su Oración del Huerto.
+En un principio la Hermandad estaba formada por hortelanos, jardineros y peritos agrónomos, un carácter gremial que ha continuado en algunos de sus miembros.
+Aquella primera Junta de Gobierno de la Cofradía estuvo presidida por D. Melitón Gutiérrez (Presidente entre 1939 y 1943), siendo Vicepresidente D. Tomás Agustín Alonso (entre 1939 y 1942) y ocupando el cargo de Secretario D. Modesto Rubio (1939-1943), otros miembros cofundadores de la Cofradía fueron D. Daniel Arroyo Molina.
+En el mismo año de su fundación, 1939, ya participó la Cofradía en la Procesión del Santo Entierro (Viernes Santo, 7 de abril de 1939), en la Junta celebrada el 10 de Febrero de 1940, en el 3º punto de los acuerdos adoptados indica: “ Se acordó también que los hermanos Cofrades que sacaron el Paso titular de la Cofradía lo hiciesen también este año.” En esa misma junta se hace voto de agradecimiento a Aquilino Fuertes por el adorno gratuito del Paso titular (a lo largo de los años se recogen votos de agradecimiento a este cofrade por el adorno gratuito del “paso”). Durante los años 40 se tiende a la consolidación de la Cofradía. Se empieza a incrementar el número de cofrades, se hacen las gestiones para hacer la imagen del Santo Patrón, incluso ya hay deseos de recuperar el montaje original del paso. En 1946 se crea la Junta Para el Fomento de la Semana Santa siendo ésta una de las Cofradías que la integran.
+Desde su fundación hasta el año 1950, la Cofradía acompañaba al paso titular únicamente en la Procesión General del Viernes Santo. En 1951 se crea la Procesión del Santísimo Rosario del Dolor, que se celebrará en la tarde-noche del Lunes Santo, representando los cinco Misterios Dolorosos, cerrando la procesión la Dolorosa de la Cruz; la Cofradía participa en ella acompañando el paso de La Oración del Huerto(Andrés Solanes, h. 1629).
+Las décadas de los años 60 y 70, son años en los que la Cofradía sigue participando en estas procesiones, y  mantiene su actividad acompañando al paso titular en las mismas, realizando sus cultos tanto cuaresmales, en honor al Patrón u otros cultos de la Hermandad, etc. Los años 70 son una época difícil para las Cofradías, pero pasados éstos, se asiste en los años 80 a una recuperación de las mismas, propiciada en gran parte por la incorporación con plenos derechos de la mujer, pudiendo participar en las procesiones con el hábito de la Cofradía.
+El año 1989 es una fecha de gran importancia para la Cofradía, al celebrarse el Cincuenta Aniversario de la fundación de la Cofradía, por este motivo, se realizaron distintas actividades conmemorativas, entre ellas se nombró Cofrade de Honor a S. S. Juan Pablo II. Este mismo año corresponde a la Cofradía salir representada en el Cartel anunciador de la Semana Santa de Valladolid.
+En 1992 salen restauradas las imágenes titulares, recuperando la policromía original. Este mismo año, la Cofradía comenzó a formar parte de la Procesión de Nuestra Señora de La Amargura, en la tarde del Jueves Santo. Este primer año, la Cofradía acompañó el paso de La Oración del Huerto (Andrés Solanes, h. 1629).
+Entre las novedades de la Semana Santa de 1993, destaca que la Cofradía recupera parte del montaje original del paso de La Oración del Huerto de Andrés Solanes (h. 1629), incorporando las imágenes de Judas Iscariote y el Sayón de la Linterna, que se conservan en el Museo Nacional de Escultura. Dicho montaje pudo verse también por las calles de Valladolid el Lunes Santo de 1995. La última vez que se contempló fue en el montaje que se hizo para el Pregón de Semana Santa del año 2001.En relación a este montaje original, cabe destacar que en la Semana Santa del año 2004, el Museo Nacional de Escultura, expuso en la Capilla de San Gregorio ambas imágenes más la de otro sayón identificado de este paso.
+Como peculiaridad, cabe destacar que en el año 1994 esta Cofradía procesionó por las calles de Valladolid, en la Procesión de Nuestra Señora de La Amargura, del Jueves Santo, año en el que esta procesión comenzó a celebrarse por las calles del centro de la ciudad, la imagen de Nuestro Padre Jesús de Medinaceli, propiedad de los Padre Capuchinos (Nuestra Señora de La Paz), en su expresión de Prendido o Cautivo. Saliendo en esta ocasión desde el Convento de Religiosas Dominicas de Santa Catalina de Sena y haciendo un acto de homenaje ante la imagen de la Santísima Virgen de La Soledad y Sacro-Monte Calvario, en la Iglesia Penitencial de Nuestro Padre Jesús Nazareno.
+El 29 de diciembre de 1995 son aprobados los nuevos Estatutos por los que desde entonces y en la actualidad se rige la Cofradía. Con la aprobación de estos estatutos, la Hermandad recuperó el Título de su fundación Oración del Huerto y San Pascual Bailón.
+Es a partir de 1995, cuando las Rvdas. Madres Dominicas del Monasterio del Corpus Christi abren las puertas de su casa a la Cofradía, que con el paso del tiempo se convertirá en  su sede canónica.
+El 20 de febrero de 1996 se bendice en la S.I. Catedral, la imagen de El Prendimiento de Jesús en el Huerto de los Olivos, obra de Miguel Ángel Tapia, saliendo por primera vez el Jueves Santo de ese mismo año (4 de abril de 1996) en la Procesión de Nuestra Señora de La Amargura. Respecto a este paso, destacar que, en la Semana Santa de 2004, se estrenó la figura del Sayón del Farol. Y en el 2005 se le unió el denominado Sayón de la Lanza. En 2007 se estrenaba la imagen de San Pedro Apóstol.
+Una de las fechas más importantes en la historia reciente de la Cofradía es la del 18 de mayo de 2002, ese día se bendicen las nuevas imágenes de La Oración del Huerto, obra de Miguel Ángel Tapia, en la Iglesia Conventual del Corpus Christi.
+La Cofradía celebra durante la Cuaresma un Triduo en honor de la Oración del Huerto, seguido de un Binario en recuerdo del Prendimiento del Señor, como preparación para la Semana Santa. Pasadas estas fechas, celebra la festividad de su Santo Patrón, San Pascual Bailón, el día 17 de Mayo. Y en el mes de noviembre una Eucaristía en recuerdo de los difuntos de la Cofradía.
+Asimismo, acompañan a las Hermanas Dominicas en diversas celebraciones dentro del Monasterio, como son la Solemnidad del Corpus Christi, la Festividad de Santo Domingo de Guzmán y la Novena a Nuestra Señora del Rosario.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>7</integer>
+			<integer>24</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>3. La Oración del Huerto</string>
+			<string>4. El Prendimiento</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>nombre</key>
+		<string>Cofradía de Ntro. Padre Jesús Resucitado, María Stma. de la Alegría y las Lágrimas de San Pedro</string>
+		<key>web</key>
+		<string>http://www.jesusresucitado.es/</string>
+		<key>descripcion</key>
+		<string>Esta Cofradía fue fundada el 30 de marzo de 1960, gracias a las investigaciones realizadas por su ex presidente Heliodoro Ureña Valenciano en los archivos, parroquiales de la Iglesia de Santiago Apóstol, se ha podido averiguar que dicha Cofradía ya se citaba en los legajos correspondientes a 1564, aunque no se hable de fecha exacta de su fundación.
+La primera vez que se cita a la Cofradía también con el nombre de Nuestra Señora. de la Alegría es en el acta de 4 de abril de 1569, fecha en que fue propuesta al cabildo esta denominación ratificándose la misma en octubre del mismo año, y encargando la talla de la imagen correspondiente. En los libros parroquiales encontrados en la iglesia de Santiago siguen apareciendo documentos diferentes, todos ellos relativos a la Cofradía hasta 1760 en que suponemos dejó de existir, pues no se vuelve a hablar de ella en ningún documento posterior.
+En 1960 fijo su sede en la iglesia de Santiago Apóstol de Valladolid, al igual que en su tiempo lo hizo la antigua Cofradía, hasta 1986 en que se traslada a la iglesia conventual de Nuestra Señora de Porta-Coeli de las RR. MM. Calderonas siendo esta desde entonces su sede.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>15</integer>
+			<integer>24</integer>
+			<integer>36</integer>
+			<integer>42</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>5. Las Lágrimas de San Pedro</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>nombre</key>
+		<string>Hermandad Penitencial de Ntro. Padre Jesús Atado a la Columna</string>
+		<key>web</key>
+		<string>http://www.atadovalladolid.com/</string>
+		<key>descripcion</key>
+		<string>Los origenes de esta Hermandad se remontan a la década de los años 30 del pasado siglo, cuando a las Congregaciones Marianas de San Estalislao de Kostka y San Luis Gonzaga, regidas y tuteladas por la Compañía de Jesús, se les encomendó el acompañamiento de varios pasos de los que en la tarde del Viernes Santo, formaban parte del cortejo procesional conocido vulgarmente como el del “Santo Entierro del Señor”. Tal encargo fue dado por el instaurador de la nueva etapa de nuestra Semana Santa, el Excmo. y Rvmo. Sr. Dr. D. Remigio Gandásegui y Gorrochátegui, Arzobispo que fue de esta Archidiócesis.
+A la sección de congregantes de San Luis Gonzaga (Luises) les fue asignado el llamado “Camino del Calvario” que posteriormente alumbro la Cofradía de la Cena y que ahora pertenece “procesionalmente” a la Cofradía del Santo Cristo del Despojo; a los congregantes de San Estanislao de Kostka se les concedió el acompañamiento de los pasos “El azotamiento del Señor” y “Jesús Atado a la Columna”, que siguen siendo hoy en día alumbrados por la Hermandad.
+Los pasos eran sacados entonces en andas cedidas por la Cofradía de la Vera Cruz, pero más tarde, aumentado el número de hermanos y solventada ciertas dificultades económicas, se adquirieron sendas carrozas, una de las cuales –la del paso “Jesús Atado a la Columna”- lleva unas valiosísimas labras en plata.
+Incialmente a los desfiles procesionales acudían los congregantes sin hábito, portando sobre sus pechos las medallas y cintas o cordones blanquiazules distintivos característicos de las mentadas CC.MM.
+Desde el primer momento se abrigó la ilusión de que aquellos jóvenes pudieran cambiar sus normales atuendos por hábitos penitenciales. Sin embargo esta aspiración no se pudo hacer realidad hasta el año 1941 en que por primera vez pudieron alumbrar a las Sacras Imágenes en las procesiones con el hábito que aun hoy perdura.
+Los cincuenta y tres primeros congregantes que comenzaron en esta Hermandad, a pesar de no contar con más ingresos que sus aportaciones económicas, adquirieron todo el material y utillaje necesario para tomar parte en las procesiones. Eligieron los colores blanco y azul cielo, colores propios de las Congregaciones y de la devoción concepcionista propia de estas.
+Era pues llegado el momento de dar personalidad jurídica propia a la recién nacida “SECCIÓN PENITENCIAL DE LAS CONGREGACIONES MARIANAS DE SAN LUIS GONZAGA Y SAN ESTALISLAO DE KOSTKA DE VALLADOLID”, para su desenvolvimiento y desarrollo dentro de estas, así como para su proyección exterior en representación de estas y aquellas otras que, en el futuro pudieran adscribirse, optándose por nominarla “HERMANDAD DE NTRO PADRE JESÚS ATADO A LA COLUMNA-SECCIÓN PENITENCIAL DE LAS CONGREGACIONES MARIANAS DE VALLADOLID” en honor de la Sagrada Imagen de su Titular venerada en la Iglesia Penitencial de la Vera Cruz.
+Se dotó a la Hermandad de su primer Reglamento propio que mereció la aprobación de la Dirección de las CC.MM. Finalmente se dio cumplida información al Arzobispo a través de su Vicario D. José Zurita Nieto, quien dieron su aprobación al mismo tiempo que animaron a los miembros de la Hermandad a continuar en su esfuerzo.
+En el transcurso de los años esta Hermandad pasó por etapas tanto de esplendor como de decadencia, hasta llegar al punto de que prácticamente extintas las CC.MM de las que tuvo su origen, y del que hoy nos sentimos orgullosos, estuvo a punto de desaparecer. Gracias al trabajo y entusiasmo de un grupo de Hermanos, que supo mantener la devoción a nuestro Cristo Titular, la presencia de la Hermandad en las calles de Valladolid continua siendo un hecho pese a que la Compañía de Jesús fuese limitando su colaboración y asistencia espiritual hasta desentenderse de ella por completo.
+La sugerencia y posterior imposición por parte de altos cargos de los Padre Jesuitas de esta capital de que se desalojaran los locales utilizados normalmente por la Hermandad obligó a los directivos de esta a buscar nuevo acomodo, lo que consiguieron de la Ilustre Cofradía Penitencial de Ntra. Señora de las Angustias, que cedió con la mejor voluntad una pequeña dependencia anexa a su sacristía. Al año siguiente, 1980, los Padres Jesuitas plantearon un nuevo problema a la joven directiva de la Hermandad, el pretendido derecho sobre la Carroza de Plata, en la cual se sigue portando en las procesiones nuestra Imagen Titular. Asesorados por antiguos cofrades y congregantes, reunidos con el superior de la compañía de Jesús, Gregorio de Pablos S.J, y con la mediación de D. José Antonio Chico, delegado diocesano, se resolvió tan espinoso asunto.
+Tales gestiones tuvieron como resultado la vinculación de la Hermandad a la Real Iglesia Parroquial de San Miguel y San Julián, en tiempos llamada de San Ignacio cuando pertenecía a los Padres Jesuitas, y en cuya demarcación se encuentra la iglesia Penitencial de la Vera Cruz, a lo que no puso reparo alguno la compañía de Jesús, reconociendo la independencia de hecho entre ambas instituciones el Jesuita D. Jesús Corella S.J, máximo dignatario en la región en su calidad de Provincial de Castilla, en comunicación dirigida con fecha 6 de noviembre de 1981 al Excmo. Sr. Vicario del Arzobispado de Valladolid.
+En consecuencia reunidos el 28 de Febrero de 1982 los miembros de la antigua “Hermandad de Ntro Padre Jesús Atado a la Columna- Sección Penitencial de las CC.MM de Valladolid” en Junta General Extraordinaria, acordaron que dicha entidad debía subsistir por sus propios medios, reiterando la mencionada solicitud al Arzobispado. Así mismo dieron su conformidad a la sustitución del cuadragenario Reglamento por unos nuevos Estatutos, que merecieron la aprobación de Palacio, el dia 16 de Marzo de 1982.
+Sin embargo la urgencia por asentarse en la Iglesia Parroquial de San Miguel y San Julián y la precipitación con la que se desarrollo el proceso estatutario en un intento de adecuar al nuevo orden y situación creados, tuvieron su reflejo en el contenido de los Estatutos aprobados en  Octubre de 1987.
+Así pues nos encontramos mediado el año de 1982 con una Hermandad que por capricho del destino debe enfrentarse a su nuevo renacer, dejando atrás el lastre que supuso la desaparición de las CC.MM., a cuyo origen nos sentimos tan vinculados como aquellos primeros Hermanos fundadores, acogidos como parte integrante de la comunidad parroquial de la Iglesia de San Miguel y San Julián, esta nueva juventud, no sin el apoyo de quienes lo fueron cuarenta años atrás, asume la tarea de recuperar el perdido esplendor de otros tiempos.
+La reforma del Derecho canónico pareció suprimir la sempiterna diferenciación entre hombre y mujeres seglares en cuanto a su forma de actuar y sus usos externos en el ámbito de lo terrenal, abiertas las puertas como ya estaban a una mas amplia y mas profunda reforma surgió la inquietud sobre  las Hermanas de Devoción en la vida real de la Hermandad y en la toma de decisiones, comenzó a suscitarse la posibilidad de que las mujeres abocadas desde siempre a lucir en las procesiones la tan femenina y tradicional mantilla española, trocaran esta vestimenta por el mas penitencial hábito blanquiazul. Así las cosas, tras numerosas reuniones se acordó tratar la cuestión en la sesión de la Junta General que la Hermandad celebro el 25 de Noviembre de 1984, en la que se decidió aprobar la propuesta y elevar tal petición a la autoridad eclesiástica.
+Tras los estatutos aprobados en Octubre de 1987, la evolución de los acontecimientos, el surgimiento de situaciones no previstas, y la necesidad de adaptarlos al nuevo Código de Derecho Canónico, así como Directorio Diocesano que para las Cofradías de Semana Santa publico “ad experimentum” el Arzobispo de Valladolid en Febrero de 1991, llego a la consideración de una reforma de los mismos, para lo cual, en el año 1995 se formó una comisión encargada de elaborar unos estatutos que reformaran los anteriores y con esa finalidad se trabajo intensamente. Fruto de ello fue la elaboración de un proyecto que por determinadas circunstancias no pudo ver la luz, quedando su resolución aparcada en el tiempo.
+En el año 2000 tomando el testigo de aquel trabajo iniciado se formó una comisión, que elaboro unos nuevos estatutos según los cuales se rige actualmente la Hermandad.
+En el año 1998 la Hermandad se ve obligada a tener que abandonar la Iglesia de San Miguel y San Julián, la Junta Directiva consiguió encontrar acomodo temporal en la Iglesia Conventual de Santa Isabel de Hungría en 1999, en cuyas dependencias se encuentran en la actualidad acogidos por las religiosas vulgarmente conocidas como “Las Isabelas”.
+Culminando una vieja aspiración de la Hermandad en el año 2003, la Hermandad adquiere una Imagen en propiedad, ratificada por el Arzobispo, obra del reconocido imaginero murciano José Antonio Hernández Navarro, que recoge los instantes previos a la Flagelación de Nuestro Señor, cubriendo el paso en la Procesión del Viernes Santo de los “Preparativos para la Flagelación”, recibiendo culto bajo la advocación de Santísimo Cristo de la Humildad.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>7</integer>
+			<integer>11</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>6. Preparativos para la Flagelación</string>
+			<string>7. El Azotamiento del Señor</string>
+			<string>8. El Señor Atado a la Columna</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>nombre</key>
+		<string>Hermandad del Santo Cristo de los Artilleros</string>
+		<key>web</key>
+		<string>http://cristodelosartilleros.com/</string>
+		<key>descripcion</key>
+		<string>Conocido también como Cofradía del Santo Cristo de la Caña, no se sabe con exactitud la fecha en que el personal del Arma de Artillería empezó a acompañar la imagen del ECCE-HOMO. Pero el 25 de marzo de 1944 es constituida como Cofradía entrando a formar parte de ella todos los artilleros y personal perteneciente el Cuerpo de Ingenieros de Armamento de la Fabrica Nacional. Anteriormente como el Parque de Artillería ocupaba, el antiguo Colegio de San Ambrosio, próximo al cual se encontraba la iglesia de San Antón, templo al que acudían los artilleros para rendir culto al Cristo de la Humildad o del Gallo llamado así por tener uno a sus pies, obra de José de Rozas (1.595).Conocido también como Cofradía del Santo Cristo de la Caña, no se sabe con exactitud la fecha en que el personal del Arma de Artillería empezó a acompañar la imagen del ECCE-HOMO. Pero el 25 de marzo de 1944 es constituida como Cofradía entrando a formar parte de ella todos los artilleros y personal perteneciente el Cuerpo de Ingenieros de Armamento de la Fabrica Nacional. Anteriormente como el Parque de Artillería ocupaba, el antiguo Colegio de San Ambrosio, próximo al cual se encontraba la iglesia de San Antón, templo al que acudían los artilleros para rendir culto al Cristo de la Humildad o del Gallo llamado así por tener uno a sus pies, obra de José de Rozas (1.595).
+Al desaparecer la Iglesia de San Antón, dicha imagen fue trasladada a la Iglesia de San Esteban, hoy Santuario Nacional de la Gran Promesa, donde se conserva en la actualidad. El Cristo de la Humildad fue propiedad de la Cofradía de la Piedad. Cuando los artilleros comenzaron a sacar en procesión al Cristo de la Humildad, el primer año se dio la circunstancia de que desfilaban los dos Cristos Ecce-Homo el de la Humildad acompañado por los Artilleros y el de Vera Cruz, sin acompañantes, por lo que el Arzobispo Doctor les prohibió la presencia de dos imagines iguales, dejando entonces de desfilar procesionalmente el de la Vera Cruz.
+Durante unos años los artilleros siguieron alumbrando el Ecce Homo de la antigua Iglesia de San Antón, pero por el mal estado de la misma solicitaron sacar el Ecce-Homo de Gregorio Fernández, propiedad de la Vera Cruz, y así lo hicieron desde 1944 a 1957 lo sacaron con tres sayones, año en el cual el cabildo general toma la decisión de suprimir los sayones para realzar mas la figura central del Cristo de la CañaAl desaparecer la Iglesia de San Antón, dicha imagen fue trasladada a la Iglesia de San Esteban, hoy Santuario Nacional de la Gran Promesa, donde se conserva en la actualidad. El Cristo de la Humildad fue propiedad de la Cofradía de la Piedad. Cuando los artilleros comenzaron a sacar en procesión al Cristo de la Humildad, el primer año se dio la circunstancia de que desfilaban los dos Cristos Ecce-Homo el de la Humildad acompañado por los Artilleros y el de Vera Cruz, sin acompañantes, por lo que el Arzobispo Doctor les prohibió la presencia de dos imagines iguales, dejando entonces de desfilar procesionalmente el de la Vera Cruz.
+Durante unos años los artilleros siguieron alumbrando el Ecce Homo de la antigua Iglesia de San Antón, pero por el mal estado de la misma solicitaron sacar el Ecce-Homo de Gregorio Fernández, propiedad de la Vera Cruz, y así lo hicieron desde 1944 a 1957 lo sacaron con tres sayones, año en el cual el cabildo general toma la decisión de suprimir los sayones para realzar mas la figura central del Cristo de la Caña</string>
+		<key>procesiones</key>
+		<array>
+			<integer>7</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>9. Ecce Homo</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>6</string>
+		<key>nombre</key>
+		<string>Cofradía Penitencial de Ntro. Padre Jesus Nazareno</string>
+		<key>web</key>
+		<string>http://www.nazarenovalladolid.com/</string>
+		<key>descripcion</key>
+		<string>Esta cofradía nació a partir de la orden de San Agustín el 16 de noviembre de 1596, fecha en la que se aprobó su regla fundacional, aunque existen indicios de su anterior existencia. Inicialmente se denominó Cofradía de la Cinta de N.P. San Agustín y Santa Mónica, Animas de San Nicolás de Tolentino y N.P. Jesús Nazareno en noviembre de.1616 se añade la advocación de Ntra.Sra. de la Consolación de Bolonia.
+El 3 de abril de 1676 al desligarse de la Orden Agustina, paso a llamarse Cofradía de N.P. Jesús Nazareno, aprobándose una nueva regla, que fue modificada en 1896 por otra que se hizo, usada hasta 1927. En 1663 comienzan los trabajos de limpieza del solar para construcción de la ermita los terrenos eran propiedad de Andrés Cabezón, lindantes con la Rinconada. En 1665 comenzaron las obras y el 22 de julio de 1673 el provisor del obispo les ordena hacer no ermita sino iglesia. El 3 de abril de 1675 salió la procesión del Convento de los Agustinos Calzados por última vez, y al terminar quedaron en la nueva iglesia los pasos y estandartes siendo alcaldes Claudio Pita de Andrade, Montenegro y Andrés Medina.
+El 30 de junio de 1693 se traslada la imagen de N.P. Jesús Nazareno en procesión a la iglesia de Santiago para proceder a nuevas reparaciones en el templo, retornando a su sede 4 años más tarde. En 1721 se construyeron las casa del capellán, sacristía y la sala de cabildos. En 1,830 se redujo la obra de fabrica de la iglesia de Jesús, por la construcción del Mercado del Val, alineando las Calles Sandoval, Cebaderia, Manzana, Jesús y Plaza de la Rinconada. Esta idea no prospero y solo se tiró la casa del capellán modificando la obra de la calle del Peso la Cofradía fue indemnizada con 18.500 pesetas. Las procesiones de Jesús Nazareno h.1.601 salían el Sábado Santo a las 6 de la mañana, desde San Agustín a Santa Catalina de allí a Palacio y por San Quirce a la Corredera, a la Plazuela Vieja, a la Calle Esgueva y a la Iglesia Mayor y al Cañuelo, Platerías, Rinconada, San Benito y otra vez a Santa Catalina para pasar a San Agustín. En 1611 los cofrades salen por primera vez portando hachones. De 1619 a 1627 en su procesión hacían estación en el Hospital de la Cruz.
+En 1731 decaen las cofradías ya que por los problemas suscitados en horarios de salida y de recorridos, los alcaldes del crimen, ante la desobediencia que se hacían de los mandamientos de las audiencias trataron de refundir todas las procesiones en una. Ese año solo salió la procesión del Nazareno. Esta decadencia continuó hasta 1777. La Cofradía de Jesús Nazareno siempre destaco por su igual y armónico atuendo. El 23 de abril de 1842 los alcaldes Vito Zerdeño y Tomas Martín se vieron obligados a entregar al Museo de Bellas Artes, los ocho sayones del paso del Despojo y el paso Grande del Crucificado, hoy Sed tengo. Estos sayones y paso están actualmente bajo la custodia del Museo Nacional de Escultura. Su iglesia sufrió un incendio en 1799. Es característica su forma de desfilar con las manos entrecruzadas en el pecho.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>13</integer>
+			<integer>27</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>10. Nuestro Padre Jesús Nazareno</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>7</string>
+		<key>nombre</key>
+		<string>Real cofradía Penitencial del Santísimo Cristo Despojado, Cristo Camino del Calvario y Nuestra Señora de la Amargura</string>
+		<key>web</key>
+		<string>http://www.cristodespojadovalladolid.com/</string>
+		<key>descripcion</key>
+		<string>Como una necesidad más de las que la clase obrera tiene, surge en el año 1943 la cofradía del Santo Cristo del Despojo en el seno de la Juventud Obrera Católica (J.O.C.) de la ciudad de Valladolid, tras los esfuerzos de varios de sus dirigentes, como una sección más de la propia organización.
+Anteriormente, desde 1930 los jocistas participaban en la procesión de Viernes Santo, procesionando de paisano a los pasos del Despojo y la Verónica, propiedad de las Cofradías de Jesús Nazareno y de la Pasión, respectivamente, que se guardan en el Museo Nacional de Escultura.
+Todos sus componentes quedaban obligados a ser militantes jocistas tras el requerimiento que hizo el Arzobispo D. Antonio García y García.
+Data su fundación de 23 de diciembre de 1943, iniciándose su participación con habito en la Semana Santa de 1944 que por concesión eclesiástica lo hace con el rostro descubierto, acompañando al conjunto El Despojo. En 1945 este paso se modificará quedando incluida en el la imagen propiedad de Jesús Nazareno que da nombre a la Cofradía. En 1952 el conjunto es nuevamente renovado pasando a denominarse Preparativos para la Crucifixión obra de Juan de Ávila (1679), que permanece en el Museo, quedando el Santísimo Cristo del Despojo como imagen única en otro paso.
+En 1958 les fue concedido por García Goldaraz Camino del Calvario que es propiedad del Museo Nacional de Escultura. Su primera sede fue la Iglesia de San Felipe Neri, para en 1947 pasar a la de El Salvador y desde 1961 a la parroquia de San Andrés, su sede actual.
+En 1967 y previa consulta entre sus componentes, se modifica el reglamento de la Cofradía adquiriendo autonomía propia y dejando de ser requisito obligatorio el ser miembro de la J.O.C. En 1992 por la negativa de la Cofradía de Jesús Nazareno, a dejarles la imagen del Santo Cristo del Despojo, la Cofradía convoca concurso nacional y adjudica al escultor José Antonio Hernández Navarro la realización de la talla de Cristo Despojado que es bendecida solemnemente por el prelado de la diócesis vallisoletana D. José Delicado Baeza, el 30 de marzo de 1993. Esta imagen sustituyó así a la que durante 50 años fue cedida por la penitencial de N.P. Jesús Nazareno.
+En el año 1999 la Cofradía encarga a Jose Antonio Hernandez Navarro la talla de Nuestra Señora de la Amargura, para sustituir a la antigua de Pedro de Sierra, propiedad de la Iglesia de San Miguel y San Julián. La nueva talla llega a Valladolid en el año 2000, con una gran acogida de la Semana Santa vallisoletana.
+En el año 2005 se sacó por primera vez en procesión el Cristo de Leocricio en la procesión de Cristo Despojado.
+En el año 2009 estrena la talla de Cristo Camino del Calvario de Miguel Angel González Jurado para la procesión del encuentro del Martes Santo, sustituyendo al Cristo del paso Camino del Calvario
+El 7 de mayo de 2010 y tras la aprobación de los nuevos estatutos pasa a denominarse Cofradía Penitencial del Santísimo Cristo Despojado, Cristo Camino del Calvario y Nuestra Señora de la Amargura.
+En el año 2016 añade a su denominación el título de REAL concedido por la Casa Real.
+En la actualidad la cofradía cuenta con unos 450 cofrades.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>7</integer>
+			<integer>26</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>11. Camino del Calvario</string>
+			<string>12. Preparativos para la Crucifixión</string>
+			<string>13. Santísimo Cristo Despojado</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>8</string>
+		<key>nombre</key>
+		<string>Cofradía Penitencial de la Sagrada Pasión de Cristo</string>
+		<key>web</key>
+		<string>http://www.sagradapasion.com/</string>
+		<key>descripcion</key>
+		<string>Fue fundada en 1531. Su nombre primigenio según se desprende de un documento del año 1577 es el de Cofradía de la Sagrada Pasión de Cristo y Cofradía de la Santísima Pasión de Nuestro Señor Jesucristo. A partir de 1805 se puede leer Cofradía de Nuestra Señora de la Pasión y Muerte de Nuestro. Señor Jesucristo. Por lo que parece el nombre original era el de La Pasión de Cristo y al llamar Virgen de la Pasión a la imagen de la Piedad que presidió la Iglesia, y que actualmente se encuentra en la iglesia del Real Monasterio de San quirce y Santa Julita, la advocación Mariana fue adquiriendo importancia hasta unirse al nombre de la Cofradía.
+Se agregó posteriormente a la Venerable Compañía de San Juan Bautista Degollado, llamada de La Misericordia de la nación Florentina fundada en Roma, con lo cual todas las bulas y privilegios concedidos por los papas a la Cofradía italiana pasan a la vallisoletana en razón de su agregación por bulas de Julio III, Paulo III y Pió IV y Pió V.
+La fiesta de la Cofradía actualmente es el 29 de agosto, día en que se celebra la Degollación de San Juan Bautista.
+La Obra de Misericordia que cuidaban especialmente los cofrades de la Pasión era la de ayudar y consolar a los condenados a muerte y disponerles a bien morir, acompañándoles al suplico, y una vez ejecutados, darles cristiana sepultura, así como atender a las necesidades de sus familias, por lo cual, salían pidiendo limosna trece diputados por las calles haciendo repicar unas campanillas de muy triste sonido diciendo en voz alta: Haga bien para hacer bien por el anima de este hombre que sacan a ajusticiar. Acabada la ejecución y con permiso que pedían a los alcaldes de la sala del crimen se hacían cargo del cadáver del ajusticiado para ser enterrado en el Humilladero, que tenía la Cofradía, a las afueras al otro lado del Puente Mayor, el Domingo de Lázaro acudían hasta allí para recoger los huesos y después de una larga procesión con sus paradas y rezos de misereres, les daban definitiva sepultura en el Convento de San Francisco, acto que realizaba desde 1578 la Cofradía de la Pasión, tuvo estrecha relación con el Convento de la Trinidad Calzada sito en la actual calle de María de Molina, a continuación del Real Monasterio de San Joaquín y Santa Ana.
+El arzobispo de Valladolid D. Remigio Gandásegui, considerando que la iglesia de la Pasión estaba en estado ruinoso, ordenó que fuera abandonada, creando a la Cofradía el grave problema de no saber donde guardar los pasos que tenía. No obstante el prelado ofreció la posibilidad de guardarles en el Museo Nacional de Escultura donde no todas fueron a parar. Por expreso deseo de la Cofradía el Santísimo Cristo del Perdón no se trasladó al Museo, encontrando asilo en la de San Felipe Neri, alllí permaneció hasta 1948, año en que el Arzobispo de Valladolid Dr. García García decidió trasladarlo al Santuario Nacional de la Promesa, en donde se quedó la imagen de la Virgen de la Pasión. La Cofradía del Santísimo Cristo del Perdón desde que abandonó su iglesia adoptó este nombre de una antigua comisaría de la Cofradía de la Pasión creada en 1700, nombre que mantuvo hasta 1992, año en que removiendo papeles recobra su primitivo y originario nombre, así como una gran parte de su patrimonio, imaginero y procesional.
+En 1954 se traslada junto con la imagen del Cristo del Perdón a la Iglesia de Santa María Magdalena el 22 de noviembre.
+El 23 de octubre de 1993 recuperado su nombre y los documentos que lo atestiguan se trasladan a la Iglesia del Real Monasterio de San Quirce y Santa Julita. A parte de la fiesta del 29 de agosto Degollación de San Juan Bautista celebro el 15 de septiembre, festividad de Los Dolores de la Virgen, a su patrona Nuestra Señora María Santísima del La Pasión.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>3</integer>
+			<integer>25</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>14. Santísimo Cristo del Perdón</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>9</string>
+		<key>nombre</key>
+		<string>Cofradía de la Exaltación de la Santa Cruz y Ntra. Sra. de los Dolores</string>
+		<key>web</key>
+		<string>http://</string>
+		<key>descripcion</key>
+		<string>En 1935 los miembros de la Hermandad Ferroviaria de la Sagrada Familia, comenzaron a formar parte en las procesiones de Semana Santa de Valladolid acompañando al paso Sitio actual Sed tengo. Seis años después el arzobispo Remigio Gandásegui decide asignar este paso a la Cofradía de las Siete Palabras y animar a los ferroviarios a formar en el seno de la Hermandad de la Sagrada Familia una sección de Semana Santa que vistiera hábito penitencial y que alumbrara el paso de la Elevación de la Cruz encargado por la Cofradía Penitencial de la Sagrada Pasión de Cristo, a Francisco del Rincón en 1604, de la cual es propiedad, a pesar de encontrarse en depósito en el Museo Nacional de Escultura.
+Estando los ferroviarios dispuestos a los deseos del Sr. Arzobispo se redactan y presentan para su aprobación los estatutos de la nueva Cofradía constituida bajo la advocación de la Exaltación de la Santa Cruz. De esta forma el 18 de marzo de 1944, son presentados los estatutos al Sr. Arzobispo quien firma la autorización y expide el documento por el que queda erigida en la Iglesia Parroquial de Nuestra Señora del Carmen, barrio de Las Delicias, la cofradía de La Exaltación de la Santa Cruz. El 1 de abril del mismo año celebra su primera junta general, con el número de 23 cofrades fundadores. A efectos legales la Cofradía quedó acogida como filial de la Hermandad de Ferroviarios.
+La construcción de hachones, carroza, banderines, cruces e instalación del alumbrado del paso y de baterías fueron cesión de los talleres de Renfe. Los hachones eléctricos utilizados en principio fueron posteriormente modificados poniéndoles un mechón con petróleo cuyo humo asemejaba al producido por las locomotoras de carbón utilizándose por primera vez en la Semana Santa de 1952, siendo la única que utiliza este sistema en la ciudad.
+La Cofradía comenzó a celebrar un Vía-crucis el día de Martes Santo, en el barrio de Las Delicias, portando a hombros la talla del Cristo Crucificado, conocido como el Cristo de la Buena Muerte, venerada hoy en el altar de la Iglesia de Nuestra Señora del Carmen. En 1951 se concede a la Cofradía una nueva procesión en la tarde del Jueves Santo, por el barrio de Las Delicias junto a las Cofradías del Descendimiento y del Santo Cristo del Despojo. De esta forma nace la procesión de Nuestra Señora de La Amargura y desaparece el Vía-crucis.
+Actualmente la Cofradía se encuentra abierta a todos los fieles que tengan o no relación con el ferrocarril. En 1994 coincidiendo en el Cincuentenario de su fundación la Cofradía se fusionó con la de Nuestra Señora de los Dolores y Soledad, existente también en la Iglesia Parroquial de Nuestra Señora del Carmen, para lo cual fue necesario cambiar los estatutos añadiendo a su denominación y advocación la de Nuestra Señora de Los Dolores</string>
+		<key>procesiones</key>
+		<array>
+			<integer>2</integer>
+			<integer>24</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>15. La Elevación de la Cruz</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>10</string>
+		<key>nombre</key>
+		<string>Cofradía de las Siete Palabras</string>
+		<key>web</key>
+		<string>http://www.cofradiadelassietepalabras.com/</string>
+		<key>descripcion</key>
+		<string>El 13 de diciembre de 1929 recibe la aprobación eclesiástica, después de varias entrevistas de un grupo de jóvenes deseosos de formar una nueva Cofradía, con la cual dar culto público a los Misterios Pascuales de la Pasión Muerte y Resurrección de Nuestro Señor Jesucristo. El Arzobispo Remigio Gandásegui al mismo tiempo les concede alumbrar el paso Emisit Spiritum, que es propiedad de la Cofradía Penitencial de la Sagrada Pasión de Cristo y que se encontraba depositado en el Museo Nacional de Escultura.
+Los cofrades fijaron su sede y realizaron su reunión constitucional en la Iglesia de San Felipe Neri. En aquellos tiempos la asignación concedida por el Ayuntamiento no superaba las mil pesetas, con lo cual se vieron en la obligación de alquilar sus hachones al precio de medio real cada uno y 5 pesetas. el kilo de cera consumida. El 18 de abril de 1930 realizaba su primera salida procesional acompañando al paso asignado dos años después contaba con un centenar de cofrades.
+El 12 de marzo de 1936 se recibe la autorización arzobispal para trasladar su sede a la Iglesia de San Miguel y San Julián, para en 1941 y con miras a procesionar al Cristo Crucificado que se encuentra en la Iglesia de Santiago Apóstol, trasladar allí su sede, tras la autorización arzobispal el 20 de marzo.
+En 1942 se monta el segundo paso de la Cofradía y por lo tanto otro nueva Palabra, En tus manos encomiendo mi espíritu, con el Santísimo Cristo Crucificado de Santiago que pasa a llamarse desde entonces de las Siete Palabras, obra atribuida por aquel entonces a Francisco de la Maza y los dos ladrones crucificados, Dimas y Gestas que pertenecen al paso de la Piedad y que se guardan en el Museo Nacional de Escultura. Este nuevo paso fue bautizado con el título de ET CUM INIQUIS REPUTATOS EST y fue reputado entre los ladrones.
+En 1944 logro montar su tercer paso el llamado Sitio Sed tengo, que como ya dijimos es propiedad de la Cofradía Penitencial de Nuestro Padre Jesús Nazareno aunque permanece durante todo el año en el Museo Nacional de Escultura, en donde se encuentra en depósito.
+En 1954 coincidiendo con su 25 aniversario, se logró montar el cuarto paso Madre Ahí tienes a tu Hijo con las figuras del Cristo de las Batallas de Francisco del Rincón que se venera en la Iglesia de Santa María Magdalena. La Virgen y San Juan que se conservan en la iglesia de San Andrés, pertenecen a un Calvario y se consideran como obras del taller de Gregorio Fernández.
+En 1958 se crea la filial de la Cofradía en la localidad de Laguna de Duero, y en 1959 se monta una nueva Palabra Padre Perdónalos, porque no saben lo que hacen con la imagen de El Cristo de los Trabajos de Gregorio Fernández, y varios sayones que se encontraban en el Museo Nacional de Escultura, pertenecientes al antiguo paso de la Coronación de Espinas de la Cofradía Penitencial de la Santa Vera Cruz.
+En la tarde del Domingo de Ramos de 1965, se organiza el primer traslado a hombros desde la Iglesia de la Asunción en Laguna de Duero a la iglesia de Santiago en Valladolid así se realizó hasta 1991 año en que por prohibición de la autoridad gubernativa, se trajo en camión hasta el Convento de los Agustinos Filipinos, efectuándose el traslado desde allí.
+La Procesión del Traslado se retomó en 1997 una vez finalizadas las obras de la entrada de Valladolid, por la antigua carretera de Madrid y conseguida la pertinente autorización gubernativa. En 1964 dejan de desfilar los ladrones con el Cristo de las Siete Palabras, siendo sustituidas dos años más tarde por sendas copias de gran calidad y por las que la Cofradía pago 45.000 pesetas. por cada una. Durante esos dos años se procesionaron los ladrones de la Capilla de los Alderete de Tordesillas.
+En 1975 la Cofradía completa sus siete pasos, con el grupo escultórico de la Capilla de los Alderete de Tordesillas, y se monta la palabra Hoy estarás con migo en el Paraíso que más tarde será sustituidos por un Crucificado gótico de autor desconocido procedente también de la Iglesia de Nuestra Señora de la Asunción de Laguna de Duero. El motivo fue la constitución de la Cofradía de La Tercera Palabra en Tordesillas.
+La Palabra Dios mío, Dios mío, porque me has abandonado se monta con un Cristo Crucificado también anónimo procedente del Convento de Nuestra Señora de las Lauras.
+El Miércoles Santo, la Cofradía organiza una nueva Procesión llamada Procesión del Santo Cristo de las Mercedes llevando a hombros un crucificado, obra de Pompeyo Leoni.
+Durante la Cuaresma se realizan triduos al Santo Cristo de las Siete Palabras en Valladolid y otro al Santo Cristo de los Trabajos en Laguna de Duero. El último día de este triduo, Viernes de Dolores, se reza un Vía Crucis por las calles del pueblo llevando al Cristo a hombros.
+En 1932 la Cofradía empezó a organizar el Ejercicio o Sermón de las Siete Palabras en la Catedral. En 1943 se traslada a plaza Mayor, que cada Viernes Santo a mediodía se transforma en un escenario del siglo XVI en el que un sacerdote reflexiona sobre las siete palabras que Cristo pronunció en la Cruz, delante de los respectivos pasos que las ilustran. Desde 1944, el Sermón viene precedido de un pregón a caballo que es proclamado a lo largo de toda la mañana en distintos puntos de la ciudad.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>6</integer>
+			<integer>7</integer>
+			<integer>16</integer>
+			<integer>33</integer>
+			<integer>34</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>16. Padre, perdónales porque no saben lo que hacen</string>
+			<string>17. Hoy estarás conmigo en el paraíso</string>
+			<string>18. Madre, ahí tienes a tu hijo</string>
+			<string>19. Dios mío, Dios mío, por qué me has abandonado</string>
+			<string>20. Sed tengo</string>
+			<string>21. Todo está consumado</string>
+			<string>22. En tus manos encomiendo mi Espíritu</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>11</string>
+		<key>nombre</key>
+		<string>Hermandad Universitaria del Santísimo Cristo de la Luz</string>
+		<key>web</key>
+		<string>http://www.cristodelaluzvalladolid.es/</string>
+		<key>descripcion</key>
+		<string>En las postrimerías del año 1940 el entonces Rector de la Universidad de Valladolid D. Cayetano Mergelina y Lera, inició las gestiones con la proposición de crear una Cofradía que agrupase a los miembros docentes de dicha institución académica y escolares del Colegio de Santa Cruz así como a todo el profesorado de los diversos niveles de enseñanza.
+Para este objetivo se dirigió al Ministerio de Educación Nacional recabando su ayuda Tras recibir respuesta satisfactoria del Ministerio el 11 de febrero de 1941 el Sr. Presidente del Patronato del Museo Nacional de Escultura, establece las disposiciones de cesión del Cristo de la Luz a la Universidad en los siguientes términos para que se tribute culto en la Capilla Universitaria del Colegio de Santa Cruz por la Hermandad que bajo su advocación ha de crearse.
+Conseguida la imagen, los estatutos fueron aprobados por D. José Zurita en Valladolid el 20 de marzo de 1942, inmediatamente después el Viernes Santo de ese mismo año (2 de mayo) la Hermandad celebra su procesión y Via-crucis portando a hombros la imagen del Santísimo Cristo de la Luz. Los hermanos se organizan en dos filas vestidos con traje de calle negro. A las 4.30 de la tarde comenzaba el rezo del Santo Rosario y al llegar al tercer misterio iniciaba su marcha la procesión que abría la Cruz Alzada de la Parroquia de La Antigua. Esta procesión consiguió un gran arraigo entre los vallisoletanos quienes todos los años se congregaban en la Plaza de Santa cruz para contemplar la complicada maniobra de extracción de la imagen desde el interior del Palacio de Santa Cruz.
+A principios de los años 60 comienza una lenta decadencia para la Cofradía concretamente en 1963 de tal forma que en 1965 fue el último año que se produce la salida procesional de su primera etapa.
+En 1992 un grupo de jóvenes universitarios inician las gestiones para intentar procesionar la imagen y recuperar esta tradición universitaria. Se convoca a los antiguos miembros de la Hermandad de docentes y a la llamada tan solo acuden cuatro: D. Antonio Alarcos, D. Angel Allue, D. Martín Santos y Dª Engracia Niño. Se forma una nueva junta directiva de la Hermandad y se procede a la elaboración de unos nuevos estatutos pasando a denominarse Hermandad Universitaria del Santísimo Cristo de la Luz en lugar de Docentes del Santo Cristo de la Luz.
+Actualmente la hermandad se compone de miembros de la comunidad universitaria aunque en ella puede pertenecer todo aquel que lo desee.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>20</integer>
+			<integer>36</integer>
+			<integer>37</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>23. Santísimo Cristo de la Luz</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>12</string>
+		<key>nombre</key>
+		<string>Real y Venerable Cofradía de la Preciosísima Sangre de Ntro. Señor Jesucristo</string>
+		<key>web</key>
+		<string>http://</string>
+		<key>descripcion</key>
+		<string>Su constitución, data del 6 de abril de 1929 aprobando sus estatutos el Arzobispo Remigio Gandásegui y concediéndosela el derecho procesional y el paso Cristo de los Carboneros. Así entroncaron con el grupo de fieles cristianos que por el año 1805 daban culto y escoltaban en las procesiones al Santo Cristo Crucificado, obra de Francisco del Rincón que se venera en la Iglesia de Las Angustias. Y conocido como Cristo de los Carboneros por ser sus integrantes de este gremio quienes desfilaban en las procesiones de semana santa. Entre finales de febrero y primeros de marzo de 1929, los continuadores del grupo anterior dirigidos por Alberto Guiloche, visitaron a Remigio Gandásegui, Arzobispo de Valladolid, y legalizaron la Cofradía para así poder alumbrar al mencionado Cristo en la procesión del Entierro.
+Se fundó con el nombre de Venerable Cofradía de la Preciosísima Sangre de Nuestro Señor Jesucristo en la fecha ya citada.
+Hasta 1949 sacaron en procesión al Cristo de los Carboneros, que debido a su mal estado y por orden eclesiástica hubo de quedarse definitivamente en la Iglesia de Nuestra Señora de Las Angustias, en la cual se venera y de cuya cofradía es propiedad.
+Fue sustituido por el Cristo Crucificado de Juan de Juni propiedad de las monjas de Santa Catalina en cuya Iglesia tiene la morada. Posteriormente por solo tenerle en su poder durante los días Jueves y Viernes Santo, los cofrades decidieron encargar al escultor Genaro Lázaro Gumiel en 1953 una copia del Santo Cristo de Juan de Juni. Una vez terminada y tras su bendición, se llevó en procesión y se instaló en la Capilla de los Tovar o de Santa Ana en la Iglesia de Santa María La Antigua en la cual tiene su sede la Cofradía.
+Con la nueva talla, la Cofradía se vio en la necesidad de construir una carroza, con el fin de poder sacar procesionalmente al Santo Cristo, esta se hizo basculante para que pudieran salvarse las dificultades de altura de la puerta principal del templo de La Antigua. En la carroza se pueden unos candelabros de bronce, donación del entonces gobernador civil de Valladolid Alonso Villalobos.
+La Cofradía acabada la Guerra Civil nombró cofrades a los caballeros mutilados por la Patria que lo desearon, dado que las características de la misma eran propicias para ello. Santo Cristo Muerto, habito rojo y negro, muertos por la patria, sangre derramada por los citados caballeros y luto.
+En el año 2013 la casa real, concede a la cofradía el título de Real, pasando a llamarse desde entonces Real y Venerable Cofradía de la Preciosísima Sangre de Ntro. Señor Jesucristo</string>
+		<key>procesiones</key>
+		<array>
+			<integer>9</integer>
+			<integer>22</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>24. Santísimo Cristo de la Preciosa Sangre</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>13</string>
+		<key>nombre</key>
+		<string>Cofradía del Discipulo Amado y Jesús de Medinaceli</string>
+		<key>web</key>
+		<string>http://www.discipuloamado.es/</string>
+		<key>descripcion</key>
+		<string>Entre 1950 y 1957 participó en la Procesión General de Viernes Santo la Cofradía denominada de los periodistas, por estar formada por miembros de la prensa vallisoletana. En 1951, el Arzobispado les requirió para que le dieran un nombre, denominándose del Discípulo Amado, por ser San Juan cronista de la historia de Cristo.
+Acompañaban un paso formado por las imágenes de la Virgen y San Juan del retablo de la iglesia de la Vera Cruz junto con una Magdalena del Museo Nacional de Escultura que perteneció al paso del Entierro de la Cofradía de Nuestra Señora de la Piedad, hoy reconstruido con el nombre de Cristo de la Cruz a María. Procesionaban después de la Cofradía de Nuestro Padre Jesús Nazareno, representando así a los referidos personajes siguiendo a Cristo con la cruz a cuestas.
+La Cofradía nunca fue aprobada canónicamente, y en 1957 dejó de procesionar en la General.
+En 1996, un grupo de personas se puso en marcha para relanzar la antigua Cofradía de los Periodistas, la del Discípulo Amado. Tras 15 años, la iniciativa fue aprobada canónicamente el 2 de febrero de 2011 como Cofradía del Discípulo Amado y Jesús de Medinaceli ,1 con sede en la iglesia de San Nicolás. Un año después, cambió su sede a la iglesia de San Agustín (PP. Agustinos Filipinos) y estuvo allí hasta el año 2017.
+Su admisión en la Junta de Cofradías tuvo lugar en 2013. Procesionó por primera vez en 2014 y se incorporó a la Procesión General de Viernes Santo en 2015.
+No pudiendo procesionar en la Semana Santa de 2013, por no haber sido aún admitida en la Junta de Cofradías, una representación participó como invitada en varias procesiones de ese año. En junio celebró una procesión extraordinaria con motivo del primer aniversario de la bendición de la talla de Jesús de Medinaceli.
+En 2014, admitida en la Junta de Cofradías, el Arzobispado les concedió su procesión titular para el Lunes Santo a las 22 horas, portando a Jesús de Medinaceli. Saliendo de su sede, recorrieron las calles del centro hasta la iglesia de San Martín, donde tuvo lugar un acto de oración. La Cofradía no obtuvo autorización para procesionar con este paso en la Procesión General. Tal decisión, no del todo aclarada, parece que se basó, por un lado, en el hecho de no representar la imagen un momento concreto de la Pasión, sino una iconografía típica de Cristo, y por otro, en que se trata de una imagen de vestir. Como solución, el Arzobispado aconsejó que acompañaran al paso de la tercera palabra (Madre, ahí tienes a tu hijo) de la Cofradía de las Siete Palabras, pero las negociaciones entre ambas cofradías no cristalizaron. En 2015, con la talla de San Juan Evangelista, se incorporan a dicha procesión.
+En el año 2017 la cofradía establece su sede en la Parroquia de San Martín y San Benito el Viejo</string>
+		<key>procesiones</key>
+		<array>
+			<integer>8</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>25. San Juan Evangelista</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>14</string>
+		<key>nombre</key>
+		<string>Cofradía El Descendimiento y Santo Cristo de la Buena Muerte</string>
+		<key>web</key>
+		<string>http://www.descendimientovalladolid.es/</string>
+		<key>descripcion</key>
+		<string>Poco antes de su fallecimiento, el arzobispo Gandásegui encargó a don Herminio Sanz Pedrosa que fundase una cofradía para alumbrar el paso de El Descendimiento, que es propiedad de la Santa Vera Cruz en cuya iglesia recibe culto. Aquel deseo se vio materializado el 26 de marzo de 1939 al reunirse los futuros cofrades en la sacristía de la Real Iglesia de San Miguel. Los hermanos cofrades en aquel entonces eran 81 con 6 protectores.
+El acta constitucional tiene datos curiosos. Nombra Presidente de Honor al entonces Jefe del Estado D. Francisco Franco Bahamonde y a D. Antonio García García arzobispo de Valladolid; y ordena a los cofrades la adquisición de dos velas, una para alumbrar el monumento al Santísimo y otra para portarla en la Procesión de Viernes Santo, a la cual acudió sin habito ni medalla ante la imposibilidad de su realización.
+En 1954 se produjo la fusión con la Hermandad del Santísimo Cristo de la Buena Muerte de la que quedaban pocos miembros y que ya existía en Valladolid desde hacía cien años, que alumbraba al Cristo Yacente atribuido a Gregorio Fernández y venerado en la Real Iglesia de San Miguel y San Julián donde también se encuentran las figuras integrantes del Monte Calvario que desfilan en la tarde del Jueves Santo en la procesión de Nuestra Señora. de La Amargura.
+Desde 1994 retorna la Procesión de Cristo al Humilladero que realizaba la Cofradía de la Buena Muerte, portando a hombros la imagen del Cristo Yacente de Gregorio Fernández que se venera en el Convento de San Pablo, por el mal estado del Santísimo Cristo de la Buena Muerte y desde hace unos años han sustituido esta talla por el Cristo Yacente de la Real Iglesia de San Miguel y San Julián . La Cofradía de la Buena Muerte fue decreciendo notablemente en sus actividades, hasta su casi total extinción. Dichas actividades se centraban fundamentalmente en acompañar y ayudar a bien morir a todas las personas que así lo desearan, incluso los reos condenados a la última pena a la vez que recorrían el vecindario pidiendo limosna para abonar el entierro de los que no disponían de bienes económicos.
+Celebra dos fiestas religiosas: un triduo al Santo Cristo de la Buena Muerte, unos días antes de la Semana de Pasión en la Iglesia de San Miguel y San Julian, y un quinario dedicado a la Pasión de Nuestro Señor que tiene lugar en la Vera Cruz.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>24</integer>
+			<integer>29</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>26. El Descendimiento</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>15</string>
+		<key>nombre</key>
+		<string>Cofradía Penitencial de la Santa Vera-Cruz</string>
+		<key>web</key>
+		<string>http://www.santaveracruz.es/</string>
+		<key>descripcion</key>
+		<string>Nace en el seno de la Orden Franciscana. Es sin genero de dudas, la más antigua de las cofradías vallisoletanas. El 14 de mayo de 1498 solicitan al corregidor y Regidores: facer el humilladero en la Puerta del Campo, donde esta puesta la Cruz. El sitio es la actual plaza de Zorrilla. Dicha ermita fue hasta su desaparición a comienzos del siglo XIX destino de frecuentes rogativas y procesiones, en las que el pueblo acompañaba al Señor Crucificado, imagen del siglo XVI, que con el nombre del Santísimo Cristo del Humilladero, se conserva y venera la Cofradía  en su templo, dándole culto al inicio de la Cuaresma.
+A finales del siglo XVI, acuerdan los hermanos, pedir al Ayuntamiento, unos terrenos existentes al testero de la costanilla al final de las Platerías, edificando la Iglesia, hospital y demás dependencias. El templo comienza a construirse en 1589 con trazas de Pedro Mazuecos el Viejo y es ampliado en la segunda mitad del siglo XVII, según el plan de Juan Tejedor, por acuerdo que tomó el cabildo el 3 de agosto de 1665. Esto permitió a los hermanos de La Vera-Cruz, abandonar el Convento de San Francisco, que les cobijó desde sus orígenes, sin perder por ello las fraternales relaciones que les unían con la Orden que amparó su nacimiento. La fachada es obra de Diego de Praves y fue finalizada en 1595.
+La ampliación la realizan los maestros canteros Francisco de la Torre y Lucas López siguiendo los diseños de Juan Tejedor. La obra fue terminada el 11 de septiembre de 1681 y en ella se remodeló toda la Iglesia, salvo el frontispicio.
+Antiguamente destacaba la Procesión del Jueves de la Cena, que partía del Convento de San Francisco, como ya hemos citado, al hablar de la semana Santa h.1.750.
+La más importante reliquia que guarda la Vera-Cruz, es un pedazo del Santo madero, que ya sacaban en procesión en los albores del siglo XVII, para lo cual hicieron unas andas de plata el 23 de marzo de 1661, que encargaron al artífice Pedro Costes de la Cruz y que salieron por primera vez en procesión el 3 de mayo de aquel año. Estas andas desaparecieron durante la dominación francesa, salvándose la cruz relicario.
+El suceso más importante y dramático vivido por la Cofradía fue la pérdida del archivo en el incendio que afectó al templo Penitencial, acaecido el 24 de abril de 1806. Durante las obras de restauración de la Iglesia, las imágenes procesionales, que no sufrieron daño alguno, encontraron asilo en la Iglesia Conventual de San Francisco.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>5</integer>
+			<integer>7</integer>
+			<integer>28</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>27. Nuestra Señora de la Vera Cruz</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>16</string>
+		<key>nombre</key>
+		<string>Muy Ilustre Cofradía de Nuestra Señora de la Piedad</string>
+		<key>web</key>
+		<string>http://www.cofradiadelapiedad.es/</string>
+		<key>descripcion</key>
+		<string>La Cofradía Penitencial de Nª Sª de la Piedad se remonta a la época de la Corte de Carlos I, concretamente al año 1.504; incluso es probable que algunos años antes esta hermandad ya existiera, ya en esa primera época era conocida como la Cofradía de los “Xinobeses”, (Genoveses) por ser sus cofrades banqueros y asentistas de la región italiana. Siguió manteniendo su actividad durante el siglo XVI, y así lo atestigua un pleito con la Cofradía de la Cruz el 7 de septiembre de 1549, originado por la hora de sacar la procesión el Jueves Santo; la solución fue que se trasladase ésta al Sábado Santo.
+Con la vuelta de la Corte a Madrid y la marcha de los Genoveses, la Cofradía decayó notablemente; por ello, los pocos cofrades vallisoletanos que ya la integraban, la reorganizaron. Se refundó el día de Santa María Reina de 1578 (22 de agosto), en el Convento de la Merced, fecha en la que establecen la nueva Regla y que se toma como punto de partida de la Piedad, haciéndose hermanos-cofrades los frailes mercedarios. La hermandad ocupó la misma capilla que los Genoveses, la también llamada de “Santa Ana” o de “los Esclavos”, en ella enterraban a sus difuntos; utilizando también la “Sala de Profundis” para hacer sus capítulos y cabildos y dejar sus insignias.
+Mantuvo durante algunos años (hasta alrededor de 1585) la procesión en la tarde-noche del Sábado Santo, pero posteriormente, se cambió al Viernes. Esto conduce a rivalidades con la Cofradía de las Angustias, siguiendo la tradición de pleitos que ya tuvo con la Vera Cruz. Tuvo varios con otras cofradías, uno de ellos el 22 de septiembre de 1585 con la Cofradía de la Peña de Francia, a la cual también se la conocía por el nombre de “la Santísima Resurrección y de Nuestra Señora de la Alegría y de los Remedios” o “de los hombres del trabajo”. Después los litigios procesionaron con las Angustias desde 1592 hasta 1598. Aún así, como los problemas entre ellas no se solucionaron, el Obispo de la Diócesis Don Francisco Sobrino, decidió unirlas el 24 de septiembre de 1617; pasando a llamarse “Cofradía de Nuestra Señora de la Soledad, Piedad y sus Angustias.” En 1622, Diego de Medina, escribano de la Piedad, presento Ejecutoria para deshacer la unión, certificándose el 9 de abril de 1630. A partir de esta fecha la Piedad vivirá su época de máximo esplendor, restaura los Pasos Procesionales que ya tenía, (Cristo de la Humildad, El Longinos, La Cruz, La Virgen de la Soledad y Nª Sª de la Piedad), realiza uno nuevo en 1.642 “El Entierro de Cristo” o “El Sepulcro”; y sustituye en 1691 el antiguo Ecce Homo por uno nuevo.
+En 1662 inaugura su propio templo penitencial en la calle Pedro Barrueco, actual Fray Luis de León, donde permanece hasta 1789, en que la iglesia es declarada ruinosa y se derriba. Fechas importantes en la historia de la Piedad serán el 31 de agosto de 1727, cuando se colocó a Nra Sra de la Piedad en su nuevo trono y el 12 de septiembre de 1734, cuando el templo pasó de considerarse ermita a iglesia, llevando al Santísimo Sacramento al Sagrario.
+El 15 de agosto de 1750, según Canesi, la Hermandad celebró magníficas fiestas con motivo de la colocación de Nª Sª de la Asunción, patrona de la Cofradía, en su nuevo retablo; así como por varios privilegios papales que se concedieron desde Roma “…la Iglesia de la Piedad se halla regalada con repetidas gracias que la Silla Apostólica le ha concedido para beneficio de las almas de sus cofrades…”. La Piedad en 1789 se trasladó a la iglesia de El Salvador en donde permaneció sólo un año, pasando en 1790 al desaparecido templo de San Antonio Abad, ubicado en la calle Simón Aranda, templo que se vio obligado a abandonar en 1908 debido a un conflicto con los Patrones del referido templo.
+Sus obras de carácter benéfico y social fueron muy significativas, destacándose el sostenimiento durante los siglos XVII y XVIII del Hospital de Convalecientes, situado en la calle de la Parra, hoy Duque de Lerma, así como la ayuda y la cura de enfermos de cáncer, de tiña y enfermedades de la piel durante el siglo XIX en el Hospital de San Antón, adenás de asistir a encarcelados, y liberarles de penas menores, ya en el siglo XX, lo que continúa en la actualidad. Existe un documento datado hacia 1800, en el Archivo Municipal, que relata como se celebraban las procesiones de Semana Santa: refiriéndose a la de La Piedad, que salía a las cuatro de la tarde, se afirma que la Cofradía salía de su iglesia por la calle San Antón, Clérigos Menores, Del Obispo, Orates, Guarnicioneros, Ochavo, Platerías, Cantarranas, Cañuelo, Portugalete, Antigua, Plazuela de Santa María, dentro de la Catedral, Orates, Del Obispo, volviendo a su iglesia. Llevaba los siguientes pasos: El Arca de Noé, (se tienen muy pocas noticias de este paso), El Santo Cristo de la Humildad, La Lanzada de Longinos, La Cruz Desnuda, El Santo Sepulcro y la Virgen de La Soledad; en alguna ocasión también procesionaba la Virgen de la Piedad. La parroquia de San Esteban cerraba la procesión por estar dentro la cofradía penitencial de su jurisdicción.
+En 1912, según Agapito y Revilla, sabemos que salía a procesionar el Viernes Santo. Con la reorganización de la Semana Santa gracias al Arzobispo Remigio Gandásegui, se restableció la Cofradía el 2 de marzo de 1924. Entonces sacaba el paso de La Piedad del Museo, con los dos ladrones, acompañado por la Casa Social Católica. El paso, por su mal estado, fue sustituido por la Quinta Angustia, que procedente del Convento de San Francisco, se conserva en la iglesia de San Martín, en donde la Cofradía fija su sede desde 17 de julio de 1937 ( fecha en que Palacio firma, asigna y autoriza el cambio desde la iglesia de El Rosarillo donde entonces se encontraba), hasta nuestros días.
+La Cofradía ha seguido ayudando al necesitado especialmente, a los reos liberados en la tarde de Jueves Santo, durante la Procesión de Penitencia y Caridad. Los presos salían de la cárcel incorporándose a empujar el paso de la Virgen de la Piedad, hasta la sede de la Cofradía, en donde se les proporcionaba ropa, sufragándoles los gastos de regreso a su casa. Este acto se realizó hasta 1985, año en que cambia la procesión de sentido por el traslado de la cárcel a Villanubla. En febrero de 1955 ocurrió que se condenó a garrote vil a uno de los presos; informada la Cofradía, atendió al condenado, prestándole los auxilios espirituales convenientes la noche anterior a la ejecución, compartiendo con él su última cena. LLlevada a cabo la ejecución, y al no personarse la familia, la Cofradía se hizo cargo del cuerpo, procediendo a su enterramiento y corriendo con todos los gastos.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>17</integer>
+			<integer>22</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>28. Cristo de la Cruz a María</string>
+			<string>29. La Quinta Angustia</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>17</string>
+		<key>nombre</key>
+		<string>Cofradía de la Orden Franciscana Seglar V.O.T.</string>
+		<key>web</key>
+		<string>http://www.ofscruzdesnuda.com/</string>
+		<key>descripcion</key>
+		<string>La Cofradía de la Venerable Orden Tercera de San Francisco tiene sus comienzos relacionados con el Convento del mismo Santo de su advocación existente por el siglo XIII en la Plaza del Mercado hoy Plaza Mayor.
+Según escritura de 1661, compra parte del terreno de San Francisco para hacer capilla.
+En el siglo XIX gracias a la intervención real sus bienes no son desamortizados permaneciendo en el Convento de San Diego hasta que en 1924 regresan a la ciudad los PP. Franciscanos y con ellos se trasladan al Convento de la Sagrada Familia sito en el Paseo de Zorrilla ubicándose en 1959 definitivamente en el de San Antonio frente al anterior. Durante el periodo de la invasión francesa tuvieron que abandonar el Convento de San Diego, pero reanudaron sus cultos y celebran su primera junta en diciembre de 1813.
+No podemos asegurar con exactitud la fecha en que la Orden Tercera comenzó a participar en los desfiles procesionales de Semana Santa, pero es de suponer que viene de antiguo, por que así lo contempla su Regla de obligado cumplimiento de la penitencia. Se cree que en un principio acompañaran el Lignum Crucis de la Vera Cruz, ya que también la Vera Cruz tenía su sede primitiva en la Convento de San Francisco. En el reglamento de régimen interno impreso en el año 1889 se habla de asistir a la procesión general de la Sagrada Pasión del Señor en el Viernes Santo con el Lignum- Crucis. En los primeros años de la fundación la V.O.T. los cultos que tenían en tiempo de Cuaresma eran de cuatro días de duración, con diversidad de actos religiosos, siendo el más destacable las representaciones vivas de la Sagrada Pasión del Señor.
+Celebran su solemne triduo a la Cruz desnuda desde el Viernes de Dolores al Domingo de Ramos, acto al cual se unen los PP. Capuchinos de Nuestra Sra. Reina de la Paz que son también Franciscanos.
+Por problemas de espacio en el Convento de San Francisco solicitan instalarse en la capilla de San Diego situada entre el Convento y el Palacio Real, se solicitó al Rey Carlos IV y se logró por intercesión de Godoy, abriendo allí sede el 15 de mayo de 1795. Según orden dada por el provincial de los Franciscanos.
+En 1835 al decretarse la exclaustración de las órdenes religiosas la establecida en el Convento de San Diego alegó que la capilla en que tenían su sede no formaba parte del Convento por ser patrimonio real obteniendo de la reina gobernadora Dª María Cristina madre de Carlos IV. En esa fecha se produce la refundición de las dos hermandades existentes, pues en sus documentos aparecen encargados de su dirección religiosa de uno y otro Convento. Y esto sucede al desaparecer el Convento de San Francisco. En 1889 en su reglamento de Régimen interno de la V.O.T. impreso aparece en su artículo 4º Habiéndose hecho costumbre tener el Viernes Santo el Sermón de la Soledad de Nuestra Señora y después acompañar con el Lignum Crucis a la procesión General que sale de Las Angustias, se congregaran a las tres y media de la tarde los HH Terciarios en su capilla para rezar el Sermón y luego acudir a la procesión con la vela encendida.
+En 1924 desfilan las terciarias tras el Cristo del Sepulcro. En 1978 Su Santidad Pablo VI ratifica una nueva regla de la orden pasando a denominarse Orden Franciscana Seglar.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>26</integer>
+			<integer>32</integer>
+			<integer>36</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>30. La Santa Cruz Desnuda</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>18</string>
+		<key>nombre</key>
+		<string>Cofradía del Santo Entierro</string>
+		<key>web</key>
+		<string>http://www.santoentierro.net/</string>
+		<key>descripcion</key>
+		<string>En  1930, el Arzobispo Gandásegui canaliza las inquietudes sobre la Semana Santa que tenía un grupo de amigos, pertenecientes al Círculo de Recreo. El Viernes Santo de 1931 procesionan por primera vez, alumbrando en la Procesión General el conjunto del Entierro de Cristo que Juan de  Juni realizara entre 1541-1544.
+No salen en procesión entre 1932 y 1934, debido a la situación política que atraviesa España en esos momentos. En 1935, y debido al acusado deterioro del grupo del Entierro, tienen que cambiar de paso titular, y adoptan entonces como tal, la imagen del Santo Cristo Yacente, realizada en el siglo XVII por Gregorio Fernández, propiedad del Real Monasterio de San Joaquín y Santa Ana, donde establecen su sede canónica permanente.
+Desde 1964 la cofradía tiene su procesión propia, denominada del Santo Entierro, que en la noche del Jueves Santo, va hasta la iglesia de San Pío X, en el popular barrio de Girón, acompañando a su imagen titular.
+En 2015, en el marco de una serie de importantes cambios que la Cofradía realiza después de una reflexión sobre el sentido litúrgico y religioso de sus procesiones y actos, la procesión modifica su título y su recorrido. Así, pasa a denominarse procesión del Verum Corpus y, después de un recorrido por las calles del centro de la ciudad, realiza un acto de adoración eucarística en la Santa Iglesia Catedral Metropolitana. La nueva orientación de esta procesión hace visible el carácter sacramental de la Cofradía, a la vez que recupera, potencia y actualiza la tradición devocional que hizo surgir la tipología escultórica de Cristo Yacente.
+La imagen titular también es alumbrada en la Procesión General de la Sagrada Pasión del Redentor, que la Cofradía culmina en la plaza de Santa Ana con el Epitaphion.
+El último viernes de Cuaresma (Viernes de Dolores) realiza el Ejercicio del Via Crucis, en la iglesia parroquial de San Lorenzo, también con la imagen del Santo Cristo Yacente.
+Desde 1991 realiza en la noche del Sábado Santo el emotivo acto del Traslado del Santo Cristo Yacente, que recorre la plaza de Santa Ana portando a hombros la Sagrada Imagen desde la iglesia a la clausura del Real Monasterio. Después de varios años en los que el recorrido se amplía por las calles aledañas a la plaza, finalmente en 2015, el acto procesional pasa a denominarse Santo Entierro de Cristo, con la idea de convertirse en una representación procesional del Entierro de Jesucristo, en este día en que la Iglesia permanece junto al sepulcro del Señor.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>1</integer>
+			<integer>30</integer>
+			<integer>36</integer>
+			<integer>40</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>31. Santísimo Cristo Yacente</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>19</string>
+		<key>nombre</key>
+		<string>Cofradía del Santo Sepulcro y Santísimo Cristo del Consuelo</string>
+		<key>web</key>
+		<string>http://www.santosepulcrovalladolid.org/</string>
+		<key>descripcion</key>
+		<string>La Cofradía del Santo Sepulcro debe su nacimiento al entusiasmo de la activa y floreciente Asociación Josefina concretamente de las juventudes de esta asociación (fundada y dirigida por los Carmelitas Descalzos a principios de 1897). Estuvo constituida por devotos de San José, hasta 1940 en que se crearon dos ramas: de hombres y de mujeres. Poco después se creó la sección de jóvenes.
+Nace en diciembre de 1945, cuando el director de la juventud muestra su deseo de que interviniera en los desfiles procesionales, y se lo manifiesta al arzobispo que la erige en ese mes. La sección de Semana Santa estuvo integrada por caballeros y jóvenes y sus estatutos fueron aprobados en febrero de 1946, naciendo así la Cofradía del Santo Sepulcro. Desfiló por primera vez el Viernes Santo de 1946, fijando su residencia en la iglesia de San Benito el Real. Su situación económica al principio no permitía la adquisición de una carroza lujosa, se montaron las figuras que constituyen su paso sobre una plataforma de camión desnuda con escasos adornos. En 1953 se instala el Sepulcro en el pedestal, que da la sensación de estar sobre una roca. El 19 de abril de 1957 se bendijo la carroza construida a expensas de la Cofradía y que es la que desfila en la actualidad.
+El Viernes Santo de 1962 los cofrades del Santo Sepulcro cambiaron su hachones por cruces de 2 metros de longitud, y uno de envergadura intercalándose entonces algunos cofrades portadores de faroles. Los candelabros de bronce de 25 kg de peso cada uno, que van en la parte baja del sepulcro fueron adquiridos en 1963 y sustituyeron a otros más pequeños que actualmente van colocados en las cuatro esquinas del pedestal sobre el que va instalado el sepulcro.
+Además de procesionar el paso que le da nombre, acompaña también a la Virgen de la Alegría que en la mañana del Domingo de Resurrección vuelve a encontrarse con su Hijo Resucitado en la Plaza Mayor. También porta a hombros el Miércoles Santo al Santo Cristo del Consuelo, obra de Gregorio Fernández cuyo culto esta a cargo de la Cofradía desde 1941, y que se venera en su capilla de San Benito junto con la nueva imagen de la Virgen de la Alegría, obra realizada en 1997 por el escultor Miguel Ángel Tapia.
+En 1949 quedó instituida la devoción llamada de los Treinta y tres Credos, para venerar la muerte del Señor y que se dedica al Cristo Crucificado del Consuelo que finaliza el Viernes Santo con un Vía Crucis, al rezo del último Credo, Sermón de la Pasión del Señor y Besapie al Santo Cristo del Consuelo que para ello es colocado en la nave central de la iglesia al pie del altar mayor.
+En 1947 el Viernes Santo a la altura de la de Duque de la Victoria cuando el cortejo había realizado gran parte de su recorrido, se agarrotó de tal forma una de las ruedas del paso que tuvo que ser sacado del cortejo procesional no pudiendo continuar su marcha fue conducido con muchísimo trabajo a la iglesia de San Benito el Real. Fue aquel el único año en que esta Cofradía con su imagen no acompaño a la de Nuestra Señora de las Angustias hasta su templo para el canto de la Salve popular.
+En 1949 por iniciativa de un cofrade, que copió el sistema de alumbrado de una Cofradía malagueña, se conectaron todos los hachones entre si alimentándose de las baterías de la carroza. Llegada la hora de la procesión y ante el gran número de cofrades que acudieron hubo que hacer nuevas conexiones precipitadamente lo que estropeó la idea de conjunto. Por este sistema empleado solamente aquel año a los cofrades del Santo Sepulcro se les llamo los enchufados. En 1996 convocan concurso nacional y se realiza la nueva imagen de la Virgen de la Alegría que procesiona por vez primera el Domingo de Resurrección de 1997.
+En el año 2008 adquieren una nueva talla de un Cristo Yacente, para su culto, al escultor Miguel Angel Tapia.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>18</integer>
+			<integer>36</integer>
+			<integer>42</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>32. El Santo Sepulcro</string>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>20</string>
+		<key>nombre</key>
+		<string>Ilustre Cofradía Penitencial de Ntra. Sra. de las Angustias</string>
+		<key>web</key>
+		<string>http://www.cofradiadelasangustias.org/</string>
+		<key>descripcion</key>
+		<string>Se ignora la fecha exacta de la fundación de esta Cofradía Penitencial, aunque en sus archivos aparecen documentos relativos a la misma de 1536 y 1543. Tratándose estos de dos Bulas concedidas por Paulo III otorgando privilegios a los cofrades que lleven a la práctica obras de caridad y penitencia.
+Sus primeras Reglas aprobadas por Auto de fecha 16 de noviembre de 1569 dictado por el Abad de Valladolid, como delegado de la autoridad diocesana del Obispo de Palencia, pues en aquellas fechas no había sido erigida la Diócesis. En estas la Cofradía recibe el nombre de Cofradía de Nuestra Señora de la Quinta Angustia y Angustias y Soledad de Nuestra Señora de los Desamparados.El primer cofrade que desempeña el oficio de alcalde según los libros de acuerdos es D. Cristóbal Villamandos y el año 1570.
+La función de la Cofradía se desenvuelve principalmente en el campo asistencial en primer lugar para conlos hermanos en vida y, luego, en procurar los sufragios precisos para que puedan alcanzar su salvación personal, después de su muerte; mantiene un hospital, allega fondos para obras de caridad y misericordia a cuyo fin todos los cofrades estaban obligados a pedir limosna por la ciudad; asiste al cofrade preso o descomulgado; entierra de los muertos cuyos cadáveres nadie reclama; asiste con botica y facultativos a los hermanos enfermos; se interesa de la asistencia jurídica al cofrade preso, etc.
+En el Siglo XVI la calle de la Torrecilla era llamada de las Angustias Viejas ya que en los primeros años de ese siglo es donde se encontraba el primitivo oratorio de dicha Cofradía permaneciendo allí hasta 1.604.
+En 1604 gracias a la aportación del mercader D. Martín Sánchez de Aranzamendí y su esposa Dª Luisa de Rivera, pudo construirse el templo frente a las casas del Almirante de Castilla, D. Alonso Enríquez.La ingente obra - que supone una inversión que el donante cifra en 60.000 ducados de oro - se completa con el establecimiento de un Patronazgo que garantiza el funcionamiento del Templo y el esplendor de los cultos y medios económicos de la Cofradía en los doscientos años siguientes. Todo ello según escritura otorgada en Valladolid en abril de 1613 entre la familia del fundador de un lado y la Cofradía de otro.A donación tan magnánima se le impuso la condición de que dicha Iglesia no podría servir de lugar de enterramiento a otras personas que no fueran del linaje de los donantes. La escritura de patronazgo esta fechada en 1613. El templo consta de una sola nave de 2 tramos, fue construido bajo la dirección de Juan de Nates.
+Desde esta fecha la pujanza de la Cofradía en los años posteriores se manifestó en las vinculaciones personales con la Real Chancillería, cuyos funcionarios formaban parte de sus listas de Cofrades, así como el hecho de que el potente gremio de entalladores - a través de la Corporación y Cofradía del Patriarca San José estuviera radicada en el Templo que le sirvió de sede material. Así fueron cofrades el propio Juan de Juni, Francisco del Rincón o Gregorio Fernández que portaba en la procesión el pendón del gremio correspondiente.
+Con fecha 20 de abril de 1703, acuerdan reconstruir la planta de la capilla, lugar destinado a rendir culto a la imagen de la Virgen de las Angustias son encargados de su construcción el maestro cantero Francisco Perez y el escultor Gregorio Diez de Mata sin olvidar las pinturas encargadas al italiano Manuel Petti y la obra realizada por el maestro dorador Santiago Montes. A finales del siglo XVIII se cambia el tabernáculo barroco por el actual neoclásico existente siguiendo el diseño del arquitecto Pedro Albaro. En suntuosa procesión la imagen de Nuestra Señora de Las Angustias es depositada de nuevo en su capilla el 8 de septiembre de 1710.
+Como consecuencia de las disposiciones dictadas el 25 de 1783 por Carlos III para afrontar la reforma de los excesos de las cofradías, nuestra Cofradía aprueba reglas reformadas en 1793, sancionadas por el Consejo de Castilla el 16 de abril de dicho año y modifica los cargos de Alcalde, introduciendo las figuras del Alcalde Antiguo y del Moderno, en los términos que actualmente conocemos, por Real Cédula de agosto de 1804 firmada de puño de Carlos IV.
+A lo largo del siglo XIX la Cofradía experimenta una prolongada crisis como consecuencia de los procesos de cambio social y político producidos desde la invasión francesa hasta la pérdida de las colonias y el comienzo de un nuevo siglo. Es precisamente en 1900 cuando la Cofradía se da los primeros Estatutos entendidos en sentido moderno como norma racional que sustituye a las viejas Reglas. Estos Estatutos seguirán vigentes con ligeras modificaciones en 1931 y algunas más profundas en 1942, hasta 1988 en que es aprobada la vigente Regla.
+Como señala la vigente Regla la Cofradía proyectada al futuro es respetuosa con su tradición cuando dice que la cofradía reconoce el especial valor que, como expresión de su primigenio espíritu, tienen los capítulos de su Regla de 1569, para inspirar su comportamiento en el presente, y formalmente los declara como dignos de respeto por todos los cofrades y de aplicación directa en cuanto ello pudiere ser posible.</string>
+		<key>procesiones</key>
+		<array>
+			<integer>10</integer>
+			<integer>31</integer>
+			<integer>36</integer>
+			<integer>38</integer>
+		</array>
+		<key>pasos</key>
+		<array>
+			<string>33. Nuestra Señora de las Angustias</string>
+		</array>
+	</dict>
+</array>
+</plist>

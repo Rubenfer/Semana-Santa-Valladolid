@@ -2,7 +2,7 @@
 //  Semana_Santa_ValladolidUITests.swift
 //  Semana Santa ValladolidUITests
 //
-//  Created by Ruben Fernandez on 13/7/18.
+//  Created by Ruben Fernandez
 //  Copyright © 2018 Ruben Fernandez. All rights reserved.
 //
 

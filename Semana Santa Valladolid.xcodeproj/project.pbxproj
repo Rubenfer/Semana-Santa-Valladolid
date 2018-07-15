@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */; };
+		0C5E5B7E20F9D7970079F3E4 /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B7D20F9D7970079F3E4 /* AjustesViewController.swift */; };
+		0C5E5B8020F9D9AE0079F3E4 /* CofradiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B7F20F9D9AE0079F3E4 /* CofradiasViewController.swift */; };
+		0C5E5B8220F9DA4A0079F3E4 /* Cofradia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8120F9DA4A0079F3E4 /* Cofradia.swift */; };
+		0C5E5B8420FA1D810079F3E4 /* ProcesionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8320FA1D810079F3E4 /* ProcesionesViewController.swift */; };
+		0C5E5B8620FA1D890079F3E4 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8520FA1D890079F3E4 /* MapaViewController.swift */; };
+		0C5E5B8820FA1D920079F3E4 /* PasosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8720FA1D920079F3E4 /* PasosViewController.swift */; };
+		0C5E5B8A20FA1DA30079F3E4 /* DetalleProcesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8920FA1DA30079F3E4 /* DetalleProcesionViewController.swift */; };
+		0C5E5B8C20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */; };
+		0C5E5B8E20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */; };
 		0C8F749F20F8F8B700F9E952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */; };
-		0C8F74A120F8F8B700F9E952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74A020F8F8B700F9E952 /* ViewController.swift */; };
 		0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A220F8F8B700F9E952 /* Main.storyboard */; };
 		0C8F74A620F8F8B800F9E952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A520F8F8B800F9E952 /* Assets.xcassets */; };
 		0C8F74A920F8F8B800F9E952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A720F8F8B800F9E952 /* LaunchScreen.storyboard */; };
 		0C8F74B420F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74B320F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift */; };
 		0C8F74BF20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */; };
+		0C8F74D220F8FF1D00F9E952 /* Dias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D020F8FF1D00F9E952 /* Dias.plist */; };
+		0C8F74D320F8FF1D00F9E952 /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
+		0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
+		0C8F74D720F90C5100F9E952 /* Procesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D620F90C5100F9E952 /* Procesion.swift */; };
+		0C8F74D920F90CDE00F9E952 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0C5E5B7D20F9D7970079F3E4 /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		0C5E5B7F20F9D9AE0079F3E4 /* CofradiasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofradiasViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8120F9DA4A0079F3E4 /* Cofradia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cofradia.swift; sourceTree = "<group>"; };
+		0C5E5B8320FA1D810079F3E4 /* ProcesionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcesionesViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8520FA1D890079F3E4 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8720FA1D920079F3E4 /* PasosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasosViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8920FA1DA30079F3E4 /* DetalleProcesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProcesionViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCofradiaViewController.swift; sourceTree = "<group>"; };
+		0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcesionesCofradiaViewController.swift; sourceTree = "<group>"; };
 		0C8F749B20F8F8B700F9E952 /* Semana Santa Valladolid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semana Santa Valladolid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C8F74A020F8F8B700F9E952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C8F74A320F8F8B700F9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C8F74A520F8F8B800F9E952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C8F74A820F8F8B800F9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,11 @@
 		0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semana Santa ValladolidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana_Santa_ValladolidUITests.swift; sourceTree = "<group>"; };
 		0C8F74C020F8F8B800F9E952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8F74D020F8FF1D00F9E952 /* Dias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dias.plist; sourceTree = "<group>"; };
+		0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cofradias.plist; sourceTree = "<group>"; };
+		0C8F74D420F90BF600F9E952 /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
+		0C8F74D620F90C5100F9E952 /* Procesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procesion.swift; sourceTree = "<group>"; };
+		0C8F74D820F90CDE00F9E952 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +125,11 @@
 		0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */ = {
 			isa = PBXGroup;
 			children = (
-				0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */,
-				0C8F74A020F8F8B700F9E952 /* ViewController.swift */,
-				0C8F74A220F8F8B700F9E952 /* Main.storyboard */,
-				0C8F74A520F8F8B800F9E952 /* Assets.xcassets */,
-				0C8F74A720F8F8B800F9E952 /* LaunchScreen.storyboard */,
 				0C8F74AA20F8F8B800F9E952 /* Info.plist */,
+				0C8F74CE20F8F91A00F9E952 /* Model */,
+				0C8F74CD20F8F91500F9E952 /* View */,
+				0C8F74CC20F8F90A00F9E952 /* Controller */,
+				0C8F74CF20F8FF0300F9E952 /* Support Files */,
 			);
 			path = "Semana Santa Valladolid";
 			sourceTree = "<group>";
@@ -123,6 +150,53 @@
 				0C8F74C020F8F8B800F9E952 /* Info.plist */,
 			);
 			path = "Semana Santa ValladolidUITests";
+			sourceTree = "<group>";
+		};
+		0C8F74CC20F8F90A00F9E952 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */,
+				0C8F74D820F90CDE00F9E952 /* DataManager.swift */,
+				0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */,
+				0C5E5B7D20F9D7970079F3E4 /* AjustesViewController.swift */,
+				0C5E5B8520FA1D890079F3E4 /* MapaViewController.swift */,
+				0C5E5B8720FA1D920079F3E4 /* PasosViewController.swift */,
+				0C5E5B8320FA1D810079F3E4 /* ProcesionesViewController.swift */,
+				0C5E5B8920FA1DA30079F3E4 /* DetalleProcesionViewController.swift */,
+				0C5E5B7F20F9D9AE0079F3E4 /* CofradiasViewController.swift */,
+				0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */,
+				0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C8F74CD20F8F91500F9E952 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C8F74A220F8F8B700F9E952 /* Main.storyboard */,
+				0C8F74A720F8F8B800F9E952 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C8F74CE20F8F91A00F9E952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C8F74D420F90BF600F9E952 /* Dia.swift */,
+				0C8F74D620F90C5100F9E952 /* Procesion.swift */,
+				0C5E5B8120F9DA4A0079F3E4 /* Cofradia.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C8F74CF20F8FF0300F9E952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */,
+				0C8F74D020F8FF1D00F9E952 /* Dias.plist */,
+				0C8F74A520F8F8B800F9E952 /* Assets.xcassets */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C8F74A920F8F8B800F9E952 /* LaunchScreen.storyboard in Resources */,
+				0C8F74D220F8FF1D00F9E952 /* Dias.plist in Resources */,
+				0C8F74D320F8FF1D00F9E952 /* Cofradias.plist in Resources */,
 				0C8F74A620F8F8B800F9E952 /* Assets.xcassets in Resources */,
 				0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +332,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8F74A120F8F8B700F9E952 /* ViewController.swift in Sources */,
+				0C5E5B8820FA1D920079F3E4 /* PasosViewController.swift in Sources */,
+				0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */,
+				0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */,
+				0C5E5B8220F9DA4A0079F3E4 /* Cofradia.swift in Sources */,
+				0C8F74D920F90CDE00F9E952 /* DataManager.swift in Sources */,
+				0C5E5B8020F9D9AE0079F3E4 /* CofradiasViewController.swift in Sources */,
+				0C5E5B8420FA1D810079F3E4 /* ProcesionesViewController.swift in Sources */,
+				0C5E5B8A20FA1DA30079F3E4 /* DetalleProcesionViewController.swift in Sources */,
+				0C5E5B8E20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift in Sources */,
 				0C8F749F20F8F8B700F9E952 /* AppDelegate.swift in Sources */,
+				0C5E5B8620FA1D890079F3E4 /* MapaViewController.swift in Sources */,
+				0C5E5B7E20F9D7970079F3E4 /* AjustesViewController.swift in Sources */,
+				0C5E5B8C20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift in Sources */,
+				0C8F74D720F90C5100F9E952 /* Procesion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M92GJ8T2S2;
 				INFOPLIST_FILE = "Semana Santa Valladolid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +529,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M92GJ8T2S2;
 				INFOPLIST_FILE = "Semana Santa Valladolid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

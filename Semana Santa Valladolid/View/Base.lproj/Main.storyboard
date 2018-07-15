@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjR-ij-i5i">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Tr5-VR-Xmq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LjR-ij-i5i" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FPx-Lw-5db">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1gc-3d-a58" kind="relationship" relationship="rootViewController" id="2A8-WU-hCl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9KJ-X0-raf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146" y="134"/>
+        </scene>
+        <!--Semana Santa de Valladolid-->
+        <scene sceneID="dxs-p6-qYC">
+            <objects>
+                <viewController id="1gc-3d-a58" customClass="MenuViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zmb-cM-un3"/>
+                        <viewControllerLayoutGuide type="bottom" id="vPU-Rc-X2U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Kx-TV-0pL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yvI-n1-mru">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMD-JX-Zbl">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="100.5"/>
+                                        <state key="normal" title="Button" image="cofradias"/>
+                                        <connections>
+                                            <segue destination="Vam-sx-4Ka" kind="show" id="RJf-Bb-IRo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtI-gA-5YM">
+                                        <rect key="frame" x="0.0" y="100.5" width="375" height="100.5"/>
+                                        <state key="normal" title="Button" image="procesiones"/>
+                                        <connections>
+                                            <segue destination="3w9-Ax-yfv" kind="show" id="UNy-Be-GYq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdS-Nk-Ota">
+                                        <rect key="frame" x="0.0" y="201" width="375" height="100.5"/>
+                                        <state key="normal" title="Button" image="pasos"/>
+                                        <connections>
+                                            <segue destination="cfG-eM-tKb" kind="show" id="IXN-YL-Arl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhE-T2-inT">
+                                        <rect key="frame" x="0.0" y="301.5" width="375" height="100.5"/>
+                                        <state key="normal" title="Button" image="mapa"/>
+                                        <connections>
+                                            <segue destination="oH6-d6-HLH" kind="show" id="V0t-wk-gZG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdE-MI-PnB">
+                                        <rect key="frame" x="0.0" y="402" width="375" height="100.5"/>
+                                        <state key="normal" title="Button" image="incidencias"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQz-XQ-5Jy">
+                                        <rect key="frame" x="0.0" y="502.5" width="375" height="100.5"/>
+                                        <state key="normal" image="ajustes"/>
+                                        <connections>
+                                            <segue destination="6sA-Gv-HZu" kind="show" id="R0u-Ka-3sM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="VMD-JX-Zbl" firstAttribute="height" secondItem="KtI-gA-5YM" secondAttribute="height" id="104-h3-wGm"/>
+                                    <constraint firstItem="hhE-T2-inT" firstAttribute="height" secondItem="pdE-MI-PnB" secondAttribute="height" id="T8y-xw-sDR"/>
+                                    <constraint firstItem="pdE-MI-PnB" firstAttribute="height" secondItem="dQz-XQ-5Jy" secondAttribute="height" id="bmj-8F-vgS"/>
+                                    <constraint firstItem="KtI-gA-5YM" firstAttribute="height" secondItem="BdS-Nk-Ota" secondAttribute="height" id="c8f-kX-NaU"/>
+                                    <constraint firstItem="BdS-Nk-Ota" firstAttribute="height" secondItem="hhE-T2-inT" secondAttribute="height" id="lXC-yA-Ysv"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yvI-n1-mru" firstAttribute="bottom" secondItem="vPU-Rc-X2U" secondAttribute="top" id="Fnb-Dt-Q3v"/>
+                            <constraint firstItem="yvI-n1-mru" firstAttribute="leading" secondItem="3Kx-TV-0pL" secondAttribute="leading" id="Q74-mP-wyd"/>
+                            <constraint firstAttribute="trailing" secondItem="yvI-n1-mru" secondAttribute="trailing" id="k8d-sm-5lG"/>
+                            <constraint firstItem="yvI-n1-mru" firstAttribute="top" secondItem="zmb-cM-un3" secondAttribute="bottom" id="lpq-7L-RgF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MsD-jT-tIr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Semana Santa de Valladolid" id="iJV-jw-BAw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fb2-b4-DMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="134"/>
+        </scene>
+        <!--Cofradias View Controller-->
+        <scene sceneID="2Ee-t9-5Td">
+            <objects>
+                <tableViewController id="Vam-sx-4Ka" customClass="CofradiasViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Kqg-xc-szL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="130" id="Asr-M4-OMd">
+                                <rect key="frame" x="0.0" y="28" width="375" height="130"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Asr-M4-OMd" id="cmY-bf-fVJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="XWs-ub-hww" kind="show" id="a7d-Tg-6dR"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Vam-sx-4Ka" id="13l-8P-zqp"/>
+                            <outlet property="delegate" destination="Vam-sx-4Ka" id="WJf-gw-41b"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMO-Oy-Qc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="-518"/>
+        </scene>
+        <!--Ajustes View Controller-->
+        <scene sceneID="EQm-Lc-muF">
+            <objects>
+                <tableViewController id="6sA-Gv-HZu" customClass="AjustesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="FCN-6w-P4y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="eFM-nE-swJ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="avX-zV-iCc">
+                                        <rect key="frame" x="0.0" y="35" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="avX-zV-iCc" id="Ysj-Wh-ug1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text=" Desarrollado con 💜 en Valladolid" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-nw-CTN">
+                                                    <rect key="frame" x="16" y="11" width="343" height="77.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cOq-nw-CTN" firstAttribute="top" secondItem="Ysj-Wh-ug1" secondAttribute="top" constant="11" id="6JC-Ui-DG6"/>
+                                                <constraint firstItem="cOq-nw-CTN" firstAttribute="leading" secondItem="Ysj-Wh-ug1" secondAttribute="leading" constant="16" id="BFg-NA-YZ8"/>
+                                                <constraint firstItem="cOq-nw-CTN" firstAttribute="centerX" secondItem="Ysj-Wh-ug1" secondAttribute="centerX" id="D4F-63-CY1"/>
+                                                <constraint firstItem="cOq-nw-CTN" firstAttribute="centerY" secondItem="Ysj-Wh-ug1" secondAttribute="centerY" id="UDk-Rk-wWD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KSL-qm-i9f">
+                                        <rect key="frame" x="0.0" y="135" width="375" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KSL-qm-i9f" id="wn8-1u-pc0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Datos obtenidos de Ayuntamiento de Valladolid, JCSSVA y valladolidcofrade.com" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfz-Db-ZhG">
+                                                    <rect key="frame" x="16" y="11" width="343" height="47.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tfz-Db-ZhG" firstAttribute="leading" secondItem="wn8-1u-pc0" secondAttribute="leading" constant="16" id="Ih0-ye-v0b"/>
+                                                <constraint firstItem="tfz-Db-ZhG" firstAttribute="top" secondItem="wn8-1u-pc0" secondAttribute="top" constant="11" id="SyU-Tz-lxw"/>
+                                                <constraint firstItem="tfz-Db-ZhG" firstAttribute="centerY" secondItem="wn8-1u-pc0" secondAttribute="centerY" id="Vjb-Yt-saT"/>
+                                                <constraint firstItem="tfz-Db-ZhG" firstAttribute="centerX" secondItem="wn8-1u-pc0" secondAttribute="centerX" id="sbj-GG-u3F"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="zKy-tk-Sxo">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mHz-ct-VRC">
+                                        <rect key="frame" x="0.0" y="241" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mHz-ct-VRC" id="mRM-bJ-Lca">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOh-QA-hdo">
+                                                    <rect key="frame" x="16" y="7" width="343" height="30"/>
+                                                    <state key="normal" title="Más apps del desarrollador"/>
+                                                    <connections>
+                                                        <action selector="masApps:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="gb7-zz-H5z"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xOh-QA-hdo" firstAttribute="leading" secondItem="mRM-bJ-Lca" secondAttribute="leadingMargin" id="9fn-jf-9BC"/>
+                                                <constraint firstItem="xOh-QA-hdo" firstAttribute="trailing" secondItem="mRM-bJ-Lca" secondAttribute="trailingMargin" id="aLQ-0V-QSc"/>
+                                                <constraint firstItem="xOh-QA-hdo" firstAttribute="centerY" secondItem="mRM-bJ-Lca" secondAttribute="centerY" id="pMw-ez-fKp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="d9U-pr-s5G">
+                                        <rect key="frame" x="0.0" y="285" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d9U-pr-s5G" id="nT8-sf-eS2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0go-rH-nj0">
+                                                    <rect key="frame" x="16" y="7" width="343" height="30"/>
+                                                    <state key="normal" title="¿Me invitas a un café?"/>
+                                                    <connections>
+                                                        <action selector="donacion:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="kTT-1J-uQK"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0go-rH-nj0" firstAttribute="trailing" secondItem="nT8-sf-eS2" secondAttribute="trailingMargin" id="BQP-z5-M43"/>
+                                                <constraint firstItem="0go-rH-nj0" firstAttribute="centerY" secondItem="nT8-sf-eS2" secondAttribute="centerY" id="HUE-gk-8oA"/>
+                                                <constraint firstItem="0go-rH-nj0" firstAttribute="leading" secondItem="nT8-sf-eS2" secondAttribute="leadingMargin" id="pt9-4X-bRi"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="WXl-wd-uUo">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="D0o-CR-Sc5">
+                                        <rect key="frame" x="0.0" y="365" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="D0o-CR-Sc5" id="3Ne-Rb-bw4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFg-hT-aWP">
+                                                    <rect key="frame" x="16" y="7.5" width="343" height="29"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="Proyecto OpenSource (GitHub)"/>
+                                                    <connections>
+                                                        <action selector="openSource:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="Gqd-si-6cH"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="aFg-hT-aWP" firstAttribute="leading" secondItem="3Ne-Rb-bw4" secondAttribute="leadingMargin" id="hTz-fl-bTh"/>
+                                                <constraint firstItem="aFg-hT-aWP" firstAttribute="centerY" secondItem="3Ne-Rb-bw4" secondAttribute="centerY" id="l1e-v7-wFu"/>
+                                                <constraint firstItem="aFg-hT-aWP" firstAttribute="trailing" secondItem="3Ne-Rb-bw4" secondAttribute="trailingMargin" id="tPW-9w-F7Y"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6sA-Gv-HZu" id="P2g-Hp-ChU"/>
+                            <outlet property="delegate" destination="6sA-Gv-HZu" id="qph-8o-Yjb"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXA-qj-JtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="789"/>
+        </scene>
+        <!--Mapa View Controller-->
+        <scene sceneID="SE6-77-cTJ">
+            <objects>
+                <viewController id="oH6-d6-HLH" customClass="MapaViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FOb-bX-Pd8"/>
+                        <viewControllerLayoutGuide type="bottom" id="2af-ZV-dud"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nga-27-ceT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="oNd-ag-phN">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="oNd-ag-phN" secondAttribute="trailing" id="7Md-iR-2dA"/>
+                            <constraint firstItem="oNd-ag-phN" firstAttribute="leading" secondItem="Nga-27-ceT" secondAttribute="leading" id="KTs-vX-NHt"/>
+                            <constraint firstItem="oNd-ag-phN" firstAttribute="bottom" secondItem="2af-ZV-dud" secondAttribute="top" id="UgB-8t-RGg"/>
+                            <constraint firstItem="oNd-ag-phN" firstAttribute="top" secondItem="FOb-bX-Pd8" secondAttribute="bottom" id="a0v-J0-jzn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oXe-vg-hR2"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="oNd-ag-phN" id="Vc8-7C-YOc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e9i-9G-RLI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="788"/>
+        </scene>
+        <!--Pasos View Controller-->
+        <scene sceneID="FCk-i4-1RZ">
+            <objects>
+                <viewController id="cfG-eM-tKb" customClass="PasosViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s9x-8w-mJW"/>
+                        <viewControllerLayoutGuide type="bottom" id="WgO-h5-Vxl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LIP-iQ-RQm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pasos en orden de aparición en la procesión general" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdl-Tf-osY">
+                                <rect key="frame" x="16" y="72" width="343" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="fK8-uu-6lA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="GUd-Ww-tMr">
+                                <rect key="frame" x="0.0" y="131" width="375" height="536"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Mei-sZ-CoL">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mei-sZ-CoL" id="wzn-zq-OTQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="cfG-eM-tKb" id="g9F-FD-krd"/>
+                                    <outlet property="delegate" destination="cfG-eM-tKb" id="4uB-lc-pfl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xdl-Tf-osY" firstAttribute="centerX" secondItem="GUd-Ww-tMr" secondAttribute="centerX" id="38r-qp-tJG"/>
+                            <constraint firstItem="GUd-Ww-tMr" firstAttribute="bottom" secondItem="WgO-h5-Vxl" secondAttribute="top" id="6Ex-cc-ET7"/>
+                            <constraint firstItem="GUd-Ww-tMr" firstAttribute="top" secondItem="Xdl-Tf-osY" secondAttribute="bottom" constant="8" symbolic="YES" id="BLa-BM-3gs"/>
+                            <constraint firstItem="Xdl-Tf-osY" firstAttribute="top" secondItem="s9x-8w-mJW" secondAttribute="bottom" constant="8" symbolic="YES" id="G5l-KW-963"/>
+                            <constraint firstItem="Xdl-Tf-osY" firstAttribute="leading" secondItem="LIP-iQ-RQm" secondAttribute="leadingMargin" id="Lnr-gF-kSi"/>
+                            <constraint firstItem="GUd-Ww-tMr" firstAttribute="leading" secondItem="LIP-iQ-RQm" secondAttribute="leading" id="j9c-9h-bHL"/>
+                            <constraint firstAttribute="trailing" secondItem="GUd-Ww-tMr" secondAttribute="trailing" id="yue-ov-mtT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jvU-HN-PHA"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="GUd-Ww-tMr" id="E64-Op-FYX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WJ3-wA-kFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="788"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="dzZ-QH-rkl">
+            <objects>
+                <viewController id="XWs-ub-hww" customClass="DetalleCofradiaViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pD6-9A-SJE"/>
+                        <viewControllerLayoutGuide type="bottom" id="XLu-Dy-zHd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ie0-AK-gmu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-wL-9EW">
+                                <rect key="frame" x="0.0" y="629" width="375" height="30"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Visitar web">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="verWeb:" destination="XWs-ub-hww" eventType="touchUpInside" id="HJ3-Ed-9US"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aay-mj-Hkv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="212" id="L6g-tr-5jd"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-5Q-FXq">
+                                <rect key="frame" x="16" y="284" width="343" height="299"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK1-AO-xev">
+                                <rect key="frame" x="0.0" y="591" width="375" height="30"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Procesiones">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Kk2-yp-STS" kind="show" identifier="procesionesCofradia" id="rPo-Zk-naN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Ic-wL-9EW" firstAttribute="top" secondItem="kK1-AO-xev" secondAttribute="bottom" constant="8" symbolic="YES" id="03j-dI-8Sf"/>
+                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="top" secondItem="pD6-9A-SJE" secondAttribute="bottom" id="8ci-zb-ygd"/>
+                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="leading" secondItem="Ie0-AK-gmu" secondAttribute="leading" id="BE4-c2-G2A"/>
+                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="trailing" secondItem="kK1-AO-xev" secondAttribute="trailing" id="Hga-j6-fEa"/>
+                            <constraint firstItem="kK1-AO-xev" firstAttribute="top" secondItem="IYX-5Q-FXq" secondAttribute="bottom" constant="8" symbolic="YES" id="Hmy-w7-yae"/>
+                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="centerX" secondItem="kK1-AO-xev" secondAttribute="centerX" id="NpL-3w-hIg"/>
+                            <constraint firstItem="kK1-AO-xev" firstAttribute="leading" secondItem="9Ic-wL-9EW" secondAttribute="leading" id="OtR-Hm-uO8"/>
+                            <constraint firstItem="XLu-Dy-zHd" firstAttribute="top" secondItem="9Ic-wL-9EW" secondAttribute="bottom" constant="8" symbolic="YES" id="VHx-Ah-bfv"/>
+                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="leading" secondItem="kK1-AO-xev" secondAttribute="leading" id="WoY-Yd-HkO"/>
+                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="leading" secondItem="Ie0-AK-gmu" secondAttribute="leadingMargin" id="X0a-DF-JhA"/>
+                            <constraint firstAttribute="trailing" secondItem="Aay-mj-Hkv" secondAttribute="trailing" id="adP-Zi-YcQ"/>
+                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="top" secondItem="Aay-mj-Hkv" secondAttribute="bottom" constant="8" symbolic="YES" id="neD-2g-DoC"/>
+                            <constraint firstItem="kK1-AO-xev" firstAttribute="trailing" secondItem="9Ic-wL-9EW" secondAttribute="trailing" id="rdZ-SQ-mvH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zRc-0x-pRe"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Yzz-bN-oJb"/>
+                    <connections>
+                        <outlet property="habitoImg" destination="Aay-mj-Hkv" id="1Aa-Lm-zHY"/>
+                        <outlet property="texto" destination="IYX-5Q-FXq" id="NOE-JF-Vkt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Tm-Uj-ut4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="-518"/>
+        </scene>
+        <!--Procesiones Cofradia View Controller-->
+        <scene sceneID="RtO-ix-Lfc">
+            <objects>
+                <tableViewController id="Kk2-yp-STS" customClass="ProcesionesCofradiaViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1tG-sG-k9H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="i6a-3b-uma">
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i6a-3b-uma" id="ugx-5T-Tai">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="gqF-cO-k6x" kind="show" identifier="cofradiaProcesionDetail" id="eT8-Ev-IUH"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Kk2-yp-STS" id="q6f-jz-UEA"/>
+                            <outlet property="delegate" destination="Kk2-yp-STS" id="BLU-Wg-XrW"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7x-Sd-E69" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="-519"/>
+        </scene>
+        <!--Procesiones por días-->
+        <scene sceneID="oUa-oh-tIq">
+            <objects>
+                <viewController id="3w9-Ax-yfv" customClass="ProcesionesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nc5-Nt-lSs"/>
+                        <viewControllerLayoutGuide type="bottom" id="475-9u-PXZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IG3-N9-VUh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6k0-eU-JeW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="3w9-Ax-yfv" id="Zll-mH-xrw"/>
+                                    <outlet property="delegate" destination="3w9-Ax-yfv" id="dUI-0V-r1c"/>
+                                </connections>
+                            </pickerView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="90" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="rZY-Az-TvX">
+                                <rect key="frame" x="0.0" y="288" width="375" height="379"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="h90-Wi-opp" detailTextLabel="ymS-B3-rak" rowHeight="90" style="IBUITableViewCellStyleSubtitle" id="cYx-iH-SAS">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cYx-iH-SAS" id="nXx-xu-ccM">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h90-Wi-opp">
+                                                    <rect key="frame" x="15" y="25" width="33.5" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ymS-B3-rak">
+                                                    <rect key="frame" x="15" y="48.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="gqF-cO-k6x" kind="show" identifier="procesionDetail" id="10g-AZ-bW5">
+                                                <segue key="commit" inheritsFrom="parent" id="hJ9-qS-Rb1"/>
+                                                <segue key="preview" inheritsFrom="commit" id="1fM-DJ-cOo"/>
+                                            </segue>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6k0-eU-JeW" firstAttribute="leading" secondItem="IG3-N9-VUh" secondAttribute="leading" id="4jt-tE-AKf"/>
+                            <constraint firstItem="rZY-Az-TvX" firstAttribute="top" secondItem="6k0-eU-JeW" secondAttribute="bottom" constant="8" symbolic="YES" id="BC3-u0-kQ6"/>
+                            <constraint firstItem="rZY-Az-TvX" firstAttribute="bottom" secondItem="475-9u-PXZ" secondAttribute="top" id="Jzg-se-rev"/>
+                            <constraint firstAttribute="trailing" secondItem="6k0-eU-JeW" secondAttribute="trailing" id="Mgd-Rd-cBj"/>
+                            <constraint firstItem="6k0-eU-JeW" firstAttribute="top" secondItem="Nc5-Nt-lSs" secondAttribute="bottom" id="dLz-KF-6LE"/>
+                            <constraint firstItem="6k0-eU-JeW" firstAttribute="leading" secondItem="rZY-Az-TvX" secondAttribute="leading" id="s3a-Qt-uUv"/>
+                            <constraint firstItem="6k0-eU-JeW" firstAttribute="trailing" secondItem="rZY-Az-TvX" secondAttribute="trailing" id="z46-NN-CIi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hCw-Rj-pue"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Procesiones por días" id="6UK-Nu-sO9"/>
+                    <connections>
+                        <outlet property="pickerDia" destination="6k0-eU-JeW" id="gKN-sO-ong"/>
+                        <outlet property="tableView" destination="rZY-Az-TvX" id="dRM-qh-eCZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kk-1W-26B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1161" y="134"/>
+        </scene>
+        <!--Detalle Procesion View Controller-->
+        <scene sceneID="jIm-Wd-75J">
+            <objects>
+                <viewController storyboardIdentifier="procesionDetail" id="gqF-cO-k6x" customClass="DetalleProcesionViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3LS-pe-Tnp"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZHW-ES-TxH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aHZ-fn-VX1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre procesión" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6s-yh-fOD">
+                                <rect key="frame" x="16" y="72" width="343" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Lsq-AJ-3Yt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Descripción" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ked-su-DON">
+                                <rect key="frame" x="16" y="132" width="343" height="227"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="227" id="Vb2-mC-V8Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Recorrido" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNx-po-t96">
+                                <rect key="frame" x="16" y="377" width="343" height="270"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgZ-2o-fjm">
+                                <rect key="frame" x="16" y="367" width="343" height="2"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="YHw-cQ-YMD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LNx-po-t96" firstAttribute="top" secondItem="wgZ-2o-fjm" secondAttribute="bottom" constant="8" symbolic="YES" id="3ZU-pl-ZmY"/>
+                            <constraint firstItem="wgZ-2o-fjm" firstAttribute="top" secondItem="Ked-su-DON" secondAttribute="bottom" constant="8" symbolic="YES" id="5zm-za-gEY"/>
+                            <constraint firstItem="f6s-yh-fOD" firstAttribute="trailing" secondItem="Ked-su-DON" secondAttribute="trailing" id="Gem-JP-1YH"/>
+                            <constraint firstItem="f6s-yh-fOD" firstAttribute="top" secondItem="3LS-pe-Tnp" secondAttribute="bottom" constant="8" symbolic="YES" id="IyI-LP-DTC"/>
+                            <constraint firstItem="Ked-su-DON" firstAttribute="trailing" secondItem="wgZ-2o-fjm" secondAttribute="trailing" id="PLZ-g5-84P"/>
+                            <constraint firstItem="Ked-su-DON" firstAttribute="top" secondItem="f6s-yh-fOD" secondAttribute="bottom" constant="8" symbolic="YES" id="WLH-Q9-FCl"/>
+                            <constraint firstItem="Ked-su-DON" firstAttribute="leading" secondItem="wgZ-2o-fjm" secondAttribute="leading" id="Zvj-vZ-c2U"/>
+                            <constraint firstItem="wgZ-2o-fjm" firstAttribute="leading" secondItem="LNx-po-t96" secondAttribute="leading" id="ebN-yr-OpF"/>
+                            <constraint firstItem="wgZ-2o-fjm" firstAttribute="trailing" secondItem="LNx-po-t96" secondAttribute="trailing" id="lH4-iB-dY2"/>
+                            <constraint firstItem="f6s-yh-fOD" firstAttribute="trailing" secondItem="aHZ-fn-VX1" secondAttribute="trailingMargin" id="q2h-nk-4Ez"/>
+                            <constraint firstItem="f6s-yh-fOD" firstAttribute="leading" secondItem="Ked-su-DON" secondAttribute="leading" id="qJC-W4-iYi"/>
+                            <constraint firstItem="f6s-yh-fOD" firstAttribute="leading" secondItem="aHZ-fn-VX1" secondAttribute="leadingMargin" id="qfJ-dS-WeW"/>
+                            <constraint firstAttribute="bottom" secondItem="LNx-po-t96" secondAttribute="bottom" constant="20" symbolic="YES" id="ylM-d0-5Ad"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ao5-xS-zK5"/>
+                    </view>
+                    <connections>
+                        <outlet property="descripcionProcesion" destination="Ked-su-DON" id="Hvj-t0-TQb"/>
+                        <outlet property="nombreProcesion" destination="f6s-yh-fOD" id="RRx-7c-bDy"/>
+                        <outlet property="recorridoProcesion" destination="LNx-po-t96" id="3rZ-eU-o7r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsf-Bz-jVO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ajustes" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="cofradias" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="incidencias" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="mapa" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="pasos" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="procesiones" width="259.20001220703125" height="69.120002746582031"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eT8-Ev-IUH"/>
+    </inferredMetricsTieBreakers>
+</document>
