@@ -53,6 +53,9 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.imageView?.image = UIImage(named: "blanco")
+        let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
+        imageView.image = UIImage(named: "blanco")
+        cell.addSubview(imageView)
         if searchController.isSearching() {
             cell.textLabel?.text = cofradiasFiltradas[indexPath.row].nombre
             let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))

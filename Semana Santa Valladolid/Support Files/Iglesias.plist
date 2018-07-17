@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia Vera Cruz</string>
+		<key>latitud</key>
+		<string>41.6537681</string>
+		<key>longitud</key>
+		<string>-4.7264494</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia San Pablo</string>
+		<key>latitud</key>
+		<string>41.6569093</string>
+		<key>longitud</key>
+		<string>-4.7247811</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Monasterio de San Benito el Real</string>
+		<key>latitud</key>
+		<string>41.654211</string>
+		<key>longitud</key>
+		<string>-4.729367</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia de Santa María La Antigua</string>
+		<key>latitud</key>
+		<string>41.653947</string>
+		<key>longitud</key>
+		<string>-4.722927</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Convento de Porta Coeli</string>
+		<key>latitud</key>
+		<string>41.6504</string>
+		<key>longitud</key>
+		<string>-4.72605</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia de San Miguel</string>
+		<key>latitud</key>
+		<string>41.655028</string>
+		<key>longitud</key>
+		<string>-4.727133</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia de Nuestro Padre Jesús Nazareno</string>
+		<key>latitud</key>
+		<string>41.652679</string>
+		<key>longitud</key>
+		<string>-4.72922</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Iglesia de San Pedro Apóstol</string>
+		<key>latitud</key>
+		<string>41.657514</string>
+		<key>longitud</key>
+		<string>-4.718089</string>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>Catedral de Valladolid</string>
+		<key>latitud</key>
+		<string>41.652678</string>
+		<key>longitud</key>
+		<string>-4.723415</string>
+	</dict>
+</array>
+</plist>

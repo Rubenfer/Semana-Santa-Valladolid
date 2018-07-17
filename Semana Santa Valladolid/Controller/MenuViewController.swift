@@ -14,6 +14,7 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
         DataManager.loadDias()
         DataManager.loadCofradias()
+        DataManager.loadIglesias()
     }
 
 }

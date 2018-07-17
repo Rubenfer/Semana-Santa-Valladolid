@@ -13,6 +13,7 @@ class DataManager {
     
     static var dias = [Dia]()
     static var cofradias = [Cofradia]()
+    static var iglesias = [Iglesia]()
     
     static func loadDias() {
         if let path = Bundle.main.path(forResource: "Dias", ofType: "plist"), let dic = NSArray(contentsOfFile: path) {
@@ -30,6 +31,17 @@ class DataManager {
             do {
                 let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
                 DataManager.cofradias = try JSONDecoder().decode([Cofradia].self, from: data)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    static func loadIglesias() {
+        if let path = Bundle.main.path(forResource: "Iglesias", ofType: "plist"), let dic = NSArray(contentsOfFile: path) {
+            do {
+                let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
+                DataManager.iglesias = try JSONDecoder().decode([Iglesia].self, from: data)
             } catch {
                 print(error.localizedDescription)
             }
