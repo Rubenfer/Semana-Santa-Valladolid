@@ -4,12 +4,7 @@ Gracias a esta aplicación podrás tener en tu móvil la información sobre la S
 
 ## ¿Cómo instalar la app?
 
-Puedes instalar la aplicación directamente desde la App Store o instalando tu mismo esta versión:
-
-1. Clona este repositorio
-2. Abre Terminal y ve a la ruta del repositorio
-3. Ejecuta 'pod install'
-4. Abre el nuevo archivo .xcworkspace
+Puedes instalar la aplicación directamente desde la App Store o instalando tu mismo esta versión a través de Xcode.
 
 
 ### ¿Cómo colaborar?
