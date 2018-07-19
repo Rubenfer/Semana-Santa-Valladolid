@@ -12,7 +12,17 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     
     let searchController = UISearchController(searchResultsController: nil)
     
-    var cofradiasFiltradas = [Cofradia]()
+    var cofradias: [Cofradia] {
+        get {
+            if searchController.isSearching() {
+                return DataManager.cofradias.filter { cofradia in
+                    cofradia.nombre.lowercased().contains(searchController.searchBar.text!.lowercased())
+                }
+            } else {
+                return DataManager.cofradias
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,9 +38,6 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     func filterContentForSearchText(searchText: String, scope: String = "All") {
-        cofradiasFiltradas = DataManager.cofradias.filter { cofradias in
-            return cofradias.nombre.lowercased().contains(searchText.lowercased())
-        }
         tableView.reloadData()
     }
     
@@ -42,10 +49,7 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searchController.isSearching() {
-            return cofradiasFiltradas.count
-        }
-        return DataManager.cofradias.count
+        return cofradias.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -53,20 +57,13 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.imageView?.image = UIImage(named: "blanco")
+        let imageViewB = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
+        imageViewB.image = UIImage(named: "blanco")
+        cell.addSubview(imageViewB)
+        cell.textLabel?.text = cofradias[indexPath.row].nombre
         let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
-        imageView.image = UIImage(named: "blanco")
+        imageView.image = UIImage(named: cofradias[indexPath.row].id)
         cell.addSubview(imageView)
-        if searchController.isSearching() {
-            cell.textLabel?.text = cofradiasFiltradas[indexPath.row].nombre
-            let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
-            imageView.image = UIImage(named: cofradiasFiltradas[indexPath.row].id)
-            cell.addSubview(imageView)
-        } else {
-            cell.textLabel?.text = DataManager.cofradias[indexPath.row].nombre
-            let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
-            imageView.image = UIImage(named: DataManager.cofradias[indexPath.row].id)
-            cell.addSubview(imageView)
-        }
         return cell
     }
 
@@ -74,11 +71,7 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         if let cell = sender as? UITableViewCell {
             let row = tableView.indexPath(for: cell)!.row
             let vc = segue.destination as! DetalleCofradiaViewController
-            if searchController.isSearching() {
-                vc.cofradia = cofradiasFiltradas[row]
-            } else {
-                vc.cofradia = DataManager.cofradias[row]
-            }
+            vc.cofradia = cofradias[row]
             self.tableView.deselectRow(at: tableView.indexPath(for: cell)!, animated: true)
         }
     }
