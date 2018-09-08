@@ -38,6 +38,11 @@
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Necesitamos saber tu ubicación para mostrarte las iglesias que tienes cercanas</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.rubenfernandez.Semana-Santa-Valladolid.verCofradias</string>
+		<string>com.rubenfernandez.Semana-Santa-Valladolid.verIncidencias</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

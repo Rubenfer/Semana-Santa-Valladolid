@@ -31,6 +31,8 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
+        userActivity = NSUserActivity.verCofradias
+        userActivity?.becomeCurrent()
     }
     
     func updateSearchResults(for searchController: UISearchController) {

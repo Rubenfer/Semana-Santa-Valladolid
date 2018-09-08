@@ -19,6 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fabric.with([Crashlytics.self])
         return true
     }
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        if userActivity.activityType == NSUserActivity.verCofradias.activityType {
+            let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController: CofradiasViewController = storyboard.instantiateViewController(withIdentifier: "cofradiasVC") as! CofradiasViewController
+            let navigationController: UINavigationController = storyboard.instantiateViewController(withIdentifier: "nc") as! UINavigationController
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            navigationController.pushViewController(viewController, animated: true)
+            self.window?.rootViewController = navigationController
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        return false
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

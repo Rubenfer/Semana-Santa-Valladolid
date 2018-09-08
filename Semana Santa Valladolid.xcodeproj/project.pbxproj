@@ -19,6 +19,7 @@
 		0C5E5B8A20FA1DA30079F3E4 /* DetalleProcesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8920FA1DA30079F3E4 /* DetalleProcesionViewController.swift */; };
 		0C5E5B8C20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */; };
 		0C5E5B8E20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */; };
+		0C6A661D2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A661C2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift */; };
 		0C8F749F20F8F8B700F9E952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */; };
 		0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A220F8F8B700F9E952 /* Main.storyboard */; };
 		0C8F74A620F8F8B800F9E952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A520F8F8B800F9E952 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 		0C5E5B8920FA1DA30079F3E4 /* DetalleProcesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProcesionViewController.swift; sourceTree = "<group>"; };
 		0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCofradiaViewController.swift; sourceTree = "<group>"; };
 		0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcesionesCofradiaViewController.swift; sourceTree = "<group>"; };
+		0C6A661C2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+SSVLL.swift"; sourceTree = "<group>"; };
 		0C8F749B20F8F8B700F9E952 /* Semana Santa Valladolid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semana Santa Valladolid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C8F74A320F8F8B700F9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */,
+				0C6A661C2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift */,
 				0C8F74D820F90CDE00F9E952 /* DataManager.swift */,
 				0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */,
 				0C5E5B7D20F9D7970079F3E4 /* AjustesViewController.swift */,
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5E5B8820FA1D920079F3E4 /* PasosViewController.swift in Sources */,
+				0C6A661D2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift in Sources */,
 				0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */,
 				0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */,
 				0C5E5B8220F9DA4A0079F3E4 /* Cofradia.swift in Sources */,
