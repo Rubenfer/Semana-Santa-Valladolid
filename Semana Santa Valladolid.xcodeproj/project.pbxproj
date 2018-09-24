@@ -108,6 +108,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C44E910215912330038442C /* Semana Santa Valladolid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Semana Santa Valladolid.entitlements"; sourceTree = "<group>"; };
+		0C44E9112159123E0038442C /* SSVLLIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SSVLLIntents.entitlements; sourceTree = "<group>"; };
 		0C5AFE5120FE188A002B4A54 /* Iglesias.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Iglesias.plist; sourceTree = "<group>"; };
 		0C5AFE5320FE18A5002B4A54 /* Iglesia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iglesia.swift; sourceTree = "<group>"; };
 		0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 		0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */ = {
 			isa = PBXGroup;
 			children = (
+				0C44E910215912330038442C /* Semana Santa Valladolid.entitlements */,
 				0C8F74AA20F8F8B800F9E952 /* Info.plist */,
 				0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */,
 				0C8F74CE20F8F91A00F9E952 /* Model */,
@@ -306,6 +309,7 @@
 		0CC9FB6E2158C3B500097F7D /* SSVLLIntents */ = {
 			isa = PBXGroup;
 			children = (
+				0C44E9112159123E0038442C /* SSVLLIntents.entitlements */,
 				0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */,
 				0CC9FB712158C3B500097F7D /* Info.plist */,
 			);
@@ -437,6 +441,11 @@
 					0C8F749A20F8F8B700F9E952 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0C8F74AE20F8F8B800F9E952 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -450,6 +459,11 @@
 					};
 					0CC9FB6C2158C3B500097F7D = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					0CC9FB752158C3B500097F7D = {
 						CreatedOnToolsVersion = 10.0;

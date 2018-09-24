@@ -9,11 +9,12 @@
 import UIKit
 import IntentsUI
 
-class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource, INUIAddVoiceShortcutViewControllerDelegate, INUIAddVoiceShortcutButtonDelegate, INUIEditVoiceShortcutViewControllerDelegate {
+class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource, INUIAddVoiceShortcutViewControllerDelegate, INUIEditVoiceShortcutViewControllerDelegate {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var pickerDia: UIPickerView!
     
+    let dias = ["12/04/19":0,"13/04/19":1,"14/04/19":2,"15/04/19":3,"16/04/19":4,"17/04/19":5,"18/04/19":6,"19/04/19":7,"20/04/19":8,"21/04/19":9]
     var diaSeleccionado = DataManager.dias[0]
 
     override func viewDidLoad() {
@@ -22,6 +23,51 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         pickerDia.dataSource = self
         tableView.delegate = self
         tableView.dataSource = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yy"
+        let hoy = dateFormatter.string(from: date)
+        
+        if let hoyIndex = dias[hoy] {
+            diaSeleccionado = DataManager.dias[hoyIndex]
+            pickerDia.selectRow(hoyIndex, inComponent: 0, animated: true)
+            tableView.reloadSections([0], with: .fade)
+        }
+        
+        if #available(iOS 12.0, *) {
+            donateInteraction()
+            INVoiceShortcutCenter.shared.getAllVoiceShortcuts { shortcuts, error in
+                if let error = error {
+                    print("Error... " + error.localizedDescription)
+                    return
+                }
+                if let _ = shortcuts, let _ = shortcuts!.first(where: { $0.shortcut == INShortcut(intent: self.intent) }) { } else {
+                    if let shortcut = INShortcut(intent: self.intent) {
+                        if let vecesVisto = UserDefaults.standard.value(forKey: "vecesVisto") as? Int, vecesVisto != 2 && vecesVisto != 10 { } else {
+                            let aviso = UIAlertController(title: "Configurar atajos", message: "¿Quieres que Siri te diga las procesiones del día?", preferredStyle: .alert)
+                            let siBtn = UIAlertAction(title: "¡Sí!", style: .default) { Void in
+                                let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+                                viewController.modalPresentationStyle = .formSheet
+                                viewController.delegate = self
+                                self.present(viewController, animated: true)
+                            }
+                            let noBtn = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                            aviso.addAction(siBtn)
+                            aviso.addAction(noBtn)
+                            DispatchQueue.main.async {
+                                self.present(aviso, animated: true)
+                            }
+                        }
+                        UserDefaults.standard.set(UserDefaults.standard.value(forKey: "vecesVisto") as? Int ?? 0 + 1, forKey: "vecesVisto")
+                    }
+                }
+            }
+        }
+        
     }
     
 
@@ -85,23 +131,10 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
     }
     
     @available(iOS 12.0, *)
-    func present(_ addVoiceShortcutViewController: INUIAddVoiceShortcutViewController, for addVoiceShortcutButton: INUIAddVoiceShortcutButton) {
-        addVoiceShortcutViewController.delegate = self
-        present(addVoiceShortcutViewController, animated: true, completion: nil)
-    }
-    
-    @available(iOS 12.0, *)
-    func present(_ editVoiceShortcutViewController: INUIEditVoiceShortcutViewController, for addVoiceShortcutButton: INUIAddVoiceShortcutButton) {
-        editVoiceShortcutViewController.delegate = self
-        present(editVoiceShortcutViewController, animated: true, completion: nil)
-    }
-    
-    @available(iOS 12.0, *)
     func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didUpdate voiceShortcut: INVoiceShortcut?, error: Error?) {
         if let error = error as NSError? {
             print("Error adding voice shortcut: %@" + error.localizedDescription)
         }
-        
         controller.dismiss(animated: true, completion: nil)
     }
     

@@ -77,7 +77,7 @@
 						<key>INIntentResponseCodeName</key>
 						<string>noProcesiones</string>
 						<key>INIntentResponseCodeSuccess</key>
-						<false/>
+						<true/>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>

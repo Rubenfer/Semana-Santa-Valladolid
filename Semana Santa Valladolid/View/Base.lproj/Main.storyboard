@@ -26,7 +26,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9KJ-X0-raf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="134"/>
+            <point key="canvasLocation" x="-206" y="134"/>
         </scene>
         <!--Semana Santa de Valladolid-->
         <scene sceneID="dxs-p6-qYC">
@@ -255,9 +255,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFg-hT-aWP">
                                                     <rect key="frame" x="16" y="7.5" width="343" height="29"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <state key="normal" title="Proyecto OpenSource (GitHub)"/>
+                                                    <state key="normal" title="Preguntar a Siri por las procesiones del día"/>
                                                     <connections>
-                                                        <action selector="openSource:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="Gqd-si-6cH"/>
+                                                        <action selector="ajustesSiriShortcut:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="zWk-QF-Nhy"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -270,12 +270,42 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="xlE-A8-EpG">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="g2x-oH-Ilj">
+                                        <rect key="frame" x="0.0" y="445" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g2x-oH-Ilj" id="xxD-dg-EIc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bp-0E-avA">
+                                                    <rect key="frame" x="16" y="7.5" width="343" height="29"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <state key="normal" title="Proyecto OpenSource (GitHub)"/>
+                                                    <connections>
+                                                        <action selector="openSource:" destination="6sA-Gv-HZu" eventType="touchUpInside" id="YOW-U3-RNZ"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9Bp-0E-avA" firstAttribute="centerY" secondItem="xxD-dg-EIc" secondAttribute="centerY" id="DHa-zj-ET0"/>
+                                                <constraint firstItem="9Bp-0E-avA" firstAttribute="leading" secondItem="xxD-dg-EIc" secondAttribute="leadingMargin" id="DXH-BX-gTA"/>
+                                                <constraint firstItem="9Bp-0E-avA" firstAttribute="trailing" secondItem="xxD-dg-EIc" secondAttribute="trailingMargin" id="jyn-aJ-168"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="6sA-Gv-HZu" id="P2g-Hp-ChU"/>
                             <outlet property="delegate" destination="6sA-Gv-HZu" id="qph-8o-Yjb"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="ajustesSiriShortcutOutlet" destination="aFg-hT-aWP" id="HCi-LK-czm"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXA-qj-JtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -450,7 +480,7 @@
         <!--Procesiones por días-->
         <scene sceneID="oUa-oh-tIq">
             <objects>
-                <viewController id="3w9-Ax-yfv" customClass="ProcesionesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="procesionesVC" id="3w9-Ax-yfv" customClass="ProcesionesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nc5-Nt-lSs"/>
                         <viewControllerLayoutGuide type="bottom" id="475-9u-PXZ"/>

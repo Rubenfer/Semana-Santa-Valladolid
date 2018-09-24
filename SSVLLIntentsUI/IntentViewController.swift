@@ -19,7 +19,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
     var desiredSize: CGSize {
         get {
             let width = self.extensionContext!.hostedViewMaximumAllowedSize.width
-            let height = CGFloat(30 * procesiones.count)
+            let height = CGFloat(80 * procesiones.count)
             return CGSize(width: width, height: height)
         }
     }
@@ -27,7 +27,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.rowHeight = 30
+        tableView.rowHeight = 100
         
         DataManager.loadDias()
         
@@ -69,9 +69,13 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "procesionCell")
-        cell!.textLabel?.text = procesiones[indexPath.row].nombre
-        cell!.detailTextLabel?.text = procesiones[indexPath.row].hora
+        cell!.textLabel?.text = procesiones[indexPath.row].nombre + " (" + procesiones[indexPath.row].hora + ")"
+        cell!.textLabel?.numberOfLines = 0
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
     }
     
 }
