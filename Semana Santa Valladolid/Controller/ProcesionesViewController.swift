@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import IntentsUI
 
-class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
+class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource, INUIAddVoiceShortcutViewControllerDelegate, INUIAddVoiceShortcutButtonDelegate, INUIEditVoiceShortcutViewControllerDelegate {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var pickerDia: UIPickerView!
@@ -61,6 +62,67 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         vc.procesion = self.diaSeleccionado.procesiones[indexPath.row]
         self.tableView.deselectRow(at: indexPath, animated: true)
         navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    // MARK: - Intent managment
+    
+    @available(iOS 12.0, *)
+    var intent: ProcesionesHoyIntent {
+        let intencion = ProcesionesHoyIntent()
+        intencion.suggestedInvocationPhrase = "¿Qué procesiones hay hoy?"
+        return intencion
+    }
+    
+    func donateInteraction() {
+        if #available(iOS 12.0, *) {
+            let interaction = INInteraction(intent: intent, response: nil)
+            interaction.donate { (error) in
+                if error != nil {
+                    print("Error donating intent..." + error!.localizedDescription)
+                }
+            }
+        }
+    }
+    
+    @available(iOS 12.0, *)
+    func present(_ addVoiceShortcutViewController: INUIAddVoiceShortcutViewController, for addVoiceShortcutButton: INUIAddVoiceShortcutButton) {
+        addVoiceShortcutViewController.delegate = self
+        present(addVoiceShortcutViewController, animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func present(_ editVoiceShortcutViewController: INUIEditVoiceShortcutViewController, for addVoiceShortcutButton: INUIAddVoiceShortcutButton) {
+        editVoiceShortcutViewController.delegate = self
+        present(editVoiceShortcutViewController, animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didUpdate voiceShortcut: INVoiceShortcut?, error: Error?) {
+        if let error = error as NSError? {
+            print("Error adding voice shortcut: %@" + error.localizedDescription)
+        }
+        
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didDeleteVoiceShortcutWithIdentifier deletedVoiceShortcutIdentifier: UUID) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func editVoiceShortcutViewControllerDidCancel(_ controller: INUIEditVoiceShortcutViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @available(iOS 12.0, *)
+    func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
+        dismiss(animated: true, completion: nil)
     }
 
 }

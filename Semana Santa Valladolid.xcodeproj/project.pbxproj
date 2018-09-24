@@ -33,6 +33,31 @@
 		0C8F74D920F90CDE00F9E952 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
 		0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546120FBA01B00C35242 /* Crashlytics.framework */; };
 		0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546220FBA01B00C35242 /* Fabric.framework */; };
+		0CC9FB702158C3B500097F7D /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */; };
+		0CC9FB792158C3B500097F7D /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9FB782158C3B500097F7D /* IntentsUI.framework */; };
+		0CC9FB7C2158C3B500097F7D /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB7B2158C3B500097F7D /* IntentViewController.swift */; };
+		0CC9FB7F2158C3B500097F7D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9FB7D2158C3B500097F7D /* MainInterface.storyboard */; };
+		0CC9FB832158C3B500097F7D /* SSVLLIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CC9FB762158C3B500097F7D /* SSVLLIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CC9FB862158C3B500097F7D /* SSVLLIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0CC9FB8F2158C3DB00097F7D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */; };
+		0CC9FB912158C3DB00097F7D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */; };
+		0CC9FB922158C4FD00097F7D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */; };
+		0CC9FB932158CAA000097F7D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
+		0CC9FB942158CAA100097F7D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D820F90CDE00F9E952 /* DataManager.swift */; };
+		0CC9FB952158CAD100097F7D /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
+		0CC9FB962158CAD200097F7D /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
+		0CC9FB972158CAD500097F7D /* Procesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D620F90C5100F9E952 /* Procesion.swift */; };
+		0CC9FB982158CAD500097F7D /* Procesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D620F90C5100F9E952 /* Procesion.swift */; };
+		0CC9FB992158CAF700097F7D /* Cofradia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8120F9DA4A0079F3E4 /* Cofradia.swift */; };
+		0CC9FB9A2158CAF800097F7D /* Cofradia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B8120F9DA4A0079F3E4 /* Cofradia.swift */; };
+		0CC9FB9B2158CAFA00097F7D /* Iglesia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5320FE18A5002B4A54 /* Iglesia.swift */; };
+		0CC9FB9C2158CAFA00097F7D /* Iglesia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5320FE18A5002B4A54 /* Iglesia.swift */; };
+		0CC9FB9D2158CD5C00097F7D /* Dias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D020F8FF1D00F9E952 /* Dias.plist */; };
+		0CC9FB9E2158CD5D00097F7D /* Dias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D020F8FF1D00F9E952 /* Dias.plist */; };
+		0CC9FB9F2158CD6200097F7D /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
+		0CC9FBA02158CD6400097F7D /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
+		0CC9FBA12158CD6600097F7D /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
+		0CC9FBA22158CD6700097F7D /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
 		0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +76,36 @@
 			remoteGlobalIDString = 0C8F749A20F8F8B700F9E952;
 			remoteInfo = "Semana Santa Valladolid";
 		};
+		0CC9FB812158C3B500097F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8F749320F8F8B700F9E952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC9FB752158C3B500097F7D;
+			remoteInfo = SSVLLIntentsUI;
+		};
+		0CC9FB842158C3B500097F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8F749320F8F8B700F9E952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC9FB6C2158C3B500097F7D;
+			remoteInfo = SSVLLIntents;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CC9FB8D2158C3B500097F7D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0CC9FB832158C3B500097F7D /* SSVLLIntentsUI.appex in Embed App Extensions */,
+				0CC9FB862158C3B500097F7D /* SSVLLIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C5AFE5120FE188A002B4A54 /* Iglesias.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Iglesias.plist; sourceTree = "<group>"; };
@@ -86,6 +140,15 @@
 		0C8F74D820F90CDE00F9E952 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0CB9546120FBA01B00C35242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SSVLLIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		0CC9FB712158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC9FB762158C3B500097F7D /* SSVLLIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SSVLLIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC9FB782158C3B500097F7D /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		0CC9FB7B2158C3B500097F7D /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		0CC9FB7E2158C3B500097F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0CC9FB802158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -113,6 +176,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CC9FB6A2158C3B500097F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC9FB732158C3B500097F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9FB792158C3B500097F7D /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +202,9 @@
 				0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */,
 				0C8F74B220F8F8B800F9E952 /* Semana Santa ValladolidTests */,
 				0C8F74BD20F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
+				0CC9FB6E2158C3B500097F7D /* SSVLLIntents */,
+				0CC9FB7A2158C3B500097F7D /* SSVLLIntentsUI */,
+				0CC9FB772158C3B500097F7D /* Frameworks */,
 				0C8F749C20F8F8B700F9E952 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +215,8 @@
 				0C8F749B20F8F8B700F9E952 /* Semana Santa Valladolid.app */,
 				0C8F74AF20F8F8B800F9E952 /* Semana Santa ValladolidTests.xctest */,
 				0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */,
+				0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */,
+				0CC9FB762158C3B500097F7D /* SSVLLIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				0C8F74AA20F8F8B800F9E952 /* Info.plist */,
+				0CC9FB8E2158C3DB00097F7D /* Intents.intentdefinition */,
 				0C8F74CE20F8F91A00F9E952 /* Model */,
 				0C8F74CD20F8F91500F9E952 /* View */,
 				0C8F74CC20F8F90A00F9E952 /* Controller */,
@@ -219,6 +303,33 @@
 			path = "Support Files";
 			sourceTree = "<group>";
 		};
+		0CC9FB6E2158C3B500097F7D /* SSVLLIntents */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */,
+				0CC9FB712158C3B500097F7D /* Info.plist */,
+			);
+			path = SSVLLIntents;
+			sourceTree = "<group>";
+		};
+		0CC9FB772158C3B500097F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9FB782158C3B500097F7D /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC9FB7A2158C3B500097F7D /* SSVLLIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9FB7B2158C3B500097F7D /* IntentViewController.swift */,
+				0CC9FB7D2158C3B500097F7D /* MainInterface.storyboard */,
+				0CC9FB802158C3B500097F7D /* Info.plist */,
+			);
+			path = SSVLLIntentsUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,10 +341,13 @@
 				0C8F749820F8F8B700F9E952 /* Frameworks */,
 				0C8F749920F8F8B700F9E952 /* Resources */,
 				0CB9546020FB9F8100C35242 /* ShellScript */,
+				0CC9FB8D2158C3B500097F7D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0CC9FB822158C3B500097F7D /* PBXTargetDependency */,
+				0CC9FB852158C3B500097F7D /* PBXTargetDependency */,
 			);
 			name = "Semana Santa Valladolid";
 			productName = "Semana Santa Valladolid";
@@ -276,13 +390,47 @@
 			productReference = 0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0CC9FB6C2158C3B500097F7D /* SSVLLIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC9FB8A2158C3B500097F7D /* Build configuration list for PBXNativeTarget "SSVLLIntents" */;
+			buildPhases = (
+				0CC9FB692158C3B500097F7D /* Sources */,
+				0CC9FB6A2158C3B500097F7D /* Frameworks */,
+				0CC9FB6B2158C3B500097F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSVLLIntents;
+			productName = SSVLLIntents;
+			productReference = 0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0CC9FB752158C3B500097F7D /* SSVLLIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC9FB872158C3B500097F7D /* Build configuration list for PBXNativeTarget "SSVLLIntentsUI" */;
+			buildPhases = (
+				0CC9FB722158C3B500097F7D /* Sources */,
+				0CC9FB732158C3B500097F7D /* Frameworks */,
+				0CC9FB742158C3B500097F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSVLLIntentsUI;
+			productName = SSVLLIntentsUI;
+			productReference = 0CC9FB762158C3B500097F7D /* SSVLLIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0C8F749320F8F8B700F9E952 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ruben Fernandez";
 				TargetAttributes = {
@@ -299,6 +447,12 @@
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
 						TestTargetID = 0C8F749A20F8F8B700F9E952;
+					};
+					0CC9FB6C2158C3B500097F7D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0CC9FB752158C3B500097F7D = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -318,6 +472,8 @@
 				0C8F749A20F8F8B700F9E952 /* Semana Santa Valladolid */,
 				0C8F74AE20F8F8B800F9E952 /* Semana Santa ValladolidTests */,
 				0C8F74B920F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
+				0CC9FB6C2158C3B500097F7D /* SSVLLIntents */,
+				0CC9FB752158C3B500097F7D /* SSVLLIntentsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -347,6 +503,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC9FB6B2158C3B500097F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9FB9D2158CD5C00097F7D /* Dias.plist in Resources */,
+				0CC9FB9F2158CD6200097F7D /* Cofradias.plist in Resources */,
+				0CC9FBA12158CD6600097F7D /* Iglesias.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC9FB742158C3B500097F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9FBA02158CD6400097F7D /* Cofradias.plist in Resources */,
+				0CC9FBA22158CD6700097F7D /* Iglesias.plist in Resources */,
+				0CC9FB7F2158C3B500097F7D /* MainInterface.storyboard in Resources */,
+				0CC9FB9E2158CD5D00097F7D /* Dias.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +557,7 @@
 			files = (
 				0C5E5B8820FA1D920079F3E4 /* PasosViewController.swift in Sources */,
 				0C6A661D2143FBC500CC9D57 /* NSUserActivity+SSVLL.swift in Sources */,
+				0CC9FB8F2158C3DB00097F7D /* Intents.intentdefinition in Sources */,
 				0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */,
 				0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */,
 				0C5E5B8220F9DA4A0079F3E4 /* Cofradia.swift in Sources */,
@@ -414,6 +592,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CC9FB692158C3B500097F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9FB922158C4FD00097F7D /* Intents.intentdefinition in Sources */,
+				0CC9FB972158CAD500097F7D /* Procesion.swift in Sources */,
+				0CC9FB992158CAF700097F7D /* Cofradia.swift in Sources */,
+				0CC9FB932158CAA000097F7D /* DataManager.swift in Sources */,
+				0CC9FB952158CAD100097F7D /* Dia.swift in Sources */,
+				0CC9FB702158C3B500097F7D /* IntentHandler.swift in Sources */,
+				0CC9FB9B2158CAFA00097F7D /* Iglesia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC9FB722158C3B500097F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC9FB912158C3DB00097F7D /* Intents.intentdefinition in Sources */,
+				0CC9FB982158CAD500097F7D /* Procesion.swift in Sources */,
+				0CC9FB9A2158CAF800097F7D /* Cofradia.swift in Sources */,
+				0CC9FB942158CAA100097F7D /* DataManager.swift in Sources */,
+				0CC9FB962158CAD200097F7D /* Dia.swift in Sources */,
+				0CC9FB7C2158C3B500097F7D /* IntentViewController.swift in Sources */,
+				0CC9FB9C2158CAFA00097F7D /* Iglesia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -426,6 +632,16 @@
 			isa = PBXTargetDependency;
 			target = 0C8F749A20F8F8B700F9E952 /* Semana Santa Valladolid */;
 			targetProxy = 0C8F74BB20F8F8B800F9E952 /* PBXContainerItemProxy */;
+		};
+		0CC9FB822158C3B500097F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC9FB752158C3B500097F7D /* SSVLLIntentsUI */;
+			targetProxy = 0CC9FB812158C3B500097F7D /* PBXContainerItemProxy */;
+		};
+		0CC9FB852158C3B500097F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC9FB6C2158C3B500097F7D /* SSVLLIntents */;
+			targetProxy = 0CC9FB842158C3B500097F7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -444,6 +660,14 @@
 				0C8F74A820F8F8B800F9E952 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0CC9FB7D2158C3B500097F7D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC9FB7E2158C3B500097F7D /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -566,6 +790,7 @@
 		0C8F74C420F8F8B800F9E952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -590,6 +815,7 @@
 		0C8F74C520F8F8B800F9E952 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M92GJ8T2S2;
@@ -692,6 +918,92 @@
 			};
 			name = Release;
 		};
+		0CC9FB882158C3B500097F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				INFOPLIST_FILE = SSVLLIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid.SSVLLIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CC9FB892158C3B500097F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				INFOPLIST_FILE = SSVLLIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid.SSVLLIntentsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CC9FB8B2158C3B500097F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				INFOPLIST_FILE = SSVLLIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid.SSVLLIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CC9FB8C2158C3B500097F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M92GJ8T2S2;
+				INFOPLIST_FILE = SSVLLIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-Valladolid.SSVLLIntents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -727,6 +1039,24 @@
 			buildConfigurations = (
 				0C8F74CA20F8F8B800F9E952 /* Debug */,
 				0C8F74CB20F8F8B800F9E952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC9FB872158C3B500097F7D /* Build configuration list for PBXNativeTarget "SSVLLIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC9FB882158C3B500097F7D /* Debug */,
+				0CC9FB892158C3B500097F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC9FB8A2158C3B500097F7D /* Build configuration list for PBXNativeTarget "SSVLLIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC9FB8B2158C3B500097F7D /* Debug */,
+				0CC9FB8C2158C3B500097F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjR-ij-i5i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjR-ij-i5i">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -521,11 +521,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ajustes" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="cofradias" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="incidencias" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="mapa" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="pasos" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="procesiones" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="ajustes" width="1080" height="288"/>
+        <image name="cofradias" width="1080" height="288"/>
+        <image name="incidencias" width="1080" height="288"/>
+        <image name="mapa" width="1080" height="288"/>
+        <image name="pasos" width="1080" height="288"/>
+        <image name="procesiones" width="1080" height="288"/>
     </resources>
 </document>
