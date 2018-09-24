@@ -26,21 +26,25 @@ class AjustesViewController: UITableViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         if #available(iOS 12.0, *) {
-            INVoiceShortcutCenter.shared.getAllVoiceShortcuts { shortcuts, error in
-                if let error = error {
-                    print("Error... " + error.localizedDescription)
-                    return
-                }
-                if let _ = shortcuts, let _ = shortcuts!.first(where: { $0.shortcut.intent == self.intent }) {
-                    DispatchQueue.main.async {
-                        self.ajustesSiriShortcutOutlet.setTitle("Editar atajo de Siri", for: .normal)
+            
+            if let id = UserDefaults.standard.value(forKey: "procesionesDiaUUID") as? String, let UUID = UUID(uuidString: id) {
+                INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
+                    if let error = error {
+                        print("Error... " + error.localizedDescription)
+                        return
                     }
-                } else {
-                    DispatchQueue.main.async {
-                        self.ajustesSiriShortcutOutlet.setTitle("Preguntar a Siri por las procesiones del día", for: .normal)
+                    if let _ = shortcut {
+                        DispatchQueue.main.async {
+                            self.ajustesSiriShortcutOutlet.setTitle("Editar atajo de Siri", for: .normal)
+                        }
+                    } else {
+                        DispatchQueue.main.async {
+                            self.ajustesSiriShortcutOutlet.setTitle("Preguntar a Siri por las procesiones del día", for: .normal)
+                        }
                     }
                 }
             }
+            
         }
     }
 
@@ -58,23 +62,32 @@ class AjustesViewController: UITableViewController {
     
     @IBAction func ajustesSiriShortcut(_ sender: Any) {
         if #available(iOS 12.0, *) {
-            INVoiceShortcutCenter.shared.getAllVoiceShortcuts { shortcuts, error in
-                if let error = error {
-                    print("Error... " + error.localizedDescription)
-                    return
-                }
-                if let _ = shortcuts, let shortcut = shortcuts!.first(where: { $0.shortcut.intent == self.intent }) {
-                    let viewController = INUIEditVoiceShortcutViewController(voiceShortcut: shortcut)
-                    viewController.modalPresentationStyle = .formSheet
-                    viewController.delegate = self
-                    self.present(viewController, animated: true)
-                } else {
-                    if let shortcut = INShortcut(intent: self.intent) {
-                        let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+            if let id = UserDefaults.standard.value(forKey: "procesionesDiaUUID") as? String, let UUID = UUID(uuidString: id) {
+                INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
+                    if let error = error {
+                        print("Error... " + error.localizedDescription)
+                        return
+                    }
+                    if let shortcut = shortcut {
+                        let viewController = INUIEditVoiceShortcutViewController(voiceShortcut: shortcut)
                         viewController.modalPresentationStyle = .formSheet
                         viewController.delegate = self
                         self.present(viewController, animated: true)
+                    } else {
+                        if let shortcut = INShortcut(intent: self.intent) {
+                            let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+                            viewController.modalPresentationStyle = .formSheet
+                            viewController.delegate = self
+                            self.present(viewController, animated: true)
+                        }
                     }
+                }
+            } else {
+                if let shortcut = INShortcut(intent: self.intent) {
+                    let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+                    viewController.modalPresentationStyle = .formSheet
+                    viewController.delegate = self
+                    self.present(viewController, animated: true)
                 }
             }
         }
@@ -101,6 +114,9 @@ extension AjustesViewController: INUIAddVoiceShortcutViewControllerDelegate, INU
     }
     
     func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
+        if let voiceShortcut = voiceShortcut {
+            UserDefaults.standard.set(voiceShortcut.identifier.uuidString, forKey: "procesionesDiaUUID")
+        }
         dismiss(animated: true, completion: nil)
     }
     

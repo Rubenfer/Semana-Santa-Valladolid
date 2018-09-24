@@ -9,7 +9,7 @@
 import UIKit
 import IntentsUI
 
-class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource, INUIAddVoiceShortcutViewControllerDelegate, INUIEditVoiceShortcutViewControllerDelegate {
+class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var pickerDia: UIPickerView!
@@ -40,29 +40,30 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         
         if #available(iOS 12.0, *) {
             donateInteraction()
-            INVoiceShortcutCenter.shared.getAllVoiceShortcuts { shortcuts, error in
-                if let error = error {
-                    print("Error... " + error.localizedDescription)
-                    return
-                }
-                if let _ = shortcuts, let _ = shortcuts!.first(where: { $0.shortcut == INShortcut(intent: self.intent) }) { } else {
-                    if let shortcut = INShortcut(intent: self.intent) {
-                        if let vecesVisto = UserDefaults.standard.value(forKey: "vecesVisto") as? Int, vecesVisto != 2 && vecesVisto != 10 { } else {
-                            let aviso = UIAlertController(title: "Configurar atajos", message: "¿Quieres que Siri te diga las procesiones del día?", preferredStyle: .alert)
-                            let siBtn = UIAlertAction(title: "¡Sí!", style: .default) { Void in
-                                let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
-                                viewController.modalPresentationStyle = .formSheet
-                                viewController.delegate = self
-                                self.present(viewController, animated: true)
-                            }
-                            let noBtn = UIAlertAction(title: "No", style: .cancel, handler: nil)
-                            aviso.addAction(siBtn)
-                            aviso.addAction(noBtn)
-                            DispatchQueue.main.async {
-                                self.present(aviso, animated: true)
+            if let id = UserDefaults.standard.value(forKey: "procesionesDiaUUID") as? String, let UUID = UUID(uuidString: id) {
+                INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
+                    if let error = error {
+                        print("Error... " + error.localizedDescription)
+                        return
+                    }
+                    if let _ = shortcut { } else {
+                        if let shortcut = INShortcut(intent: self.intent) {
+                            if let vecesVisto = UserDefaults.standard.value(forKey: "vecesVisto") as? Int, vecesVisto != 2 && vecesVisto != 10 { } else {
+                                let aviso = UIAlertController(title: "Configurar atajos", message: "¿Quieres que Siri te diga las procesiones del día?", preferredStyle: .alert)
+                                let siBtn = UIAlertAction(title: "¡Sí!", style: .default) { Void in
+                                    let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
+                                    viewController.modalPresentationStyle = .formSheet
+                                    viewController.delegate = self
+                                    self.present(viewController, animated: true)
+                                }
+                                let noBtn = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                                aviso.addAction(siBtn)
+                                aviso.addAction(noBtn)
+                                DispatchQueue.main.async {
+                                    self.present(aviso, animated: true)
+                                }
                             }
                         }
-                        UserDefaults.standard.set(UserDefaults.standard.value(forKey: "vecesVisto") as? Int ?? 0 + 1, forKey: "vecesVisto")
                     }
                 }
             }
@@ -129,8 +130,12 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
             }
         }
     }
+
+}
+
+@available(iOS 12.0, *)
+extension ProcesionesViewController: INUIAddVoiceShortcutViewControllerDelegate, INUIEditVoiceShortcutViewControllerDelegate {
     
-    @available(iOS 12.0, *)
     func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didUpdate voiceShortcut: INVoiceShortcut?, error: Error?) {
         if let error = error as NSError? {
             print("Error adding voice shortcut: %@" + error.localizedDescription)
@@ -138,24 +143,22 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         controller.dismiss(animated: true, completion: nil)
     }
     
-    @available(iOS 12.0, *)
     func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didDeleteVoiceShortcutWithIdentifier deletedVoiceShortcutIdentifier: UUID) {
         controller.dismiss(animated: true, completion: nil)
     }
     
-    @available(iOS 12.0, *)
     func editVoiceShortcutViewControllerDidCancel(_ controller: INUIEditVoiceShortcutViewController) {
         controller.dismiss(animated: true, completion: nil)
     }
     
-    @available(iOS 12.0, *)
     func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
+        if let voiceShortcut = voiceShortcut {
+            UserDefaults.standard.set(voiceShortcut.identifier.uuidString, forKey: "procesionesDiaUUID")
+        }
         dismiss(animated: true, completion: nil)
     }
     
-    @available(iOS 12.0, *)
     func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
         dismiss(animated: true, completion: nil)
     }
-
 }
