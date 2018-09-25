@@ -49,13 +49,3 @@ class DataManager {
     }
     
 }
-
-
-extension UISearchController {
-    func isSearching() -> Bool {
-        if self.isActive && self.searchBar.text != "" {
-            return true
-        }
-        return false
-    }
-}

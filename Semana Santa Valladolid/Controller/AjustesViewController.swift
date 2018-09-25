@@ -17,13 +17,6 @@ class AjustesViewController: UITableViewController {
         super.viewDidLoad()
     }
     
-    @available (iOS 12.0, *)
-    var intent: ProcesionesHoyIntent {
-        let intencion = ProcesionesHoyIntent()
-        intencion.suggestedInvocationPhrase = "¿Qué procesiones hay hoy?"
-        return intencion
-    }
-    
     override func viewDidAppear(_ animated: Bool) {
         if #available(iOS 12.0, *) {
             
@@ -66,61 +59,19 @@ class AjustesViewController: UITableViewController {
                 INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
                     if let error = error {
                         print("Error... " + error.localizedDescription)
+                        UserDefaults.standard.removeObject(forKey: "procesionesDiaUUID")
                         return
                     }
                     if let shortcut = shortcut {
-                        let viewController = INUIEditVoiceShortcutViewController(voiceShortcut: shortcut)
-                        viewController.modalPresentationStyle = .formSheet
-                        viewController.delegate = self
-                        self.present(viewController, animated: true)
+                        self.showEditVoiceUI(for: shortcut)
                     } else {
-                        if let shortcut = INShortcut(intent: self.intent) {
-                            let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
-                            viewController.modalPresentationStyle = .formSheet
-                            viewController.delegate = self
-                            self.present(viewController, animated: true)
-                        }
+                        self.showAddVoiceUI(for: self.procesionesHoyIntent)
                     }
                 }
             } else {
-                if let shortcut = INShortcut(intent: self.intent) {
-                    let viewController = INUIAddVoiceShortcutViewController(shortcut: shortcut)
-                    viewController.modalPresentationStyle = .formSheet
-                    viewController.delegate = self
-                    self.present(viewController, animated: true)
-                }
+                showAddVoiceUI(for: procesionesHoyIntent)
             }
         }
     }
     
-}
-
-@available(iOS 12.0, *)
-extension AjustesViewController: INUIAddVoiceShortcutViewControllerDelegate, INUIEditVoiceShortcutViewControllerDelegate {
-    
-    func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didUpdate voiceShortcut: INVoiceShortcut?, error: Error?) {
-        if let error = error as NSError? {
-            print("Error adding voice shortcut: %@" + error.localizedDescription)
-        }
-        controller.dismiss(animated: true, completion: nil)
-    }
-    
-    func editVoiceShortcutViewController(_ controller: INUIEditVoiceShortcutViewController, didDeleteVoiceShortcutWithIdentifier deletedVoiceShortcutIdentifier: UUID) {
-        controller.dismiss(animated: true, completion: nil)
-    }
-    
-    func editVoiceShortcutViewControllerDidCancel(_ controller: INUIEditVoiceShortcutViewController) {
-        controller.dismiss(animated: true, completion: nil)
-    }
-    
-    func addVoiceShortcutViewController(_ controller: INUIAddVoiceShortcutViewController, didFinishWith voiceShortcut: INVoiceShortcut?, error: Error?) {
-        if let voiceShortcut = voiceShortcut {
-            UserDefaults.standard.set(voiceShortcut.identifier.uuidString, forKey: "procesionesDiaUUID")
-        }
-        dismiss(animated: true, completion: nil)
-    }
-    
-    func addVoiceShortcutViewControllerDidCancel(_ controller: INUIAddVoiceShortcutViewController) {
-        dismiss(animated: true, completion: nil)
-    }
 }
