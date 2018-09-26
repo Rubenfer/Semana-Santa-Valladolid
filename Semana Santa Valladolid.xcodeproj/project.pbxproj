@@ -143,6 +143,7 @@
 		0CB9546120FBA01B00C35242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		0CB9B502215B857700D51A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
+		0CB9B505215B87B700D51A1C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
 		0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SSVLLIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		0CC9FB712158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -680,6 +681,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CB9B502215B857700D51A1C /* Base */,
+				0CB9B505215B87B700D51A1C /* es */,
 			);
 			name = Intents.intentdefinition;
 			sourceTree = "<group>";
