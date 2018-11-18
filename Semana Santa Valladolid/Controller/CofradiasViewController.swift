@@ -15,11 +15,11 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     var cofradias: [Cofradia] {
         get {
             if searchController.isSearching() {
-                return DataManager.cofradias.filter { cofradia in
+                return Cofradia.cofradias.filter { cofradia in
                     cofradia.nombre.lowercased().contains(searchController.searchBar.text!.lowercased())
                 }
             } else {
-                return DataManager.cofradias
+                return Cofradia.cofradias
             }
         }
     }

@@ -9,7 +9,17 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>SSVLLIntents.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SSVLLIntentsUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SSVLLIntentsUI.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
