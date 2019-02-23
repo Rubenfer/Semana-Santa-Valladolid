@@ -22,21 +22,21 @@ class PasosViewController: UIViewController, UITableViewDelegate, UITableViewDat
     // MARK: - TableView
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return DataManager.cofradias.count
+        return Cofradia.cofradias.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return DataManager.cofradias[section].pasos.count
+        return Cofradia.cofradias[section].pasos.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = DataManager.cofradias[indexPath.section].pasos[indexPath.row]
+        cell.textLabel?.text = Cofradia.cofradias[indexPath.section].pasos[indexPath.row]
         return cell
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return DataManager.cofradias[section].nombre
+        return Cofradia.cofradias[section].nombre
     }
     
 }

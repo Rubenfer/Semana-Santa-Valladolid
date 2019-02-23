@@ -26,10 +26,10 @@ class MapaViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         locationManager.startUpdatingLocation()
         centerMapOnLocation(location: initialLocation)
         mapView.showsUserLocation = true
-        for index in DataManager.iglesias.indices {
+        for index in Iglesia.iglesias.indices {
             let annotation = MKPointAnnotation()
-            annotation.coordinate = CLLocationCoordinate2D(latitude: Double(DataManager.iglesias[index].latitud)!, longitude: Double(DataManager.iglesias[index].longitud)!)
-            annotation.title = DataManager.iglesias[index].nombre
+            annotation.coordinate = CLLocationCoordinate2D(latitude: Double(Iglesia.iglesias[index].latitud)!, longitude: Double(Iglesia.iglesias[index].longitud)!)
+            annotation.title = Iglesia.iglesias[index].nombre
             mapView.addAnnotation(annotation)
         }
     }

@@ -14,15 +14,15 @@ class IntentHandler: INExtension, ProcesionesHoyIntentHandling {
     
     func handle(intent: ProcesionesHoyIntent, completion: @escaping (ProcesionesHoyIntentResponse) -> Void) {
         
-        DataManager.loadDias()
+        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
         
         if let indexHoy = dias[dateFormatter.string(from: date)] {
-            if DataManager.dias[indexHoy].procesiones.count > 0 {
-                let numeroProcesiones = NSNumber(value: DataManager.dias[indexHoy].procesiones.count)
+            if Dia.dias[indexHoy].procesiones.count > 0 {
+                let numeroProcesiones = NSNumber(value: Dia.dias[indexHoy].procesiones.count)
                 completion(ProcesionesHoyIntentResponse.success(numeroProcesiones: numeroProcesiones))
             } else {
                 completion(ProcesionesHoyIntentResponse(code: .noProcesiones, userActivity: nil))
@@ -35,15 +35,15 @@ class IntentHandler: INExtension, ProcesionesHoyIntentHandling {
     
     func confirm(intent: ProcesionesHoyIntent, completion: @escaping (ProcesionesHoyIntentResponse) -> Void) {
         
-        DataManager.loadDias()
+        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
         
         if let indexHoy = dias[dateFormatter.string(from: date)] {
-            if DataManager.dias[indexHoy].procesiones.count > 0 {
-                let numeroProcesiones = NSNumber(value: DataManager.dias[indexHoy].procesiones.count)
+            if Dia.dias[indexHoy].procesiones.count > 0 {
+                let numeroProcesiones = NSNumber(value: Dia.dias[indexHoy].procesiones.count)
                 completion(ProcesionesHoyIntentResponse.success(numeroProcesiones: numeroProcesiones))
             } else {
                 completion(ProcesionesHoyIntentResponse(code: .noProcesiones, userActivity: nil))

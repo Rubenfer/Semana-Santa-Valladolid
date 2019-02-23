@@ -19,7 +19,7 @@ class Cofradia: Codable {
     
     func buscarProcesiones() -> [Procesion] {
         var procesionesCofradia = [Procesion]()
-        for dia in DataManager.dias {
+        for dia in Dia.dias {
             for procesionCofradia in procesiones {
                 procesionesCofradia += dia.procesiones.filter { (procesion) -> Bool in
                     return procesionCofradia == procesion.id
@@ -27,6 +27,19 @@ class Cofradia: Codable {
             }
         }
         return procesionesCofradia
+    }
+    
+    static var cofradias = [Cofradia]()
+    
+    static func loadCofradias() {
+        if let path = Bundle.main.path(forResource: "Cofradias", ofType: "plist"), let dic = NSArray(contentsOfFile: path) {
+            do {
+                let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
+                Cofradia.cofradias = try JSONDecoder().decode([Cofradia].self, from: data)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
     }
     
 }

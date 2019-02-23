@@ -12,9 +12,9 @@ class MenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DataManager.loadDias()
-        DataManager.loadCofradias()
-        DataManager.loadIglesias()
+        Dia.loadDias()
+        Cofradia.loadCofradias()
+        Iglesia.loadIglesias()
     }
 
 }

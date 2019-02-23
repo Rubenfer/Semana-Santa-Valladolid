@@ -29,14 +29,14 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
         
         tableView.rowHeight = 100
         
-        DataManager.loadDias()
+        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
         
         if let indexHoy = dias[dateFormatter.string(from: date)] {
-            procesiones = DataManager.dias[indexHoy].procesiones
+            procesiones = Dia.dias[indexHoy].procesiones
         }
         
         tableView.reloadData()
@@ -47,14 +47,14 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
         
         tableView.rowHeight = 30
         
-        DataManager.loadDias()
+        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
         
         if let indexHoy = dias[dateFormatter.string(from: date)] {
-            procesiones = DataManager.dias[indexHoy].procesiones
+            procesiones = Dia.dias[indexHoy].procesiones
         }
         
         tableView.reloadData()

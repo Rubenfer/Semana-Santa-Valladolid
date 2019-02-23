@@ -15,7 +15,7 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
     @IBOutlet var pickerDia: UIPickerView!
     
     let dias = ["12/04/19":0,"13/04/19":1,"14/04/19":2,"15/04/19":3,"16/04/19":4,"17/04/19":5,"18/04/19":6,"19/04/19":7,"20/04/19":8,"21/04/19":9]
-    var diaSeleccionado = DataManager.dias[0]
+    var diaSeleccionado = Dia.dias[0]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
         let hoy = dateFormatter.string(from: date)
         
         if let hoyIndex = dias[hoy] {
-            diaSeleccionado = DataManager.dias[hoyIndex]
+            diaSeleccionado = Dia.dias[hoyIndex]
             pickerDia.selectRow(hoyIndex, inComponent: 0, animated: true)
             tableView.reloadSections([0], with: .fade)
         }
@@ -74,15 +74,15 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return DataManager.dias.count
+        return Dia.dias.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return DataManager.dias[row].dia
+        return Dia.dias[row].dia
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        diaSeleccionado = DataManager.dias[row]
+        diaSeleccionado = Dia.dias[row]
         tableView.reloadSections([0], with: .automatic)
     }
     
