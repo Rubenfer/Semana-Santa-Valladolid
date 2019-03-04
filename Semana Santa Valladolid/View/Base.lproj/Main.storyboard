@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="529" y="-518"/>
         </scene>
-        <!--Ajustes View Controller-->
+        <!--Ajustes-->
         <scene sceneID="EQm-Lc-muF">
             <objects>
-                <tableViewController id="6sA-Gv-HZu" customClass="AjustesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Ajustes" id="6sA-Gv-HZu" customClass="AjustesViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="FCN-6w-P4y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,55 +438,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-wL-9EW">
-                                <rect key="frame" x="0.0" y="629" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Visitar web">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="verWeb:" destination="XWs-ub-hww" eventType="touchUpInside" id="HJ3-Ed-9US"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aay-mj-Hkv">
-                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="212" id="L6g-tr-5jd"/>
-                                </constraints>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-5Q-FXq">
-                                <rect key="frame" x="16" y="284" width="343" height="299"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK1-AO-xev">
-                                <rect key="frame" x="0.0" y="591" width="375" height="30"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Procesiones">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="procesionesBtn:" destination="XWs-ub-hww" eventType="touchUpInside" id="EhV-X4-2bT"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vXe-Y5-DSk">
+                                <rect key="frame" x="0.0" y="64" width="375" height="598"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aay-mj-Hkv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="212"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="212" id="L6g-tr-5jd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-5Q-FXq">
+                                        <rect key="frame" x="0.0" y="217" width="375" height="311"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK1-AO-xev">
+                                        <rect key="frame" x="0.0" y="533" width="375" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Procesiones">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="procesionesBtn:" destination="XWs-ub-hww" eventType="touchUpInside" id="EhV-X4-2bT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ic-wL-9EW">
+                                        <rect key="frame" x="0.0" y="568" width="375" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Visitar web">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="verWeb:" destination="XWs-ub-hww" eventType="touchUpInside" id="HJ3-Ed-9US"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9Ic-wL-9EW" firstAttribute="top" secondItem="kK1-AO-xev" secondAttribute="bottom" constant="8" symbolic="YES" id="03j-dI-8Sf"/>
-                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="top" secondItem="pD6-9A-SJE" secondAttribute="bottom" id="8ci-zb-ygd"/>
-                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="leading" secondItem="Ie0-AK-gmu" secondAttribute="leading" id="BE4-c2-G2A"/>
-                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="trailing" secondItem="kK1-AO-xev" secondAttribute="trailing" id="Hga-j6-fEa"/>
-                            <constraint firstItem="kK1-AO-xev" firstAttribute="top" secondItem="IYX-5Q-FXq" secondAttribute="bottom" constant="8" symbolic="YES" id="Hmy-w7-yae"/>
-                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="centerX" secondItem="kK1-AO-xev" secondAttribute="centerX" id="NpL-3w-hIg"/>
-                            <constraint firstItem="kK1-AO-xev" firstAttribute="leading" secondItem="9Ic-wL-9EW" secondAttribute="leading" id="OtR-Hm-uO8"/>
-                            <constraint firstItem="XLu-Dy-zHd" firstAttribute="top" secondItem="9Ic-wL-9EW" secondAttribute="bottom" constant="8" symbolic="YES" id="VHx-Ah-bfv"/>
-                            <constraint firstItem="Aay-mj-Hkv" firstAttribute="leading" secondItem="kK1-AO-xev" secondAttribute="leading" id="WoY-Yd-HkO"/>
-                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="leading" secondItem="Ie0-AK-gmu" secondAttribute="leadingMargin" id="X0a-DF-JhA"/>
-                            <constraint firstAttribute="trailing" secondItem="Aay-mj-Hkv" secondAttribute="trailing" id="adP-Zi-YcQ"/>
-                            <constraint firstItem="IYX-5Q-FXq" firstAttribute="top" secondItem="Aay-mj-Hkv" secondAttribute="bottom" constant="8" symbolic="YES" id="neD-2g-DoC"/>
-                            <constraint firstItem="kK1-AO-xev" firstAttribute="trailing" secondItem="9Ic-wL-9EW" secondAttribute="trailing" id="rdZ-SQ-mvH"/>
+                            <constraint firstItem="XLu-Dy-zHd" firstAttribute="top" secondItem="vXe-Y5-DSk" secondAttribute="bottom" constant="5" id="GTm-pE-OBU"/>
+                            <constraint firstItem="vXe-Y5-DSk" firstAttribute="leading" secondItem="zRc-0x-pRe" secondAttribute="leading" id="KwM-7w-bmL"/>
+                            <constraint firstItem="vXe-Y5-DSk" firstAttribute="trailing" secondItem="zRc-0x-pRe" secondAttribute="trailing" id="WH5-Vo-ZyV"/>
+                            <constraint firstItem="vXe-Y5-DSk" firstAttribute="top" secondItem="pD6-9A-SJE" secondAttribute="bottom" id="txF-C1-Skp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zRc-0x-pRe"/>
                     </view>
@@ -497,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Tm-Uj-ut4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="-518"/>
+            <point key="canvasLocation" x="1160.8" y="-518.59070464767615"/>
         </scene>
         <!--Procesiones por días-->
         <scene sceneID="oUa-oh-tIq">
