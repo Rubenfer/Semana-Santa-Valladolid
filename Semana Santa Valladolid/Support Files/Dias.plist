@@ -42,6 +42,18 @@ El ejercicio del Vía Crucis comenzará y finalizará en la Iglesia de Nuestra S
 		<array>
 			<dict>
 				<key>nombre</key>
+				<string>Procesión de la Hermandad del Santo Cristo de los Artilleros</string>
+				<key>hora</key>
+				<string>18:00</string>
+				<key>recorrido</key>
+				<string>Rúa Oscura, Leopoldo Cano, Felipe II y Plaza de San Pablo hasta el Palacio Real, donde recogerá el “paso” “CRISTO DE LA MISION” (Escuela Castellana, segunda mitad del s. XVII) que será portado a hombros por los cofrades; siguiendo por: San Quirce, San Ignacio, Plaza de Santa Brígida, San Ignacio, Expósitos y Santo Domingo de Guzmán hasta el convento de Santa Isabel de Hungría donde se realizará un Acto Penitencial; siguiendo por Encarnación, Doctor Cazalla, Plaza de San Miguel, León y Plaza de San Pablo hasta el Palacio Real, donde se dejará el “paso” “CRISTO DE LA MISION”. Continuando por Plaza de San Pablo, Felipe II, Leopoldo Cano, Plaza de los Arces y Guadamacileros, hasta la Iglesia Penitencial de la Santa Vera Cruz, donde se dará por finalizada la procesión.</string>
+				<key>horario</key>
+				<string>A las seis de la tarde partirá de la Iglesia Penitencial de la Santa Vera Cruz la Hermandad del Santo Cristo de los Artilleros</string>
+				<key>id</key>
+				<real>12019</real>
+			</dict>
+			<dict>
+				<key>nombre</key>
 				<string>Procesión del Ejercicio Público de las Cinco Llagas</string>
 				<key>hora</key>
 				<string>20:00</string>
@@ -110,7 +122,7 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>hora</key>
 				<string>20:00</string>
 				<key>recorrido</key>
-				<string>Platerías, Plaza del Ochavo, Vicente Moliner, Plaza de Fuente Dorada, Bajada de la Libertad, Plaza de la Libertad, Angustias y Plaza de San Pablo, donde se procederá al rezo de los Misterios Dolorosos del Rosario y las Letanías de la Santísima Virgen. Concluido el rezo, se cantará la Salve Popular, y se reanudará la procesión por Angustias, Plaza de la Libertad, Bajada de la Libertad y Plaza de Fuente Dorada, donde se dará por finalizada la procesión.</string>
+				<string>Platerías, Plaza del Ochavo, Lonja, Quiñones, Ferrari, Plaza Mayor (pasando por delante del Ayuntamiento), Pasión, Plaza de Santa Ana, María de Molina, Héroes de Alcántara, Santiago, Constitución, Regalado, Cánovas del Castillo, Fuente Dorada, Vicente Moliner, Plaza del Ochavo y Platerías hasta la Iglesia Penitencial de la Santa Vera Cruz, donde con el canto de la Salve, se dará por finalizada la procesión.</string>
 				<key>horario</key>
 				<string>A la ocho de la tarde, partirá de la Iglesia Penitencial de la Santa Vera Cruz la Procesión del Santísimo Rosario del Dolor, con los &quot;pasos&quot;: &quot;LA ORACIÓN DEL HUERTO&quot; (Andrés Solanes, h. 1629), &quot;EL SEÑOR ATADO A LA COLUMNA&quot; (Gregorio Fernández, h. 1619), &quot;ECCE-HOMO&quot; (Gregorio Fernández, h. 1620), &quot;CAMINO DEL CALVARIO&quot; (Gregorio Fernández, 1614) &quot;LA CRUCIFIXIÓN DEL SEÑOR&quot; (Taller Vallisoletano, h. 1650) y &quot;NUESTRA SEÑORA DE LA SANTA VERA-CRUZ&quot; (Gregorio Fernández, 1623), acompañados de sus respectivas Cofradías.</string>
 				<key>id</key>
@@ -120,13 +132,11 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>nombre</key>
 				<string>Procesión de Amor y Misericordia del Stmo. Cristo de Medinaceli</string>
 				<key>hora</key>
-				<string>20:15</string>
+				<string>20:30</string>
 				<key>recorrido</key>
-				<string>San Martín, Angustias, Bao, Plaza del Rosarillo, San Juan de Dios, Leopoldo Cano, Guadamacileros, Macías Picavea, Bajada de la Libertad, Plaza de la Libertad y Arribas hasta la SIM Catedral donde se llevará a cabo un Acto Penitencial.
-
-Regresando por: Arribas, Cardenal Cos, Plaza de la Universidad (por el lateral de la Catedral), Arzobispo Gandásegui, Plaza de la Universidad, Duque de Lerma, Esgueva, Angustias y San Martín hasta la Iglesia parroquial del mismo nombre, donde se dará por concluida la procesión.</string>
+				<string>San Martín, Angustias, Bao, Plaza del Rosario, San Juan de Dios, Leopoldo Cano, Rúa Oscura, Platerías, Plaza del Ochavo, Vicente Moliner, Fuente Dorada, Bajada de la Libertad, Tintes, Catedral y Arribas hasta la S. I. M. Catedral, donde se llevará a cabo un Acto Penitencial.</string>
 				<key>horario</key>
-				<string>A las ocho y cuarto de la tarde saldrá de la Iglesia Parroquial de San Martín la Procesión de Regla de la Cofradía del Discípulo Amado y Jesús de Medinaceli, con el “paso” portado “a costal” “JESÚS DE MEDINACELI” (Juan Antonio Blanco, 2012), acompañado de su cofradía titular.</string>
+				<string>A las ocho y media de la tarde saldrá de la Iglesia Parroquial de San Martín la Procesión de Regla de la Cofradía del Discípulo Amado y Jesús de Medinaceli, con el “paso” portado “a costal” “JESÚS DE MEDINACELI” (Juan Antonio Blanco, 2012), acompañado de su cofradía titular.</string>
 				<key>id</key>
 				<integer>8</integer>
 			</dict>
@@ -178,13 +188,12 @@ La Cofradía Penitencial de Nuestra Señora de las Angustias regresará por Libr
 				<key>nombre</key>
 				<string>Procesión de la Peregrinación de la Promesa</string>
 				<key>hora</key>
-				<string>22:00</string>
+				<string>22:30</string>
 				<key>recorrido</key>
-				<string>Encarnación, San Benito, General Almirante, Zapico, Conde Ansúrez, hasta la Iglesia Penitencial de la Santa Vera-Cruz, donde se recogerá el paso “EL SEÑOR ATADO A LA COLUMNA”; continuando por: Guadamacileros, Leopoldo Cano, San Juan de Dios, Alonso Berruguete, Angustias, Solanilla, Antigua, Esgueva, Juan Mambrilla, Velardes, Plaza San Juan, Verbena, Santa Lucía, Plaza de Luis Braille, Gabriel y Galán, Paseo del Cauce y Doce de Octubre hasta la Iglesia Parroquial de Nuestra Señora de Belén, donde se efectuará la Renovación de la Promesa.
-
-Regresando por: Doce de Octubre, Paseo del Cauce, Gabriel y Galán, Plaza de Luis Braille, Santa Lucía, Verbena, Plaza de San Juan, Velardes, Juan Mambrilla, Ruiz Hernández, Plaza de la Universidad, López Gómez, Arribas, Cascajares, Cánovas del Castillo, Fuente Dorada, Vicente Moliner y Platerías hasta la Iglesia Penitencial de la Santa Vera-Cruz, donde se dejará el paso de “EL SEÑOR ATADO A LA COLUMNA”. Continuando por: Guadamacileros, Plaza de los Arces, San Antonio de Padua, Plaza de San Miguel, Doctor Cazalla y Encarnación hasta la Iglesia del Monasterio de Santa Isabel, donde se dará por finalizada la procesión.</string>
+				<string>Santo Domingo de Guzmán, Encarnación, Doctor Cazalla, San Antonio de Padua, Plaza de los Arces y Guadamacileros, hasta la Iglesia Penitencial de la Santa Vera Cruz, donde se recogerá el paso “EL SEÑOR ATADO A LA COLUMNA”; continuando por: Platerías, Plaza del Ochavo, Vicente Moliner, Plaza de Fuente Dorada, Cánovas del Castillo, Regalado, Cascajares, Arribas, López Gómez y Santuario hasta la Basílica Nacional de la Gran Promesa, donde se efectuará la ”renovación de la promesa”.
+Regresando por: Alonso Pesquera, Plaza de Santa Cruz, Librería, Duque de Lerma, Juan Mambrilla, Antigua, Solanilla, Angustias, Bajada de la Libertad, Plaza de la Libertad, Bajada de la Libertad, Plaza de Fuente Dorada, Vicente Moliner, Plaza del Ochavo y Platerías hasta la Iglesia Penitencial de la Santa Vera Cruz, donde se dejará el paso de “EL SEÑOR ATADO A LA COLUMNA”. Continuando por: Guadamacileros, Plaza de los Arces, San Antonio de Padua, Plaza de San Miguel, Doctor Cazalla, Encarnación y Santo Domingo de Guzmán hasta la Iglesia del Monasterio de Santa Isabel, donde se dará por finalizada la procesión.</string>
 				<key>horario</key>
-				<string>A las diez de la noche, partirá de la Iglesia del Monasterio de Santa Isabel, la Procesión de la Peregrinación de la Promesa, con el &quot;paso&quot; &quot;EL SEÑOR ATADO A LA COLUMNA&quot; (Gregorio Fernández, h.1619), alumbrado por su Hermandad titular.</string>
+				<string>A las diez y media de la noche, partirá de la Iglesia del Monasterio de Santa Isabel, la Procesión de la Peregrinación de la Promesa, con el &quot;paso&quot; &quot;EL SEÑOR ATADO A LA COLUMNA&quot; (Gregorio Fernández, h.1619), alumbrado por su Hermandad titular.</string>
 				<key>id</key>
 				<integer>11</integer>
 			</dict>
@@ -272,9 +281,8 @@ Regresando por: Arribas, Cascajares, Cánovas del Castillo, Regalado, Constituci
 				<key>hora</key>
 				<string>0:00</string>
 				<key>recorrido</key>
-				<string>San Martín, Avda. de Ramón y Cajal, Alamillos, Pólvora, Covadonga y Plaza de las Batallas en la cual se celebrará un Acto Penitencial.
-
-Regresando por San Quintín, Corpus Christi, Prado de la Magdalena y Real de Burgos hasta la Iglesia Parroquial de San Pedro Apóstol, donde se realizará una ofrenda floral por parte de la Cofradía Penitencial y Sacramental de la Sagrada Cena; siguiendo por: Real de Burgos, Chancillería, Ramón y Cajal y San Martín hasta la Iglesia Parroquial del mismo nombre donde se entonará la Salve Popular, dándose por finalizada la procesión.</string>
+				<string>San Martín, Avda. de Ramón y Cajal, Paseo del Prado de la Magdalena, Covadonga y Plaza de las Batallas, en la cual se celebrará un Acto Penitencial.
+Regresando por San Quintín, Corpus Christi, Prado de la Magdalena y Real de Burgos hasta la Iglesia Parroquial de San Pedro Apóstol, donde se realizará una ofrenda floral por parte de la Cofradía Penitencial y Sacramental de la Sagrada Cena; siguiendo por: Real de Burgos, Chancillería, Ramón y Cajal y San Martín hasta la Iglesia Parroquial del mismo nombre donde se entonará la Salve Popular, dándose por finalizada la procesión.</string>
 				<key>horario</key>
 				<string>A las doce de la noche, del interior de la Iglesia de San Martín y San Benito el Viejo, partirá la Procesión de la Piedad, con los &quot;pasos&quot; “CRISTO DE LA HUMILDAD” (José de Rozas, 1691), “CRISTO DE LA CRUZ A MARÍA” (Escuela de Gregorio Fernández, h. 1642; el cuerpo de José de Arimatea es obra de José Antonio Saavedra, 1995) y &quot;LA QUINTA ANGUSTIA&quot; (Gregorio Fernández, h. 1625), alumbrados por su Cofradía titular, acompañada de un escuadrón a caballo, escuadra y alumnos de la Academia de Ávila del Cuerpo Nacional de Policía.</string>
 				<key>id</key>
@@ -372,27 +380,16 @@ Los Actos penitenciales cuentan con la participación del Secretariado Diocesano
 				<key>hora</key>
 				<string>18:45</string>
 				<key>recorrido</key>
-				<string>RECORRIDO: Paseo del Prado de la Magdalena, Alamillos, Huelgas, Plaza de San Juan, Maldonado, Fidel Recio, Santuario, López Gómez , Plaza de España, Montero Calvo y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Núñez de Arce, López Gómez, Plaza de la Universidad, Ruiz Hernández, Juan Mambrilla (Acto Penitencial en la Iglesia de las Salesas), Colón, Ramón y Cajal y Paseo del Prado de la Magdalena hasta la Iglesia Conventual del Corpus Christi.
-
-A las siete menos cuarto de la tarde, partirá de la Iglesia Conventual de Ntra. Sra. de Porta-Coeli, el “paso” “LAS LAGRIMAS DE SAN PEDRO” (Obra atribuida a Pedro de Ávila, h. 1720), alumbrado por la Cofradía de Ntro. Padre Jesús Resucitado, Maria Stma. de la Alegría y las Lagrimas de San Pedro. A las siete y media de la tarde realizará un Acto Penitencial en la Iglesia Parroquial de San Lorenzo.
-
-RECORRIDO: Teresa Gil, Regalado, Constitución, Héroes de Alcántara, María de Molina, Plaza de Santa Ana, San Lorenzo y Pedro Niño hasta la Iglesia Parroquial de San Lorenzo (Acto Penitencial); continuando por: Pedro Niño, San Lorenzo, Plaza de Santa Ana, Pasión, Plaza Mayor y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Regalado y Teresa Gil hasta la Iglesia Conventual de Ntra. Sra. de Porta-Coeli.
-
-A las siete menos cuarto de la tarde, partirá de la Iglesia Parroquial de Ntra. Sra. del Carmen, el “paso” “SANTÍSIMO CRISTO DE LA EXALTACION” (Francisco Fernández Enríquez e hijo, 1999), portado a hombros en el itinerario común, alumbrado por la Cofradía de la Exaltación de la Sta. Cruz y Ntra. Sra. de los Dolores. A las once menos cuarto de la noche, realizará dicha cofradía, un Acto Penitencial en la Iglesia Parroquial de Ntra. Sra. del Carmen (Avda. de Segovia).
-
-RECORRIDO: Plaza de Ntra. Sra. del Carmen, Avda. de Segovia, Labradores, Plaza de la Cruz Verde, Mantería, Plaza de España, Montero Calvo y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Regalado, Teresa Gil, Plaza de España, Panaderos, Nogal, Labradores, Avda. de Segovia, Paseo de Farnesio, Embajadores y Plaza de Ntra. Sra. del Carmen hasta la Iglesia parroquial de Ntra. Sra. del Carmen (Acto Penitencial).
-
-A las siete de la tarde, partirá de la Iglesia Parroquial de San Miguel y San Julián, el “paso” “EL MONTE CALVARIO” (Cristo Crucificado-Cristo de la Buena Muerte, atribuido a Juan de Juni, s. XVI, y el resto de imágenes de Juan Alonso Villabrille y Ron, s. XVIII), alumbrado por la cofradía El Descendimiento y Santo Cristo de la Buena Muerte. A las ocho menos cuarto de la tarde, realizará dicha cofradía, un Acto Penitencial en la Iglesia Parroquial de Santiago Apóstol.
-
-RECORRIDO: San Ignacio, San Benito, Plaza de la Rinconada, Correos, Los Molinos, Jesús, Plaza Mayor, Pasión, Plaza de Santa Ana, María de Molina y Héroes de Alcántara hasta la Iglesia Parroquial de Santiago (Acto Penitencial), Héroes de Alcántara y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Cánovas del Castillo, Fuente Dorada, Vicente Moliner, Plaza del Ochavo, Platerías, Conde Ansúrez, Francisco Zarandona, San Benito y San Ignacio hasta la Iglesia Parroquial de San Miguel y San Julián.
-
-A las siete de la tarde, partirán de la Iglesia Conventual de Santa Isabel de Hungría, los “pasos” portados a hombros, “SANTÍSIMO CRISTO YACENTE” (Escuela de Alonso Berruguete, mediados del s.XVI), “NUESTRA SEÑORA DE LA SOLEDAD” (Anónimo, 2ª mitad del s. XVII) y “LA SANTA CRUZ”, (Anónimo finales del s. XIX), alumbrados por la Cofradía de la Orden Franciscana Seglar V.O.T. La Santa Cruz Desnuda. Previamente a las siete menos cuarto, realizará un Acto Penitencial en dicha Iglesia.
-
-RECORRIDO: Plaza de San Agustín, Jorge Guillén, Plaza del Poniente, Plaza de la Rinconada, Correos, Los Molinos, Jesús, Plaza Mayor y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Cánovas del Castillo, Plaza de la Fuente Dorada, Ferrari, Plaza Mayor, Pasión, Reina, Correos, Plaza de la Rinconada, Plaza del Poniente, Jorge Guillén y Plaza de San Agustín hasta la Iglesia Conventual de Santa Isabel de Hungría.
-
-A partir de las ocho de la tarde, comenzarán el itinerario común las cinco Cofradías citadas anteriormente hasta la S.I.M. Catedral de Valladolid, donde realizarán Estación de Penitencia ante el Santísimo.
-
-ITINERARIO COMÚN: Santiago (esquina con Constitución), Constitución, Regalado, Cánovas del Castillo y Cascajares hasta la Santa Iglesia Catedral, donde al concluir el Acto se dará por finalizado el recorrido común.</string>
+				<string>RECORRIDO: Paseo del Prado de la Magdalena, Alamillos, Huelgas, Plaza de San Juan, Maldonado, Fidel Recio, Santuario, López Gómez , Plaza de España, Montero Calvo y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Núñez de Arce, López Gómez, Plaza de la Universidad, Ruiz Hernández, Juan Mambrilla (Acto Penitencial en la Iglesia de las Salesas), Colón, Ramón y Cajal y Paseo del Prado de la Magdalena hasta la Iglesia Conventual del Corpus Christi.
+A las siete menos cuarto de la tarde, partirá de la Iglesia Conventual de Ntra. Sra. de Porta-Coeli, el “paso” “LAS LAGRIMAS DE SAN PEDRO” (Obra atribuida a Pedro de Ávila, h. 1720), alumbrado por la Cofradía de Ntro. Padre Jesús Resucitado, Maria Stma. de la Alegría y las Lágrimas de San Pedro. A las siete y media de la tarde realizará un Acto Penitencial en la Iglesia Parroquial de San Lorenzo.
+RECORRIDO: Teresa Gil, Regalado, Constitución, Héroes de Alcántara, María de Molina, Plaza de Santa Ana, San Lorenzo y Pedro Niño hasta la Iglesia Parroquial de San Lorenzo (Acto Penitencial); continuando por: Pedro Niño, San Lorenzo, Plaza de Santa Ana, Pasión, Plaza Mayor y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Regalado y Teresa Gil hasta la Iglesia Conventual de Ntra. Sra. de Porta-Coeli.
+A las siete menos cuarto de la tarde, partirá de la Iglesia Parroquial de Ntra. Sra. del Carmen, el “paso” “SANTÍSIMO CRISTO DE LA EXALTACION” (Francisco Fernández Enríquez e hijo, 1999), portado a hombros en el itinerario común, alumbrado por la Cofradía de la Exaltación de la Sta. Cruz y Ntra. Sra. de los Dolores. A las once menos cuarto de la noche, realizará dicha cofradía, un Acto Penitencial en la Iglesia Parroquial de Ntra. Sra. del Carmen (Avda. de Segovia).
+RECORRIDO: Plaza de Ntra. Sra. del Carmen, Avda. de Segovia, Labradores, Plaza de la Cruz Verde, Mantería, Plaza de España, Montero Calvo y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Regalado, Teresa Gil, Plaza de España, Panaderos, Nogal, Labradores, Avda. de Segovia, Paseo de Farnesio, Embajadores y Plaza de Ntra. Sra. del Carmen hasta la Iglesia parroquial de Ntra. Sra. del Carmen (Acto Penitencial).
+A las siete de la tarde, partirá de la Iglesia Parroquial de San Miguel y San Julián, el “paso” “EL MONTE CALVARIO” (Cristo Crucificado-Cristo de la Buena Muerte, atribuido a Juan de Juni, s. XVI, y el resto de imágenes de Juan Alonso Villabrille y Ron, s. XVIII), alumbrado por la cofradía El Descendimiento y Santo Cristo de la Buena Muerte. A las ocho menos cuarto de la tarde, realizará dicha cofradía, un Acto Penitencial en la Iglesia Parroquial de Santiago Apóstol.
+RECORRIDO: San Ignacio, San Benito, Plaza de la Rinconada, Jesús, Plaza Mayor, Pasión, Plaza de Santa Ana, María de Molina y Héroes de Alcántara hasta la Iglesia Parroquial de Santiago (Acto Penitencial), Héroes de Alcántara y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Cánovas del Castillo, Fuente Dorada, Vicente Moliner, Plaza del Ochavo, Especería, Plaza del Corrillo, Cebadería, Plaza de la Rinconada, San Benito y San Ignacio hasta la Iglesia Parroquial de San Miguel y San Julián.
+A las siete de la tarde, partirán de la Iglesia Conventual de Santa Isabel de Hungría, los “pasos” portados a hombros, “SANTÍSIMO CRISTO YACENTE” (Escuela de Alonso Berruguete, mediados del s.XVI), “NUESTRA SEÑORA DE LA SOLEDAD” (Anónimo, 2a mitad del s. XVII) y “LA SANTA CRUZ”, (Anónimo finales del s. XIX), alumbrados por la Cofradía de la Orden Franciscana Seglar V.O.T. La Santa Cruz Desnuda. Previamente a las siete menos cuarto, realizará un Acto Penitencial en dicha Iglesia.
+RECORRIDO: Plaza de San Agustín, Jorge Guillén, Plaza del Poniente, Plaza de la Rinconada, Jesús (parando en la Iglesia Penitencial de Ntro. P. Jesús Nazareno), Plaza Mayor y Santiago incorporándose al itinerario común. Regresando por: Cascajares, Cánovas del Castillo, Plaza de la Fuente Dorada, Ferrari, Plaza Mayor, Pasión, Reina, Correos, Plaza de la Rinconada, Plaza del Poniente, Jorge Guillén y Plaza de San Agustín hasta la Iglesia Conventual de Santa Isabel de Hungría. A partir de las ocho de la tarde, comenzarán el itinerario común las cinco Cofradías citadas anteriormente hasta la S.I.M. Catedral de Valladolid, donde realizarán Estación de Penitencia ante el Santísimo.
+ITINERARIO COMÚN: Santiago (esquina con Constitución), Constitución, Regalado, Cánovas del Castillo y Cascajares hasta la Santa Iglesia Catedral, donde al concluir el Acto se dará por finalizado el recorrido común.</string>
 				<key>horario</key>
 				<string>A las siete menos cuarto de la tarde, partirán de la iglesia conventual del Corpus Christi, los “pasos” de “LA ORACION DEL HUERTO” (Miguel Ángel Tapia, 2002) y “EL PRENDIMIENTO” (Miguel Ángel Tapia, 1995-2011), alumbrados por la Cofradía Penitencial de la Oración del Huerto y San Pascual Bailón. A las nueve y media de la noche, realizará dicha cofradía, un Acto Penitencial en la Iglesia de los Sagrados Corazones de las RR. MM. Salesas (c/ Juan Mambrilla).</string>
 				<key>id</key>
@@ -444,7 +441,7 @@ Regresando por Cascajares, Cánovas del Castillo, Regalado, Constitución, Santi
 				<key>hora</key>
 				<string>23:30</string>
 				<key>recorrido</key>
-				<string>Platerías, Plaza del Ochavo, Lonja, Quiñones, Ferrari, Plaza Mayor (por delante del Ayuntamiento) y Acera de San Francisco - lugar de fundación de la Cofradía- (donde se realizará un Acto de Oración en recuerdo a los cofrades difuntos); siguiendo por Plaza Mayor, Manzana, Cebadería, Plaza de la Rinconada, Plaza del Poniente, Jorge Guillén y San Agustín (donde serán recibidos por la cofradía hermana de la Orden Franciscana Seglar V.O.T. “La Santa Cruz Desnuda”); continuando por Santo Domingo de Guzmán, Expósitos, San Ignacio, San Benito, General Almirante, Zapico, Val, Especería, Plaza del Ochavo y Platerías hasta la Iglesia Penitencial de la Santa Vera Cruz en cuyo pórtico se entonará la Salve popular a Nuestra Señora de los Dolores, dándose así por finalizada la procesión.</string>
+				<string>Platerías, Plaza del Ochavo, Lonja, Lencería, Plaza Mayor (por delante del Ayuntamiento) y Acera de San Francisco - lugar de fundación de la Cofradía- (donde se realizará un Acto de Oración en recuerdo a los cofrades difuntos); siguiendo por Ferrari, Quiñones, Lonja, Plaza del Ochavo, Especería, Plaza del Corrillo, Cebadería, Plaza de la Rinconada, San Benito, San Ignacio, Expósitos, Santo Domingo de Guzmán y San Agustín (donde serán recibidos por la cofradía hermana de la Orden Franciscana Seglar V.O.T. “La Santa Cruz Desnuda”); continuando por Encarnación, San Benito, General Almirante, Zapico, Val, Especería, Plaza del Ochavo y Platerías hasta la Iglesia Penitencial de la Santa Vera Cruz en cuyo pórtico se entonará la Salve popular a Nuestra Señora de los Dolores, dándose así por finalizada la procesión</string>
 				<key>horario</key>
 				<string>A las once y media de la noche se iniciará en la Iglesia Penitencial de la Santa Vera Cruz, la Procesión de Regla de la Cofradía Penitencial de la Santa Vera Cruz, con los “pasos”: “ORACIÓN DEL HUERTO” (Andrés Solanes, h. 1629), “EL SEÑOR ATADO A LA COLUMNA” (Gregorio Fernández, h. 1619), “ECCE-HOMO” (Gregorio Fernández, h. 1620), “EL DESCENDIMIENTO” (Gregorio Fernández, h. 1623) y “DOLOROSA DE LA SANTA VERA CRUZ” (Gregorio Fernández h. 1623), alumbrados por la Cofradía Penitencial de la Santa Vera Cruz.</string>
 				<key>id</key>
@@ -468,9 +465,10 @@ Regresando por Cascajares, Cánovas del Castillo, Regalado, Constitución, Santi
 				<key>hora</key>
 				<string>0:00</string>
 				<key>recorrido</key>
-				<string>A las doce de la noche, se iniciará en la Iglesia Conventual del Real Monasterio de San Joaquín y Santa Ana, la Procesión del “VERUM CORPUS”, con el &quot;paso&quot; &quot;CRISTO YACENTE&quot; (Gregorio Fernández, obra de taller, 1631-1636), portado a hombros por la Cofradía del Santo Entierro.</string>
+				<string>Plaza de Santa Ana, Pasión, Plaza Mayor (por delante del Ayuntamiento), Lencería, Quiñones, Lonja, Plaza del Ochavo, Vicente Moliner, Plaza de Fuente Dorada, Cánovas del Castillo, Regalado y Cascajares hasta la Santa Iglesia Catedral Metropolitana, en cuyo interior se realizará una “estación” ante el Santísimo Sacramento.
+Finalizado el acto, saliendo por la Puerta de Santa María, continuará por Cardenal Cos, Arribas, Cascajares, Regalado, Castelar y Plaza del Salvador donde se realizará un acto de Adoración Eucarística. Continuando por San Felipe Neri, Teresa Gil, Regalado, Constitución, Héroes de Alcántara, Zúñiga y Plaza de Santa Ana hasta la Iglesia Conventual del Real Monasterio de San Joaquín y Santa Ana, donde finalizará la Procesión.</string>
 				<key>horario</key>
-				<string>A las ocho de la tarde, partirá de la Iglesia del Real Monasterio de San Quirce y Santa Julita, la Procesión de Oración y Sacrificio, con los &quot;pasos&quot; &quot;NUESTRO PADRE JESUS FLAGELADO&quot; (atribuido a Antonio Ribera o Francisco Diez Tudanca, h. 1650), “NUESTRO PADRE JESUS CON LA CRUZ A CUESTAS” (Gregorio Fernández, 1614), &quot;SANTISIMO CRISTO DEL PERDON&quot; (Bernardo del Rincón, 1656) y “SANTO CRISTO DEL CALVARIO” (anónimo castellano, mediados del s. XVII), alumbrados por su cofradía titular, la Cofradía Penitencial de la Sagrada Pasión de Cristo.</string>
+				<string>A las doce de la noche, se iniciará en la Iglesia Conventual del Real Monasterio de San Joaquín y Santa Ana, la Procesión del “VERUM CORPUS”, con el &quot;paso&quot; &quot;CRISTO YACENTE&quot; (Gregorio Fernández, obra de taller, 1631-1636), portado a hombros por la Cofradía del Santo Entierro.</string>
 				<key>id</key>
 				<integer>30</integer>
 			</dict>
