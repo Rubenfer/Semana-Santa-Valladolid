@@ -33,6 +33,9 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         tableView.tableHeaderView = searchController.searchBar
         userActivity = NSUserActivity.verCofradias
         userActivity?.becomeCurrent()
+        var count = UserDefaults.standard.integer(forKey: "contadorReview")
+        count += 1
+        UserDefaults.standard.set(count, forKey: "contadorReview")
     }
     
     func updateSearchResults(for searchController: UISearchController) {

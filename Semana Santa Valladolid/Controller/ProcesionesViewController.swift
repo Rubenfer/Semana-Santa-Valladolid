@@ -8,6 +8,7 @@
 
 import UIKit
 import IntentsUI
+import StoreKit
 
 class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
     
@@ -61,6 +62,14 @@ class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPicke
                         }
                     }
                 }
+            }
+        }
+        
+        // Request review
+        if #available(iOS 10.3, *), UserDefaults.standard.integer(forKey: "contadorReview") == 5 || UserDefaults.standard.integer(forKey: "contadorReview") % 20 == 0 {
+            let twoSecondsFromNow = DispatchTime.now() + 2.0
+            DispatchQueue.main.asyncAfter(deadline: twoSecondsFromNow) {
+                SKStoreReviewController.requestReview()
             }
         }
         

@@ -53,6 +53,12 @@ class AjustesViewController: UITableViewController {
          UIApplication.shared.open(URL(string: "https://github.com/Rubenfer/Semana-Santa-Valladolid")!)
     }
     
+    @IBAction func valorar(_ sender: Any) {
+        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1303047750?action=write-review")
+            else { fatalError("Expected a valid URL") }
+        UIApplication.shared.open(writeReviewURL, options: [:], completionHandler: nil)
+    }
+    
     @IBAction func ajustesSiriShortcut(_ sender: Any) {
         if #available(iOS 12.0, *) {
             if let id = UserDefaults.standard.value(forKey: "procesionesDiaUUID") as? String, let UUID = UUID(uuidString: id) {

@@ -16,6 +16,9 @@ class DetalleProcesionViewController: UITableViewController {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.allowsSelection = false
+        var count = UserDefaults.standard.integer(forKey: "contadorReview")
+        count += 1
+        UserDefaults.standard.set(count, forKey: "contadorReview")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -17,6 +17,9 @@ class PasosViewController: UIViewController, UITableViewDelegate, UITableViewDat
         title = "Pasos"
         tableView.delegate = self
         tableView.dataSource = self
+        var count = UserDefaults.standard.integer(forKey: "contadorReview")
+        count += 1
+        UserDefaults.standard.set(count, forKey: "contadorReview")
     }
     
     // MARK: - TableView
