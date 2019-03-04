@@ -11,10 +11,11 @@ import UIKit
 class ProcesionesCofradiaViewController: UITableViewController {
     
     var cofradia: Cofradia!
+    var procesiones: [(Procesion, String)] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        procesiones = cofradia.buscarProcesiones()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,16 +23,22 @@ class ProcesionesCofradiaViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell")
-        cell?.textLabel?.numberOfLines = 0
-        cell?.textLabel?.lineBreakMode = .byWordWrapping
-        cell.textLabel?.text = (cofradia.buscarProcesiones()[indexPath.row]).nombre
+        let cell: UITableViewCell = {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {
+                return UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
+            }
+            return cell
+        }()
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.lineBreakMode = .byWordWrapping
+        cell.textLabel?.text = (procesiones[indexPath.row].0).nombre
+        cell.detailTextLabel?.text = procesiones[indexPath.row].1
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = DetalleProcesionViewController()
-        vc.procesion = cofradia.buscarProcesiones()[indexPath.row]
+        vc.procesion = procesiones[indexPath.row].0
         self.tableView.deselectRow(at: indexPath, animated: true)
         navigationController?.pushViewController(vc, animated: true)
     }

@@ -17,12 +17,15 @@ class Cofradia: Codable {
     var procesiones = [Int]()
     var pasos = [String]()
     
-    func buscarProcesiones() -> [Procesion] {
-        var procesionesCofradia = [Procesion]()
+    func buscarProcesiones() -> [(Procesion, String)] {
+        var procesionesCofradia = [(Procesion, String)]()
         for dia in Dia.dias {
             for procesionCofradia in procesiones {
-                procesionesCofradia += dia.procesiones.filter { (procesion) -> Bool in
+                let procesionesDia = dia.procesiones.filter { (procesion) -> Bool in
                     return procesionCofradia == procesion.id
+                }
+                for procesion in procesionesDia {
+                    procesionesCofradia.append((procesion, dia.dia))
                 }
             }
         }
