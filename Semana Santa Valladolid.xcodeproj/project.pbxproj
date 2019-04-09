@@ -55,6 +55,8 @@
 		0CC9FBA02158CD6400097F7D /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
 		0CC9FBA12158CD6600097F7D /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
 		0CC9FBA22158CD6700097F7D /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
+		0CCE5C3E225CA14F005FD258 /* IncidenciasTrafico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE5C3D225CA14F005FD258 /* IncidenciasTrafico.pdf */; };
+		0CCE5C40225CA162005FD258 /* IncidenciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE5C3F225CA162005FD258 /* IncidenciasViewController.swift */; };
 		0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -148,6 +150,8 @@
 		0CC9FB7B2158C3B500097F7D /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		0CC9FB7E2158C3B500097F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		0CC9FB802158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCE5C3D225CA14F005FD258 /* IncidenciasTrafico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IncidenciasTrafico.pdf; sourceTree = "<group>"; };
+		0CCE5C3F225CA162005FD258 /* IncidenciasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenciasViewController.swift; sourceTree = "<group>"; };
 		0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -267,6 +271,7 @@
 				0C5E5B7F20F9D9AE0079F3E4 /* CofradiasViewController.swift */,
 				0C5E5B8B20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift */,
 				0C5E5B8D20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift */,
+				0CCE5C3F225CA162005FD258 /* IncidenciasViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 		0C8F74CF20F8FF0300F9E952 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CCE5C3D225CA14F005FD258 /* IncidenciasTrafico.pdf */,
 				0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */,
 				0C8F74D020F8FF1D00F9E952 /* Dias.plist */,
 				0C5AFE5120FE188A002B4A54 /* Iglesias.plist */,
@@ -501,6 +507,7 @@
 				0C8F74A620F8F8B800F9E952 /* Assets.xcassets in Resources */,
 				0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */,
 				0C5AFE5220FE188A002B4A54 /* Iglesias.plist in Resources */,
+				0CCE5C3E225CA14F005FD258 /* IncidenciasTrafico.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +587,7 @@
 				0C5E5B8E20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift in Sources */,
 				0C8F749F20F8F8B700F9E952 /* AppDelegate.swift in Sources */,
 				0C5E5B8620FA1D890079F3E4 /* MapaViewController.swift in Sources */,
+				0CCE5C40225CA162005FD258 /* IncidenciasViewController.swift in Sources */,
 				0C5E5B7E20F9D7970079F3E4 /* AjustesViewController.swift in Sources */,
 				0C5E5B8C20FA1DAC0079F3E4 /* DetalleCofradiaViewController.swift in Sources */,
 				0C8F74D720F90C5100F9E952 /* Procesion.swift in Sources */,

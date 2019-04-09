@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjR-ij-i5i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjR-ij-i5i">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -74,6 +74,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdE-MI-PnB">
                                         <rect key="frame" x="0.0" y="402" width="375" height="100.5"/>
                                         <state key="normal" title="Button" image="incidencias"/>
+                                        <connections>
+                                            <segue destination="CSy-iE-rlz" kind="show" id="MrQ-oJ-pHz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQz-XQ-5Jy">
                                         <rect key="frame" x="0.0" y="502.5" width="375" height="100.5"/>
@@ -137,6 +140,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMO-Oy-Qc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="529" y="-518"/>
+        </scene>
+        <!--Incidencias View Controller-->
+        <scene sceneID="njb-Cw-D13">
+            <objects>
+                <viewController id="CSy-iE-rlz" customClass="IncidenciasViewController" customModule="Semana_Santa_Valladolid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Hb-Sp-bxg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hor-5y-BnQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hor-5y-BnQ" firstAttribute="trailing" secondItem="d04-Wb-ghj" secondAttribute="trailing" id="DHB-79-PQt"/>
+                            <constraint firstItem="hor-5y-BnQ" firstAttribute="top" secondItem="d04-Wb-ghj" secondAttribute="top" id="RZ2-0r-AF4"/>
+                            <constraint firstItem="hor-5y-BnQ" firstAttribute="bottom" secondItem="d04-Wb-ghj" secondAttribute="bottom" id="jOK-BA-YGa"/>
+                            <constraint firstItem="hor-5y-BnQ" firstAttribute="leading" secondItem="d04-Wb-ghj" secondAttribute="leading" id="z3T-UH-N85"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d04-Wb-ghj"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="hor-5y-BnQ" id="BfI-rp-ewd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95f-jy-Zpw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207.19999999999999" y="787.55622188905556"/>
         </scene>
         <!--Ajustes-->
         <scene sceneID="EQm-Lc-muF">
@@ -409,7 +442,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Xdl-Tf-osY" firstAttribute="centerX" secondItem="GUd-Ww-tMr" secondAttribute="centerX" id="38r-qp-tJG"/>
-                            <constraint firstItem="GUd-Ww-tMr" firstAttribute="bottom" secondItem="WgO-h5-Vxl" secondAttribute="top" id="6Ex-cc-ET7"/>
+                            <constraint firstItem="GUd-Ww-tMr" firstAttribute="bottom" secondItem="LIP-iQ-RQm" secondAttribute="bottom" id="6Ex-cc-ET7"/>
                             <constraint firstItem="GUd-Ww-tMr" firstAttribute="top" secondItem="Xdl-Tf-osY" secondAttribute="bottom" constant="8" symbolic="YES" id="BLa-BM-3gs"/>
                             <constraint firstItem="Xdl-Tf-osY" firstAttribute="top" secondItem="s9x-8w-mJW" secondAttribute="bottom" constant="8" symbolic="YES" id="G5l-KW-963"/>
                             <constraint firstItem="Xdl-Tf-osY" firstAttribute="leading" secondItem="LIP-iQ-RQm" secondAttribute="leadingMargin" id="Lnr-gF-kSi"/>
@@ -569,11 +602,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ajustes" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="cofradias" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="incidencias" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="mapa" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="pasos" width="259.20001220703125" height="69.120002746582031"/>
-        <image name="procesiones" width="259.20001220703125" height="69.120002746582031"/>
+        <image name="ajustes" width="1080" height="288"/>
+        <image name="cofradias" width="1080" height="288"/>
+        <image name="incidencias" width="1080" height="288"/>
+        <image name="mapa" width="1080" height="288"/>
+        <image name="pasos" width="1080" height="288"/>
+        <image name="procesiones" width="1080" height="288"/>
     </resources>
 </document>
