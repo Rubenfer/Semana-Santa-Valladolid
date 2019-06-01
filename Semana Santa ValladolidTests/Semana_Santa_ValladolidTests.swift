@@ -32,6 +32,14 @@ class Semana_Santa_ValladolidTests: XCTestCase {
         XCTAssertEqual(Cofradia.cofradias.count, 20)
     }
     
+    func testProcesionesCofradia() {
+        Cofradia.loadCofradias()
+        for cofradia in Cofradia.cofradias {
+            let procesiones = cofradia.buscarProcesiones()
+            XCTAssertGreaterThan(procesiones.count, 0)
+        }
+    }
+    
     func testLoadIglesias() {
         Iglesia.loadIglesias()
         XCTAssertGreaterThan(Iglesia.iglesias.count, 0)
