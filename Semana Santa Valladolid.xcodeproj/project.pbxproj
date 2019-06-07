@@ -35,6 +35,7 @@
 		0CB9B4FF215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
 		0CB9B500215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
 		0CB9B501215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
+		0CBCF7D822AAD86100CAA528 /* CofradiaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCF7D722AAD86100CAA528 /* CofradiaCell.swift */; };
 		0CC9FB702158C3B500097F7D /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */; };
 		0CC9FB792158C3B500097F7D /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC9FB782158C3B500097F7D /* IntentsUI.framework */; };
 		0CC9FB7C2158C3B500097F7D /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC9FB7B2158C3B500097F7D /* IntentViewController.swift */; };
@@ -142,6 +143,7 @@
 		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		0CB9B502215B857700D51A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
 		0CB9B505215B87B700D51A1C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
+		0CBCF7D722AAD86100CAA528 /* CofradiaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofradiaCell.swift; sourceTree = "<group>"; };
 		0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SSVLLIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC9FB6F2158C3B500097F7D /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		0CC9FB712158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 			children = (
 				0C8F74A220F8F8B700F9E952 /* Main.storyboard */,
 				0C8F74A720F8F8B800F9E952 /* LaunchScreen.storyboard */,
+				0CBCF7D722AAD86100CAA528 /* CofradiaCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -586,6 +589,7 @@
 				0C5E5B8A20FA1DA30079F3E4 /* DetalleProcesionViewController.swift in Sources */,
 				0C5E5B8E20FA1DC40079F3E4 /* ProcesionesCofradiaViewController.swift in Sources */,
 				0C8F749F20F8F8B700F9E952 /* AppDelegate.swift in Sources */,
+				0CBCF7D822AAD86100CAA528 /* CofradiaCell.swift in Sources */,
 				0C5E5B8620FA1D890079F3E4 /* MapaViewController.swift in Sources */,
 				0CCE5C40225CA162005FD258 /* IncidenciasViewController.swift in Sources */,
 				0C5E5B7E20F9D7970079F3E4 /* AjustesViewController.swift in Sources */,

@@ -31,6 +31,10 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
+        tableView.register(CofradiaCell.self, forCellReuseIdentifier: "cofradiaCell")
+        if #available(iOS 13.0, *) {
+            searchController.searchBar.barTintColor = .systemGray3
+        }
         userActivity = NSUserActivity.verCofradias
         userActivity?.becomeCurrent()
         var count = UserDefaults.standard.integer(forKey: "contadorReview")
@@ -58,27 +62,23 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.numberOfLines = 0
-        cell.textLabel?.lineBreakMode = .byWordWrapping
-        cell.imageView?.image = UIImage(named: "blanco")
-        let imageViewB = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
-        imageViewB.image = UIImage(named: "blanco")
-        cell.addSubview(imageViewB)
-        cell.textLabel?.text = cofradias[indexPath.row].nombre
-        let imageView = UIImageView(frame: CGRect(x: 15, y: 15, width: 90, height: 90))
-        imageView.image = UIImage(named: cofradias[indexPath.row].id)
-        cell.addSubview(imageView)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cofradiaCell", for: indexPath) as! CofradiaCell
+        cell.configureCell()
+        cell.imgView.image = UIImage(named: cofradias[indexPath.row].id)
+        cell.label.text = cofradias[indexPath.row].nombre
         return cell
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let cell = sender as? UITableViewCell {
-            let row = tableView.indexPath(for: cell)!.row
-            let vc = segue.destination as! DetalleCofradiaViewController
-            vc.cofradia = cofradias[row]
-            self.tableView.deselectRow(at: tableView.indexPath(for: cell)!, animated: true)
-        }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "detalleCofradiaVC") as! DetalleCofradiaViewController
+        vc.cofradia = cofradias[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
     
 

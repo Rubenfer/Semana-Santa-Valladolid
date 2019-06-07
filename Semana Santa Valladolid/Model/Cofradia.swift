@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Cofradia: Codable {
+struct Cofradia: Codable {
     
     var id: String!
     var nombre: String!
