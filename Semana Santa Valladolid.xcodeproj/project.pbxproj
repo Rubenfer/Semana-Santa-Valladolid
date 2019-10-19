@@ -30,8 +30,6 @@
 		0C8F74D320F8FF1D00F9E952 /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
 		0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
 		0C8F74D720F90C5100F9E952 /* Procesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D620F90C5100F9E952 /* Procesion.swift */; };
-		0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546120FBA01B00C35242 /* Crashlytics.framework */; };
-		0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9546220FBA01B00C35242 /* Fabric.framework */; };
 		0CB9B4FF215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
 		0CB9B500215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
 		0CB9B501215B857700D51A1C /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9B503215B857700D51A1C /* Intents.intentdefinition */; };
@@ -139,8 +137,6 @@
 		0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cofradias.plist; sourceTree = "<group>"; };
 		0C8F74D420F90BF600F9E952 /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
 		0C8F74D620F90C5100F9E952 /* Procesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procesion.swift; sourceTree = "<group>"; };
-		0CB9546120FBA01B00C35242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
-		0CB9546220FBA01B00C35242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		0CB9B502215B857700D51A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/Intents.intentdefinition; sourceTree = "<group>"; };
 		0CB9B505215B87B700D51A1C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
 		0CBCF7D722AAD86100CAA528 /* CofradiaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofradiaCell.swift; sourceTree = "<group>"; };
@@ -162,8 +158,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB9546320FBA01C00C35242 /* Crashlytics.framework in Frameworks */,
-				0CB9546420FBA01C00C35242 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +196,6 @@
 		0C8F749220F8F8B700F9E952 = {
 			isa = PBXGroup;
 			children = (
-				0CB9546120FBA01B00C35242 /* Crashlytics.framework */,
-				0CB9546220FBA01B00C35242 /* Fabric.framework */,
 				0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */,
 				0C8F74B220F8F8B800F9E952 /* Semana Santa ValladolidTests */,
 				0C8F74BD20F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
@@ -349,7 +341,6 @@
 				0C8F749720F8F8B700F9E952 /* Sources */,
 				0C8F749820F8F8B700F9E952 /* Frameworks */,
 				0C8F749920F8F8B700F9E952 /* Resources */,
-				0CB9546020FB9F8100C35242 /* ShellScript */,
 				0CC9FB8D2158C3B500097F7D /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -550,27 +541,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0CB9546020FB9F8100C35242 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 8fbc9dec94bbd0963e7ef2b8e834eb2fe03cabf0 4fd1a1e355280684ce0208ac26aabb99a44da7fc9f7fd1ad705d5bc7f2d92f35\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C8F749720F8F8B700F9E952 /* Sources */ = {
