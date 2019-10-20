@@ -20,7 +20,6 @@ class Semana_Santa_ValladolidTests: XCTestCase {
     }
     
     func testLoadProcesiones() {
-        Dia.loadDias()
         XCTAssertEqual(Dia.dias.count, 10)
         for dia in Dia.dias {
             XCTAssertGreaterThan(dia.procesiones.count, 0)
@@ -28,12 +27,10 @@ class Semana_Santa_ValladolidTests: XCTestCase {
     }
     
     func testLoadCofradias() {
-        Cofradia.loadCofradias()
         XCTAssertEqual(Cofradia.cofradias.count, 20)
     }
     
     func testProcesionesCofradia() {
-        Cofradia.loadCofradias()
         for cofradia in Cofradia.cofradias {
             let procesiones = cofradia.buscarProcesiones()
             XCTAssertGreaterThan(procesiones.count, 0)
@@ -41,7 +38,6 @@ class Semana_Santa_ValladolidTests: XCTestCase {
     }
     
     func testLoadIglesias() {
-        Iglesia.loadIglesias()
         XCTAssertGreaterThan(Iglesia.iglesias.count, 0)
     }
     

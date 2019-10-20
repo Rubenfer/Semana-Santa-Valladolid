@@ -21,7 +21,7 @@ class DetalleCofradiaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        habitoImg.image = UIImage(named: "h\(cofradia.id!)")
+        habitoImg.image = UIImage(named: "h\(cofradia.id)")
         texto.text = cofradia.descripcion
     }
     

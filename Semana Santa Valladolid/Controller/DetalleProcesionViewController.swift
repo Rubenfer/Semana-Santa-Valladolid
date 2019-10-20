@@ -39,13 +39,13 @@ class DetalleProcesionViewController: UITableViewController {
             cell?.textLabel?.textAlignment = .center
             break
         case 1:
-            cell?.textLabel?.text = "Detalles\n\n\(procesion.horario!)"
+            cell?.textLabel?.text = "Detalles\n\n\(procesion.horario)"
             cell?.textLabel?.numberOfLines = 0
             cell?.textLabel?.lineBreakMode = .byWordWrapping
             cell?.textLabel?.textAlignment = .justified
             break
         case 2:
-            cell?.textLabel?.text = "Recorrido\n\n\(procesion.recorrido!)"
+            cell?.textLabel?.text = "Recorrido\n\n\(procesion.recorrido)"
             cell?.textLabel?.numberOfLines = 0
             cell?.textLabel?.lineBreakMode = .byWordWrapping
             cell?.textLabel?.textAlignment = .justified

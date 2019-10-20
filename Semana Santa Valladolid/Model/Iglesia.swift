@@ -10,21 +10,10 @@ import Foundation
 
 class Iglesia: Codable {
     
-    var nombre: String!
-    var latitud: String!
-    var longitud: String!
+    static let iglesias: [Iglesia] = PlistReader.parse(name: "Iglesias") ?? []
     
-    static var iglesias = [Iglesia]()
-    
-    static func loadIglesias() {
-        if let path = Bundle.main.path(forResource: "Iglesias", ofType: "plist"), let dic = NSArray(contentsOfFile: path) {
-            do {
-                let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
-                Iglesia.iglesias = try JSONDecoder().decode([Iglesia].self, from: data)
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-    }
+    let nombre: String
+    let latitud: String
+    let longitud: String
     
 }

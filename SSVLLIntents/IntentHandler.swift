@@ -14,8 +14,6 @@ class IntentHandler: INExtension, ProcesionesHoyIntentHandling {
     
     func handle(intent: ProcesionesHoyIntent, completion: @escaping (ProcesionesHoyIntentResponse) -> Void) {
         
-        Dia.loadDias()
-        
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
@@ -34,8 +32,6 @@ class IntentHandler: INExtension, ProcesionesHoyIntentHandling {
     }
     
     func confirm(intent: ProcesionesHoyIntent, completion: @escaping (ProcesionesHoyIntentResponse) -> Void) {
-        
-        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()

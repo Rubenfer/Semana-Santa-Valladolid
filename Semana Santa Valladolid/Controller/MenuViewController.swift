@@ -8,13 +8,4 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        Dia.loadDias()
-        Cofradia.loadCofradias()
-        Iglesia.loadIglesias()
-    }
-
-}
+class MenuViewController: UIViewController { }

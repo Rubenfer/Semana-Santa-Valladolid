@@ -10,20 +10,9 @@ import Foundation
 
 class Dia: Codable {
     
-    var dia: String!
-    var procesiones = [Procesion]()
+    let dia: String
+    let procesiones: [Procesion]
     
-    static var dias = [Dia]()
-    
-    static func loadDias() {
-        if let path = Bundle.main.path(forResource: "Dias", ofType: "plist"), let dic = NSArray(contentsOfFile: path) {
-            do {
-                let data = try JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
-                Dia.dias = try JSONDecoder().decode([Dia].self, from: data)
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-    }
+    static let dias: [Dia] = PlistReader.parse(name: "Dias") ?? []
     
 }

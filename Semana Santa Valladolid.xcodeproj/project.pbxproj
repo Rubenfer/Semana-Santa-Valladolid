@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C22206D235C9830002D6513 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22206C235C9830002D6513 /* PlistReader.swift */; };
+		0C222070235C9876002D6513 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22206C235C9830002D6513 /* PlistReader.swift */; };
+		0C222071235C9877002D6513 /* PlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C22206C235C9830002D6513 /* PlistReader.swift */; };
 		0C5AFE5220FE188A002B4A54 /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
 		0C5AFE5420FE18A5002B4A54 /* Iglesia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5320FE18A5002B4A54 /* Iglesia.swift */; };
 		0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */; };
@@ -106,6 +109,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C22206C235C9830002D6513 /* PlistReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistReader.swift; sourceTree = "<group>"; };
 		0C44E910215912330038442C /* Semana Santa Valladolid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Semana Santa Valladolid.entitlements"; sourceTree = "<group>"; };
 		0C44E9112159123E0038442C /* SSVLLIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SSVLLIntents.entitlements; sourceTree = "<group>"; };
 		0C5AFE5120FE188A002B4A54 /* Iglesias.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Iglesias.plist; sourceTree = "<group>"; };
@@ -193,6 +197,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C22206B235C9826002D6513 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0C22206C235C9830002D6513 /* PlistReader.swift */,
+				0C6A661C2143FBC500CC9D57 /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		0C8F749220F8F8B700F9E952 = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +234,8 @@
 		0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */ = {
 			isa = PBXGroup;
 			children = (
+				0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */,
+				0C22206B235C9826002D6513 /* Utils */,
 				0C44E910215912330038442C /* Semana Santa Valladolid.entitlements */,
 				0C8F74AA20F8F8B800F9E952 /* Info.plist */,
 				0CB9B503215B857700D51A1C /* Intents.intentdefinition */,
@@ -254,8 +269,6 @@
 		0C8F74CC20F8F90A00F9E952 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0C8F749E20F8F8B700F9E952 /* AppDelegate.swift */,
-				0C6A661C2143FBC500CC9D57 /* Helper.swift */,
 				0C5E5B7B20F9D5280079F3E4 /* MenuViewController.swift */,
 				0C5E5B7D20F9D7970079F3E4 /* AjustesViewController.swift */,
 				0C5E5B8520FA1D890079F3E4 /* MapaViewController.swift */,
@@ -549,6 +562,7 @@
 			files = (
 				0C5E5B8820FA1D920079F3E4 /* PasosViewController.swift in Sources */,
 				0C6A661D2143FBC500CC9D57 /* Helper.swift in Sources */,
+				0C22206D235C9830002D6513 /* PlistReader.swift in Sources */,
 				0CB9B4FF215B857700D51A1C /* Intents.intentdefinition in Sources */,
 				0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */,
 				0C5E5B7C20F9D5280079F3E4 /* MenuViewController.swift in Sources */,
@@ -593,6 +607,7 @@
 				0CC9FB972158CAD500097F7D /* Procesion.swift in Sources */,
 				0CC9FB992158CAF700097F7D /* Cofradia.swift in Sources */,
 				0CC9FB952158CAD100097F7D /* Dia.swift in Sources */,
+				0C222070235C9876002D6513 /* PlistReader.swift in Sources */,
 				0CC9FB702158C3B500097F7D /* IntentHandler.swift in Sources */,
 				0CC9FB9B2158CAFA00097F7D /* Iglesia.swift in Sources */,
 			);
@@ -606,6 +621,7 @@
 				0CC9FB982158CAD500097F7D /* Procesion.swift in Sources */,
 				0CC9FB9A2158CAF800097F7D /* Cofradia.swift in Sources */,
 				0CC9FB962158CAD200097F7D /* Dia.swift in Sources */,
+				0C222071235C9877002D6513 /* PlistReader.swift in Sources */,
 				0CC9FB7C2158C3B500097F7D /* IntentViewController.swift in Sources */,
 				0CC9FB9C2158CAFA00097F7D /* Iglesia.swift in Sources */,
 			);

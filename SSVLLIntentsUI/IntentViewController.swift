@@ -29,8 +29,6 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
         
         tableView.rowHeight = 100
         
-        Dia.loadDias()
-        
         let date = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
@@ -46,8 +44,6 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
     func configureView(for parameters: Set<INParameter>, of interaction: INInteraction, interactiveBehavior: INUIInteractiveBehavior, context: INUIHostedViewContext, completion: @escaping (Bool, Set<INParameter>, CGSize) -> Void) {
         
         tableView.rowHeight = 30
-        
-        Dia.loadDias()
         
         let date = Date()
         let dateFormatter = DateFormatter()

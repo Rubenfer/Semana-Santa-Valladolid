@@ -10,10 +10,10 @@ import Foundation
 
 class Procesion: Codable {
     
-    var nombre: String!
-    var hora: String!
-    var recorrido: String!
-    var horario: String!
-    var id: Int!
+    let nombre: String
+    let hora: String
+    let recorrido: String
+    let horario: String
+    let id: Int
     
 }
