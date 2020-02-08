@@ -10,97 +10,90 @@ import UIKit
 import IntentsUI
 import StoreKit
 
-class ProcesionesViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITableViewDelegate, UITableViewDataSource {
+class ProcesionesViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var pickerDia: UIPickerView!
     
-    let dias = ["12/04/19":0,"13/04/19":1,"14/04/19":2,"15/04/19":3,"16/04/19":4,"17/04/19":5,"18/04/19":6,"19/04/19":7,"20/04/19":8,"21/04/19":9]
+    let dias = ["03/04/20":0,"04/04/20":1,"05/04/20":2,"06/04/20":3,"07/04/20":4,"08/04/20":5,"09/04/20":6,"10/04/20":7,"11/04/20":8,"12/04/20":9]
     var diaSeleccionado = Dia.dias[0]
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        pickerDia.delegate = self
-        pickerDia.dataSource = self
-        tableView.delegate = self
-        tableView.dataSource = self
-    }
     
     override func viewDidAppear(_ animated: Bool) {
-        
-        let date = Date()
+        selectToday()
+        donateProcesionesHoyInteraction()
+        showMessageConfigureSiriShortcut()
+        requestReview()
+    }
+    
+    func selectToday() {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yy"
-        let hoy = dateFormatter.string(from: date)
+        let hoy = dateFormatter.string(from: Date())
         
         if let hoyIndex = dias[hoy] {
             diaSeleccionado = Dia.dias[hoyIndex]
             pickerDia.selectRow(hoyIndex, inComponent: 0, animated: true)
             tableView.reloadSections([0], with: .fade)
         }
-        
-        if #available(iOS 12.0, *) {
-            donateProcesionesHoyInteraction()
-            if let id = UserDefaults.standard.value(forKey: "procesionesDiaUUID") as? String, let UUID = UUID(uuidString: id) {
-                INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
-                    if let error = error {
-                        print("Error... " + error.localizedDescription)
-                        return
+    }
+    
+    func showMessageConfigureSiriShortcut() {
+        if let id = UserDefaults.standard.string(forKey: "procesionesDiaUUID"), let UUID = UUID(uuidString: id) {
+            INVoiceShortcutCenter.shared.getVoiceShortcut(with: UUID) { shortcut, error in
+                guard error == nil, shortcut == nil else { return }
+                let vecesVisto = UserDefaults.standard.integer(forKey: "vecesVisto")
+                if vecesVisto == 2 || vecesVisto == 10 || vecesVisto % 20 == 0 {
+                    let aviso = UIAlertController(title: "Configurar atajos", message: "¿Quieres que Siri te diga las procesiones del día?", preferredStyle: .alert)
+                    let siBtn = UIAlertAction(title: "¡Sí!", style: .default) { _ in
+                        self.showAddVoiceUI(for: self.procesionesHoyIntent)
                     }
-                    if let _ = shortcut { } else {
-                        if let vecesVisto = UserDefaults.standard.value(forKey: "vecesVisto") as? Int, vecesVisto != 2 && vecesVisto != 10 { } else {
-                            let aviso = UIAlertController(title: "Configurar atajos", message: "¿Quieres que Siri te diga las procesiones del día?", preferredStyle: .alert)
-                            let siBtn = UIAlertAction(title: "¡Sí!", style: .default) { Void in
-                                self.showAddVoiceUI(for: self.procesionesHoyIntent)
-                            }
-                            let noBtn = UIAlertAction(title: "No", style: .cancel, handler: nil)
-                            aviso.addAction(siBtn)
-                            aviso.addAction(noBtn)
-                            DispatchQueue.main.async {
-                                self.present(aviso, animated: true)
-                            }
-                        }
+                    let noBtn = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                    aviso.addAction(siBtn)
+                    aviso.addAction(noBtn)
+                    DispatchQueue.main.async {
+                        self.present(aviso, animated: true)
                     }
                 }
+                UserDefaults.standard.set(vecesVisto+1, forKey: "vecesVisto")
             }
         }
-        
-        // Request review
-        if #available(iOS 10.3, *), UserDefaults.standard.integer(forKey: "contadorReview") == 5 || UserDefaults.standard.integer(forKey: "contadorReview") % 20 == 0 {
-            let twoSecondsFromNow = DispatchTime.now() + 2.0
-            DispatchQueue.main.asyncAfter(deadline: twoSecondsFromNow) {
+    }
+    
+    func requestReview() {
+        if UserDefaults.standard.integer(forKey: "contadorReview") == 5 || UserDefaults.standard.integer(forKey: "contadorReview") % 20 == 0 {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 SKStoreReviewController.requestReview()
             }
         }
-        
     }
     
+}
 
-    // MARK: - TableView & PickerView
+    // MARK: - PickerView
+
+extension ProcesionesViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
+    func numberOfComponents(in pickerView: UIPickerView) -> Int { 1 }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return Dia.dias.count
-    }
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int { Dia.dias.count }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return Dia.dias[row].dia
-    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? { Dia.dias[row].dia }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         diaSeleccionado = Dia.dias[row]
         tableView.reloadSections([0], with: .automatic)
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return diaSeleccionado.procesiones.count
-    }
+}
+
+    // MARK: - TableView
+
+extension ProcesionesViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { diaSeleccionado.procesiones.count }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell! = self.tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
         cell.textLabel?.text = diaSeleccionado.procesiones[indexPath.row].nombre

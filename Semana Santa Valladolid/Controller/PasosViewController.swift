@@ -15,22 +15,15 @@ class PasosViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Pasos"
-        tableView.delegate = self
-        tableView.dataSource = self
-        var count = UserDefaults.standard.integer(forKey: "contadorReview")
-        count += 1
-        UserDefaults.standard.set(count, forKey: "contadorReview")
+        let count = UserDefaults.standard.integer(forKey: "contadorReview")
+        UserDefaults.standard.set(count+1, forKey: "contadorReview")
     }
     
     // MARK: - TableView
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return Cofradia.cofradias.count
-    }
+    func numberOfSections(in tableView: UITableView) -> Int { Cofradia.cofradias.count }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Cofradia.cofradias[section].pasos.count
-    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { Cofradia.cofradias[section].pasos.count }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
@@ -38,8 +31,6 @@ class PasosViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return Cofradia.cofradias[section].nombre
-    }
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? { Cofradia.cofradias[section].nombre }
     
 }

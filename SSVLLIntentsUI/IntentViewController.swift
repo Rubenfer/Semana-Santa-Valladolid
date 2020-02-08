@@ -12,7 +12,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
     
     @IBOutlet weak var tableView: UITableView!
     
-    let dias = ["12/04/19":0,"13/04/19":1,"14/04/19":2,"15/04/19":3,"16/04/19":4,"17/04/19":5,"18/04/19":6,"19/04/19":7,"20/04/19":8,"21/04/19":9]
+    let dias = ["03/04/20":0,"04/04/20":1,"05/04/20":2,"06/04/20":3,"07/04/20":4,"08/04/20":5,"09/04/20":6,"10/04/20":7,"11/04/20":8,"12/04/20":9]
     
     var procesiones = [Procesion]()
     
@@ -59,9 +59,7 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
         
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return procesiones.count
-    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { procesiones.count }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "procesionCell")
@@ -70,8 +68,6 @@ class IntentViewController: UIViewController, INUIHostedViewControlling, UITable
         return cell!
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
-    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat { 80 }
     
 }

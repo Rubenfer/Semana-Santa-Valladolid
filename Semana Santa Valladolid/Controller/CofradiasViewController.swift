@@ -10,31 +10,23 @@ import UIKit
 
 class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     
-    let searchController = UISearchController(searchResultsController: nil)
+    let searchController = UISearchController()
     
-    var cofradias: [Cofradia] {
-        get {
-            if searchController.isSearching() {
-                return Cofradia.cofradias.filter { cofradia in
-                    cofradia.nombre.lowercased().contains(searchController.searchBar.text!.lowercased())
-                }
-            } else {
-                return Cofradia.cofradias
-            }
+    var cofradias: [Cofradia] = [] {
+        didSet {
+            tableView.reloadData()
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Cofradias"
-        searchController.searchResultsUpdater = self as UISearchResultsUpdating
-        searchController.dimsBackgroundDuringPresentation = false
+        cofradias = Cofradia.cofradias
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
         definesPresentationContext = true
-        tableView.tableHeaderView = searchController.searchBar
+        navigationItem.searchController = searchController
         tableView.register(CofradiaCell.self, forCellReuseIdentifier: "cofradiaCell")
-        if #available(iOS 13.0, *) {
-            searchController.searchBar.barTintColor = .systemGray3
-        }
         userActivity = NSUserActivity.verCofradias
         userActivity?.becomeCurrent()
         var count = UserDefaults.standard.integer(forKey: "contadorReview")
@@ -43,23 +35,21 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
     }
     
     func updateSearchResults(for searchController: UISearchController) {
-        filterContentForSearchText(searchText: searchController.searchBar.text!)
+        filterContentForSearchText(searchText: searchController.searchBar.text)
     }
     
-    func filterContentForSearchText(searchText: String, scope: String = "All") {
-        tableView.reloadData()
+    func filterContentForSearchText(searchText: String?) {
+        if let text = searchText, text != "" {
+            cofradias = Cofradia.cofradias.filter { $0.nombre.lowercased().contains(text.lowercased()) }
+        } else {
+            cofradias = Cofradia.cofradias
+        }
     }
     
     
     // MARK: - TableView
     
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cofradias.count
-    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { cofradias.count }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cofradiaCell", for: indexPath) as! CofradiaCell
@@ -77,9 +67,6 @@ class CofradiasViewController: UITableViewController, UISearchResultsUpdating {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat { 100 }
     
-
 }

@@ -26,10 +26,8 @@ extension NSUserActivity {
         let activity = NSUserActivity(activityType: "com.rubenfernandez.Semana-Santa-Valladolid.verCofradias")
         activity.title = "Ver cofradías"
         activity.isEligibleForSearch = true
-        if #available(iOS 12.0, *) {
-            activity.isEligibleForPrediction = true
-            activity.suggestedInvocationPhrase = "Ver cofradías de Valladolid"
-        }
+        activity.isEligibleForPrediction = true
+        activity.suggestedInvocationPhrase = "Ver cofradías de Valladolid"
         return activity
     }
     
@@ -37,10 +35,8 @@ extension NSUserActivity {
         let activity = NSUserActivity(activityType: "com.rubenfernandez.Semana-Santa-Valladolid.verIncidencias")
         activity.title = "Ver incidencias"
         activity.isEligibleForSearch = true
-        if #available(iOS 12.0, *) {
-            activity.isEligibleForPrediction = true
-            activity.suggestedInvocationPhrase = "Ver incidencias en Valladolid"
-        }
+        activity.isEligibleForPrediction = true
+        activity.suggestedInvocationPhrase = "Ver incidencias en Valladolid"
         return activity
     }
     
@@ -48,7 +44,6 @@ extension NSUserActivity {
 
 // MARK: - Intents
 
-@available(iOS 12.0, *)
 extension UIViewController: INUIAddVoiceShortcutViewControllerDelegate, INUIEditVoiceShortcutViewControllerDelegate {
     
     var procesionesHoyIntent: ProcesionesHoyIntent {

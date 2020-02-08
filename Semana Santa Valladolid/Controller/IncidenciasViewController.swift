@@ -11,7 +11,7 @@ import WebKit
 
 class IncidenciasViewController: UIViewController {
     
-    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class IncidenciasViewController: UIViewController {
         title = "Incidencias"
         
         guard let pdf = Bundle.main.url(forResource: "IncidenciasTrafico", withExtension: "pdf") else { return }
-        webView.loadRequest(URLRequest(url: pdf))
+        webView.load(URLRequest(url: pdf))
         
     }
     
