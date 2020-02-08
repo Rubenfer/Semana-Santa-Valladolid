@@ -50,7 +50,7 @@ El ejercicio del Vía Crucis comenzará y finalizará en la Iglesia de Nuestra S
 				<key>horario</key>
 				<string>A las seis de la tarde partirá de la Iglesia Penitencial de la Santa Vera Cruz la Hermandad del Santo Cristo de los Artilleros</string>
 				<key>id</key>
-				<real>12019</real>
+				<integer>3</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -62,7 +62,7 @@ El ejercicio del Vía Crucis comenzará y finalizará en la Iglesia de Nuestra S
 				<key>horario</key>
 				<string>A las siete de la tarde partirá de la Iglesia del Real Monasterio de San Quirce y Santa Julita, la Procesión del Ejercicio Público de las Cinco Llagas, con el &quot;paso&quot;, portado a hombros, &quot;SANTO CRISTO DE LAS CINCO LLAGAS&quot; (Manuel Álvarez, 1548-1563), alumbrado por la Cofradía Penitencial de la Sagrada Pasión de Cristo.</string>
 				<key>id</key>
-				<integer>3</integer>
+				<integer>4</integer>
 			</dict>
 		</array>
 	</dict>
@@ -81,7 +81,7 @@ El ejercicio del Vía Crucis comenzará y finalizará en la Iglesia de Nuestra S
 				<key>horario</key>
 				<string>A las diez y media de la mañana, solemne Bendición de las Palmas por el Emmo. y Rvdmo. Sr. Cardenal Arzobispo de la Diócesis en la Santa Iglesia Metropolitana Catedral.</string>
 				<key>id</key>
-				<integer>4</integer>
+				<integer>5</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -95,7 +95,7 @@ El ejercicio del Vía Crucis comenzará y finalizará en la Iglesia de Nuestra S
 
 A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cruz, el &quot;paso&quot; &quot;LA ENTRADA TRIUNFAL DE JESUS EN JERUSALEN&quot; (Francisco Giralte, s. XVI), acompañado por su cofradía titular, Penitencial de la Santa Vera Cruz, por: Macías Picavea, Plaza de la Libertad, Plaza del Portugalete y Arribas hasta la S.I.M. Catedral, donde se incorporará Su Eminencia Reverendísima el Señor Cardenal Arzobispo y demás autoridades civiles y religiosas, así como directivos de las cofradías vallisoletanas, uniéndose al resto del cortejo procesional.</string>
 				<key>id</key>
-				<integer>5</integer>
+				<integer>6</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -107,7 +107,7 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>horario</key>
 				<string>A las siete de la tarde saldrá de la Iglesia Parroquial de San Martín la Procesión de Regla de la Cofradía del Discípulo Amado y Jesús de Medinaceli, con el “paso” portado “a costal” “JESÚS DE MEDINACELI” (Juan Antonio Blanco, 2012), acompañado de su cofradía titular.</string>
 				<key>id</key>
-				<integer>8</integer>
+				<integer>7</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -119,7 +119,7 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>horario</key>
 				<string>A las nueve de la noche, partirá desde la Iglesia Parroquial de San Agustín (PP. Agustinos) la procesión del “Santísimo Cristo de los Trabajos” (Gregorio Fernández, h. 1610), portado a hombros por la Cofradía de las Siete Palabras</string>
 				<key>id</key>
-				<integer>6</integer>
+				<integer>8</integer>
 			</dict>
 		</array>
 	</dict>
@@ -138,7 +138,7 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>horario</key>
 				<string>A la ocho de la tarde, partirá de la Iglesia Penitencial de la Santa Vera Cruz la Procesión del Santísimo Rosario del Dolor, con los &quot;pasos&quot;: &quot;LA ORACIÓN DEL HUERTO&quot; (Andrés Solanes, h. 1629), &quot;EL SEÑOR ATADO A LA COLUMNA&quot; (Gregorio Fernández, h. 1619), &quot;ECCE-HOMO&quot; (Gregorio Fernández, h. 1620), &quot;CAMINO DEL CALVARIO&quot; (Gregorio Fernández, 1614) &quot;LA CRUCIFIXIÓN DEL SEÑOR&quot; (Taller Vallisoletano, h. 1650) y &quot;NUESTRA SEÑORA DE LA SANTA VERA-CRUZ&quot; (Gregorio Fernández, 1623), acompañados de sus respectivas Cofradías.</string>
 				<key>id</key>
-				<integer>7</integer>
+				<integer>9</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -152,7 +152,7 @@ A las doce de la mañana, partirá de la Iglesia Penitencial de la Santa Vera Cr
 				<key>horario</key>
 				<string>A las diez y media de la noche, saldrá de la Iglesia Parroquial de Santa María la Antigua, la Procesión de la Buena Muerte, con el &quot;paso&quot;, portado a hombros, &quot;CRISTO DEL OLVIDO&quot; (Pedro de Ávila, h.1720), acompañado por la Real y Venerable Cofradía de la Preciosísima Sangre de Nuestro Señor Jesucristo.</string>
 				<key>id</key>
-				<integer>9</integer>
+				<integer>10</integer>
 			</dict>
 		</array>
 	</dict>
@@ -181,7 +181,7 @@ La Cofradía Penitencial de Nuestra Señora de las Angustias regresará por Libr
 
 </string>
 				<key>id</key>
-				<integer>10</integer>
+				<integer>11</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -195,7 +195,7 @@ Regresando por: Alonso Pesquera, Plaza del Colegio de Sta. Cruz, Librería, Plaz
 				<key>horario</key>
 				<string>A las diez y media de la noche, partirá de la Iglesia del Monasterio de Santa Isabel, la Procesión de la Peregrinación de la Promesa, con el &quot;paso&quot; &quot;EL SEÑOR ATADO A LA COLUMNA&quot; (Gregorio Fernández, h.1619), alumbrado por su Hermandad titular.</string>
 				<key>id</key>
-				<integer>11</integer>
+				<integer>12</integer>
 			</dict>
 		</array>
 	</dict>
@@ -214,7 +214,7 @@ Regresando por: Alonso Pesquera, Plaza del Colegio de Sta. Cruz, Librería, Plaz
 				<key>horario</key>
 				<string>A las 19,30 horas, la Hermandad de Nuestro Padre Jesús Atado a la Columna, junto con el Secretariado Diocesano de Pastoral de la Salud, celebrará en la iglesia conventual del Monasterio de Santa Isabel de Hungría un ENCUENTRO DE ORACIÓN CON LOS ENFERMOS ante la imagen del Santísimo Cristo de la Humildad (José Antonio Hernández Navarro, 2004).</string>
 				<key>id</key>
-				<integer>12</integer>
+				<integer>13</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -230,7 +230,7 @@ A lo largo del recorrido estarán señaladas las XIV Estaciones.</string>
 				<key>horario</key>
 				<string>A las ocho y media de la noche, partirá de la Iglesia Penitencial de Nuestro Padre Jesús Nazareno, el VÍA-CRUCIS PROCESIONAL, con los &quot;pasos&quot; &quot;NUESTRO PADRE JESÚS NAZARENO&quot; (Escuela castellana, ultimo tercio del siglo XVII) y &quot;SANTÍSIMO CRISTO DE LA AGONÍA&quot; (Antonio de la Peña, 1684), portados a hombros, acompañados por su Cofradía titular</string>
 				<key>id</key>
-				<integer>13</integer>
+				<integer>14</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -244,7 +244,7 @@ Regresando por: Arribas, Cascajares, Cánovas del Castillo, Regalado, Constituci
 				<key>horario</key>
 				<string>A las once de la noche saldrá de la Iglesia Parroquial de Santiago Apóstol, la Procesión del Santísimo Cristo de las Mercedes, con la Cofradía de las Siete Palabras alumbrando a su talla titular &quot;SANTÍSIMO CRISTO DE LAS MERCEDES&quot; (Pompeyo Leoni, segunda mitad Siglo XVI) portada a hombros.</string>
 				<key>id</key>
-				<integer>16</integer>
+				<integer>15</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -259,7 +259,7 @@ En la Iglesia Penitencial de la Santa Vera-Cruz, la Iglesia Conventual de Santa 
 				<key>horario</key>
 				<string>A las diez y media de la noche, tras la celebración de una Catequesis Penitencial en la Iglesia Conventual de Nuestra Señora de Porta-Coeli (MM. Calderonas), se iniciará la Procesión del Arrepentimiento, con la Cofradía de Nuestro Padre Jesús Resucitado, María Santísima de la Alegría y Las Lagrimas de San Pedro, y representaciones de las demás Cofradías acompañando al &quot;paso&quot; &quot;LAS LAGRIMAS DE SAN PEDRO&quot; (Obra atribuida a Pedro de Ávila h. 1720).</string>
 				<key>id</key>
-				<integer>15</integer>
+				<integer>16</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -359,7 +359,7 @@ Finalizado el Acto de Penitencia, continuara por: Cascajares, Cánovas del Casti
 				<key>horario</key>
 				<string>A las siete menos veinte de la tarde la Cofradía de la Orden Franciscana seglar, la Santa Cruz Desnuda celebrará un Acto Penitencial ante el Santísimo en la Iglesia Conventual de Santa Isabel de Hungría, para a su término iniciar la procesión a las siete de la tarde, con los “pasos” “SANTISIMO CRISTO YACENTE” (Escuela Alonso Berruguete, anterior a 1550), “NUESTRA SEÑORA DE LA SOLEDAD” (Escuela Castellana de autor anónimo, primer tercio s. XVII) y “LA SANTA CRUZ” (Anonimo, s. XIX), portados a hombros por la Comisaria de San Diego.</string>
 				<key>id</key>
-				<integer>47</integer>
+				<integer>23</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -385,7 +385,7 @@ Una vez finalizado el Acto la cofradía continuara por: Arribas, Cardenal Cos, A
 				<key>horario</key>
 				<string>A las siete de la tarde partirá de la Iglesia Parroquial de San Pedro Apóstol, la Procesión de la Sagrada Cena, con los &quot;pasos&quot; &quot;JESÚS DE LA ESPERANZA&quot; (Juan Guraya Urrutia, 1946) y &quot;LA SAGRADA CENA&quot; (Juan Guraya Urrutia, 1958), acompañados de su Cofradía titular.</string>
 				<key>id</key>
-				<integer>23</integer>
+				<integer>25</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -399,7 +399,7 @@ Reanudándose la procesión por: Cascajares, Cánovas del Castillo, Fuente Dorad
 				<key>horario</key>
 				<string>A las siete de la tarde, partirá de la Real Iglesia Parroquial de San Miguel y San Julián, la procesión La Amargura en el Monte Calvario, con el “paso” “EL MONTE CALVARIO” (Cristo Crucificado-Cristo de la Buena Muerte, atribuido a Juan de Juni, siglo XVI y el resto de las imágenes Juan Alonso Villambrille y Ron s. XVIII), alumbrado por la cofradía de El Descendimiento y Sto. Cristo de la Buena Muerte.</string>
 				<key>id</key>
-				<integer>46</integer>
+				<integer>26</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -413,7 +413,7 @@ Regresando por: Pedro Niño, San Lorenzo, Plaza de Santa Ana, María de Molina, 
 				<key>horario</key>
 				<string>A las siete y media de la tarde partirá de la Iglesia Conventual de Ntra. Sra. de Porta-Coeli (MM Calderonas) la Cofradía de Ntro. Padre Jesús Resucitado, María Stma. de la Alegría y Las Lágrimas de San Pedro, acompañando al ¨paso” “LAS LAGRIMAS DE SAN PEDRO” (Obra atribuida a Pedro de Ávila h. 1720).</string>
 				<key>id</key>
-				<integer>45</integer>
+				<integer>27</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -427,7 +427,7 @@ Finalizado el Acto continuaran por: Cascajares, Núñez de Arce, López Gómez, 
 				<key>horario</key>
 				<string>A las ocho de la tarde partirá de la Iglesia Conventual del Monasterio del Corpus Christi, con los “pasos” “LA ORACION DEL HUERTO” (Miguel Ángel Tapia, 2002) y “EL PRENDIMIENTO” (Miguel Ángel Tapia 1995-2011), alumbrados por la Cofradía Penitencial de la Oración del Huerto y San Pascual Bailón.</string>
 				<key>id</key>
-				<integer>44</integer>
+				<integer>28</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -441,11 +441,11 @@ Reanudándose la Procesión por: Arribas, Catedral, Plaza del Portugalete, Plaza
 				<key>horario</key>
 				<string>A las ocho de la tarde, partirá de la Iglesia del Real Monasterio de San Quirce y Santa Julita, la Procesión de Oración y Sacrificio, con los &quot;pasos&quot; &quot;NUESTRO PADRE JESUS FLAGELADO&quot; (atribuido a Antonio Ribera o Francisco Diez Tudanca, h. 1650), “NUESTRO PADRE JESUS CON LA CRUZ A CUESTAS” (Gregorio Fernández, 1614), &quot;SANTISIMO CRISTO DEL PERDON&quot; (Bernardo del Rincón, 1656) y “SANTO CRISTO DEL CALVARIO” (anónimo castellano, mediados del s. XVII), alumbrados por su cofradía titular, la Cofradía Penitencial de la Sagrada Pasión de Cristo.</string>
 				<key>id</key>
-				<integer>25</integer>
+				<integer>29</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
-				<string>Procesión del Santísimo Cirsto Despojado y Nuestra Señora de la Amargura</string>
+				<string>Procesión del Santísimo Cristo Despojado y Nuestra Señora de la Amargura</string>
 				<key>hora</key>
 				<string>20:30</string>
 				<key>recorrido</key>
@@ -453,7 +453,7 @@ Reanudándose la Procesión por: Arribas, Catedral, Plaza del Portugalete, Plaza
 				<key>horario</key>
 				<string>A las 20:30 horas, y previa celebración de un Acto Penitencial, se iniciará en la Iglesia Parroquial de San Andrés Apóstol, la Procesión del Santísimo Cristo Despojado, Cristo camino del Calvario y Nuestra Señora de la Amargura, con los &quot;pasos&quot;, &quot;SANTISIMO CRISTO DESPOJADO&quot; (José Antonio Hernández Navarro, 1993) y “NUESTRA SEÑORA DE LA AMARGURA (José Antonio Hernández Navarro, 2000) portados a hombros y alumbrados por su cofradía titular, Real Cofradía Penitencial del Santísimo Cristo Despojado, Cristo Camino del Calvario y Nuestra Señora de la Amargura.</string>
 				<key>id</key>
-				<integer>26</integer>
+				<integer>30</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -467,7 +467,7 @@ Regresando por Cascajares, Cánovas del Castillo, Regalado, Constitución, Santi
 				<key>horario</key>
 				<string>A las once de la noche, partirá de la Iglesia Penitencial de Nuestro Padre Jesús Nazareno, la Procesión de la Pere¬grinación del Silencio, con el &quot;paso&quot; &quot;CRISTO DE LA AGONÍA&quot; (Juan Antonio de la Peña, 1684), portado a hombros, alumbrado por la Cofradía Penitencial de Nuestro Padre Jesús Nazareno.</string>
 				<key>id</key>
-				<integer>27</integer>
+				<integer>31</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -479,7 +479,7 @@ Regresando por Cascajares, Cánovas del Castillo, Regalado, Constitución, Santi
 				<key>horario</key>
 				<string>A las once y media de la noche se iniciará en la Iglesia Penitencial de la Santa Vera Cruz, la Procesión de Regla de la Cofradía Penitencial de la Santa Vera Cruz, con los “pasos”: “ORACIÓN DEL HUERTO” (Andrés Solanes, h. 1629), “EL SEÑOR ATADO A LA COLUMNA” (Gregorio Fernández, h. 1619), “ECCE-HOMO” (Gregorio Fernández, h. 1620), “EL DESCENDIMIENTO” (Gregorio Fernández, h. 1623) y “DOLOROSA DE LA SANTA VERA CRUZ” (Gregorio Fernández h. 1623), alumbrados por la Cofradía Penitencial de la Santa Vera Cruz.</string>
 				<key>id</key>
-				<integer>28</integer>
+				<integer>32</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -492,7 +492,7 @@ Finalizado el acto, saliendo por la Puerta de Santa María, continuará por Ca
 				<key>horario</key>
 				<string>A las doce menos cuarto de la noche, se iniciará en la Iglesia Conventual del Real Monasterio de San Joaquín y Santa Ana, la Procesión del “VERUM CORPUS”, con el &quot;paso&quot; &quot;CRISTO YACENTE&quot; (Gregorio Fernández, obra de taller, 1631-1636), portado a hombros por la Cofradía del Santo Entierro.</string>
 				<key>id</key>
-				<integer>30</integer>
+				<integer>33</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -504,7 +504,7 @@ Finalizado el acto, saliendo por la Puerta de Santa María, continuará por Ca
 				<key>horario</key>
 				<string>A las veintitrés cincuenta y cinco de la noche se iniciará en la Real Iglesia Parroquial de San Miguel y San Julián, la Procesión de Cristo al Humilladero, con el “paso” “CRISTO YACENTE” (Gregorio Fernández, h. 1630), portado a hombros y alumbrado por la Cofradía El Descendimiento y Santo Cristo de la Buena Muerte.</string>
 				<key>id</key>
-				<integer>29</integer>
+				<integer>34</integer>
 			</dict>
 		</array>
 	</dict>
@@ -523,7 +523,7 @@ Finalizado el acto, saliendo por la Puerta de Santa María, continuará por Ca
 				<key>horario</key>
 				<string>A la una de la madrugada, desde la Iglesia Penitencial de Nuestra Señora de las Angustias, partirá la Procesión de Sacrificio y Penitencia, con los &quot;pasos&quot; &quot;CRISTO EN LA CRUZ&quot;, conocido como de los Carboneros, (Francisco del Rincón, inicio del siglo XVII),”SAN JUAN Y SANTA MARÍA MAGDALENA AL PIE DE LA CRUZ” (Gregorio Fernández, h. 1621), &quot;CRISTO YACENTE&quot; (Taller Vallisoletano, siglo XVII), y &quot;NUESTRA SEÑORA DE LAS ANGUSTIAS&quot; (Juan de Juni, posterior a 1561), todos ellos portados a hombros y alumbrados por su Cofradía titular, Nuestra Señora de las Angustias.</string>
 				<key>id</key>
-				<integer>31</integer>
+				<integer>35</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -536,7 +536,7 @@ A lo largo del recorrido, estarán señaladas las XV Estaciones del Vía-Crucis.
 				<key>horario</key>
 				<string>A las ocho de la mañana, se iniciará en la Iglesia Parroquial de la Inmaculada Concepción (PP. Franciscanos), la Procesión del Vía-Crucis con el &quot;paso&quot; &quot;LA SANTA CRUZ DESNUDA&quot; (Francisco Fernández León, 1993), acompañado de su Cofradía titular de la Orden Franciscana Seglar.</string>
 				<key>id</key>
-				<integer>32</integer>
+				<integer>36</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -550,7 +550,7 @@ La Cofradía partirá con su imagen titular del “Santísimo Cristo de las Merc
 				<key>horario</key>
 				<string>A las ocho y media de la mañana, el Pregonero del Sermón de las Siete Palabras, que ha de celebrarse a las doce del mediodía en la Plaza Mayor, recogerá en el Palacio Arzobispal y de manos del Emmo. y Rvdmo. Sr. Cardenal Arzobispo el pergamino del Pregón que será leído en diferentes puntos de la ciudad.</string>
 				<key>id</key>
-				<integer>33</integer>
+				<integer>37</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -564,7 +564,7 @@ La Cofradía partirá con su imagen titular del “Santísimo Cristo de las Merc
 
 Los pasos correspondientes a las Siete Palabras, estarán ubicados en la Acera de San Francisco, a ambos lados del montaje del paso “Cristo entre los dos ladrones”</string>
 				<key>id</key>
-				<integer>34</integer>
+				<integer>38</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -576,7 +576,7 @@ Los pasos correspondientes a las Siete Palabras, estarán ubicados en la Acera d
 				<key>horario</key>
 				<string>A las cinco de la tarde, en la Santa Iglesia Catedral, tendrán lugar la CELEBRACION DE LA PASION DEL SEÑOR.</string>
 				<key>id</key>
-				<integer>35</integer>
+				<integer>39</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -590,7 +590,7 @@ En la Iglesia Penitencial de Nuestra Señora de las Angustias a la llegada de su
 				<key>horario</key>
 				<string>A las siete y media de la tarde, desde la Iglesia Penitencial de Nuestra Señora de las Angustias, partirá la Procesión General de la Sagrada Pasión del Redentor, representada por treinta y tres &quot;pasos&quot;, alumbrados por las veinte Cofradías vallisoletanas.</string>
 				<key>id</key>
-				<integer>36</integer>
+				<integer>40</integer>
 			</dict>
 		</array>
 	</dict>
@@ -609,7 +609,7 @@ En la Iglesia Penitencial de Nuestra Señora de las Angustias a la llegada de su
 				<key>horario</key>
 				<string>En la madrugada del día 31 de marzo, media hora después de finalizada la Salve Solemne con la que se cierra la Procesión General, saldrá de la Iglesia Penitencial de Nuestra Señora de las Angustias, la Procesión de la Soledad, con el &quot;paso&quot; &quot;NUESTRA SEÑORA DE LAS ANGUSTIAS&quot; (Juan de Juni, posterior a 1561), acompañado de su Cofradía titular.</string>
 				<key>id</key>
-				<integer>38</integer>
+				<integer>41</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -622,11 +622,11 @@ En la Iglesia Penitencial de Nuestra Señora de las Angustias a la llegada de su
 				<string>A las siete de la tarde en la Iglesia Penitencial de la Santa Vera Cruz, se celebrará el Acto conmemorativo de la PROCLAMACIÓN DE LA SANTÍSIMA VIRGEN COMO REINA DEL DOLOR.
 Hará el Ofrecimiento de los Dolores de Valladolid el Excmo. y Rvdmo. Sr. D. Luis Javier Argüello García, Obispo Auxiliar de la Diócesis de Valladolid</string>
 				<key>id</key>
-				<integer>39</integer>
+				<integer>42</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
-				<string>Santo Entienrro de Cristo</string>
+				<string>Santo Entierro de Cristo</string>
 				<key>hora</key>
 				<string>20:00</string>
 				<key>recorrido</key>
@@ -634,7 +634,7 @@ Hará el Ofrecimiento de los Dolores de Valladolid el Excmo. y Rvdmo. Sr. D. Lui
 				<key>horario</key>
 				<string>A las ocho de la noche, dará comienzo el “Santo Entierro de Cristo”. Desde la Iglesia Conventual del Real Monasterio de San Joaquín y Santa Ana, partirá la Cofradía del Santo Entierro con su imagen titular &quot;CRISTO YACENTE&quot; (Gregorio Fernández, obra de taller, 1631-1636) portada a hombros por la Cofradía del Santo Entierro.</string>
 				<key>id</key>
-				<integer>40</integer>
+				<integer>43</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -646,7 +646,7 @@ Hará el Ofrecimiento de los Dolores de Valladolid el Excmo. y Rvdmo. Sr. D. Lui
 				<key>horario</key>
 				<string>A las once de la noche, tendrá lugar en la Santa Iglesia Catedral, la VIGILIA PASCUAL.</string>
 				<key>id</key>
-				<integer>41</integer>
+				<integer>44</integer>
 			</dict>
 		</array>
 	</dict>
@@ -669,7 +669,7 @@ RECORRIDO: San Benito, Plaza de la Rinconada, Cebadería, Plaza del Corrillo, Es
 				<key>horario</key>
 				<string>A las diez y media de la mañana, saldrá de la Iglesia Conventual de Ntra. Sra. de Porta-Coeli (MM. Calderonas), la Cofradía de Nuestro Padre Jesús Resucitado, María Santísima de la Alegría y Las lágrimas de San Pedro, con el &quot;paso&quot; &quot;NUESTRO PADRE JESÚS RESUCITADO&quot; (Ricardo Flecha, 1994).</string>
 				<key>id</key>
-				<integer>42</integer>
+				<integer>45</integer>
 			</dict>
 			<dict>
 				<key>nombre</key>
@@ -689,7 +689,7 @@ Igualmente, la Cofradía de Ntro. Padre Jesús Resucitado, María Stma. de la Al
 				<string>A las once de la mañana, se celebrará en la Santa Iglesia Catedral, una Misa Solemne, presidida por el Sr. Cardenal Arzobispo, con la participación de las Cofradías de Ntro. Padre Jesús Resucitado, María Stma. de la Alegría y Las Lágrimas de San Pedro y la del Sto. Sepulcro y del Stmo. Cristo del Consuelo.
 Al finalizar la Eucaristía será impartida la Bendición Papal.</string>
 				<key>id</key>
-				<integer>43</integer>
+				<integer>46</integer>
 			</dict>
 		</array>
 	</dict>

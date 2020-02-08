@@ -17,9 +17,9 @@ La Cofradía tuvo como primera sede la Iglesia de San Felipe Neri, posteriorment
 Cabe destacar entre sus actividades la exaltación de la Eucaristía el día antes del Corpus Christi. Su principal fiesta religiosa es el Corpus Christi y el Jueves Santo, día en el cual alumbra en la Procesión de la Cena a sus pasos Jesús de la Esperanza y La Sagrada Cena.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>14</integer>
-			<integer>23</integer>
-			<integer>36</integer>
+			<integer>1</integer>
+			<integer>25</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -55,9 +55,9 @@ La Cofradía celebra durante la Cuaresma un Triduo en honor de la Oración del H
 Asimismo, acompañan a las Hermanas Dominicas en diversas celebraciones dentro del Monasterio, como son la Solemnidad del Corpus Christi, la Festividad de Santo Domingo de Guzmán y la Novena a Nuestra Señora del Rosario.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>7</integer>
-			<integer>24</integer>
-			<integer>36</integer>
+			<integer>9</integer>
+			<integer>28</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -78,10 +78,10 @@ La primera vez que se cita a la Cofradía también con el nombre de Nuestra Señ
 En 1960 fijo su sede en la iglesia de Santiago Apóstol de Valladolid, al igual que en su tiempo lo hizo la antigua Cofradía, hasta 1986 en que se traslada a la iglesia conventual de Nuestra Señora de Porta-Coeli de las RR. MM. Calderonas siendo esta desde entonces su sede.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>15</integer>
-			<integer>24</integer>
-			<integer>36</integer>
-			<integer>42</integer>
+			<integer>16</integer>
+			<integer>27</integer>
+			<integer>40</integer>
+			<integer>45</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -117,9 +117,9 @@ En el año 1998 la Hermandad se ve obligada a tener que abandonar la Iglesia de 
 Culminando una vieja aspiración de la Hermandad en el año 2003, la Hermandad adquiere una Imagen en propiedad, ratificada por el Arzobispo, obra del reconocido imaginero murciano José Antonio Hernández Navarro, que recoge los instantes previos a la Flagelación de Nuestro Señor, cubriendo el paso en la Procesión del Viernes Santo de los “Preparativos para la Flagelación”, recibiendo culto bajo la advocación de Santísimo Cristo de la Humildad.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>7</integer>
-			<integer>11</integer>
-			<integer>36</integer>
+			<integer>9</integer>
+			<integer>12</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -142,9 +142,9 @@ Durante unos años los artilleros siguieron alumbrando el Ecce Homo de la antigu
 Durante unos años los artilleros siguieron alumbrando el Ecce Homo de la antigua Iglesia de San Antón, pero por el mal estado de la misma solicitaron sacar el Ecce-Homo de Gregorio Fernández, propiedad de la Vera Cruz, y así lo hicieron desde 1944 a 1957 lo sacaron con tres sayones, año en el cual el cabildo general toma la decisión de suprimir los sayones para realzar mas la figura central del Cristo de la Caña</string>
 		<key>procesiones</key>
 		<array>
-			<integer>7</integer>
-			<integer>36</integer>
-			<integer>12019</integer>
+			<integer>3</integer>
+			<integer>9</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -165,9 +165,9 @@ El 30 de junio de 1693 se traslada la imagen de N.P. Jesús Nazareno en procesi�
 En 1731 decaen las cofradías ya que por los problemas suscitados en horarios de salida y de recorridos, los alcaldes del crimen, ante la desobediencia que se hacían de los mandamientos de las audiencias trataron de refundir todas las procesiones en una. Ese año solo salió la procesión del Nazareno. Esta decadencia continuó hasta 1777. La Cofradía de Jesús Nazareno siempre destaco por su igual y armónico atuendo. El 23 de abril de 1842 los alcaldes Vito Zerdeño y Tomas Martín se vieron obligados a entregar al Museo de Bellas Artes, los ocho sayones del paso del Despojo y el paso Grande del Crucificado, hoy Sed tengo. Estos sayones y paso están actualmente bajo la custodia del Museo Nacional de Escultura. Su iglesia sufrió un incendio en 1799. Es característica su forma de desfilar con las manos entrecruzadas en el pecho.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>13</integer>
-			<integer>27</integer>
-			<integer>36</integer>
+			<integer>14</integer>
+			<integer>31</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -196,9 +196,10 @@ En el año 2016 añade a su denominación el título de REAL concedido por la Ca
 En la actualidad la cofradía cuenta con unos 450 cofrades.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>7</integer>
-			<integer>26</integer>
-			<integer>36</integer>
+			<integer>9</integer>
+			<integer>11</integer>
+			<integer>30</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -224,9 +225,9 @@ En 1954 se traslada junto con la imagen del Cristo del Perdón a la Iglesia de S
 El 23 de octubre de 1993 recuperado su nombre y los documentos que lo atestiguan se trasladan a la Iglesia del Real Monasterio de San Quirce y Santa Julita. A parte de la fiesta del 29 de agosto Degollación de San Juan Bautista celebro el 15 de septiembre, festividad de Los Dolores de la Virgen, a su patrona Nuestra Señora María Santísima del La Pasión.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>3</integer>
-			<integer>25</integer>
-			<integer>36</integer>
+			<integer>4</integer>
+			<integer>29</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -250,7 +251,7 @@ Actualmente la Cofradía se encuentra abierta a todos los fieles que tengan o no
 		<array>
 			<integer>2</integer>
 			<integer>24</integer>
-			<integer>36</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -281,12 +282,12 @@ Durante la Cuaresma se realizan triduos al Santo Cristo de las Siete Palabras en
 En 1932 la Cofradía empezó a organizar el Ejercicio o Sermón de las Siete Palabras en la Catedral. En 1943 se traslada a plaza Mayor, que cada Viernes Santo a mediodía se transforma en un escenario del siglo XVI en el que un sacerdote reflexiona sobre las siete palabras que Cristo pronunció en la Cruz, delante de los respectivos pasos que las ilustran. Desde 1944, el Sermón viene precedido de un pregón a caballo que es proclamado a lo largo de toda la mañana en distintos puntos de la ciudad.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>6</integer>
-			<integer>7</integer>
-			<integer>16</integer>
-			<integer>33</integer>
-			<integer>34</integer>
-			<integer>36</integer>
+			<integer>8</integer>
+			<integer>9</integer>
+			<integer>15</integer>
+			<integer>37</integer>
+			<integer>38</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -316,8 +317,7 @@ Actualmente la hermandad se compone de miembros de la comunidad universitaria au
 		<key>procesiones</key>
 		<array>
 			<integer>20</integer>
-			<integer>36</integer>
-			<integer>37</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -341,9 +341,9 @@ La Cofradía acabada la Guerra Civil nombró cofrades a los caballeros mutilados
 En el año 2013 la casa real, concede a la cofradía el título de Real, pasando a llamarse desde entonces Real y Venerable Cofradía de la Preciosísima Sangre de Ntro. Señor Jesucristo</string>
 		<key>procesiones</key>
 		<array>
-			<integer>9</integer>
+			<integer>10</integer>
 			<integer>22</integer>
-			<integer>36</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -368,8 +368,8 @@ En 2014, admitida en la Junta de Cofradías, el Arzobispado les concedió su pro
 En el año 2017 la cofradía establece su sede en la Parroquia de San Martín y San Benito el Viejo</string>
 		<key>procesiones</key>
 		<array>
-			<integer>8</integer>
-			<integer>36</integer>
+			<integer>7</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -391,9 +391,9 @@ Desde 1994 retorna la Procesión de Cristo al Humilladero que realizaba la Cofra
 Celebra dos fiestas religiosas: un triduo al Santo Cristo de la Buena Muerte, unos días antes de la Semana de Pasión en la Iglesia de San Miguel y San Julian, y un quinario dedicado a la Pasión de Nuestro Señor que tiene lugar en la Vera Cruz.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>24</integer>
-			<integer>29</integer>
-			<integer>36</integer>
+			<integer>26</integer>
+			<integer>34</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -416,10 +416,10 @@ La más importante reliquia que guarda la Vera-Cruz, es un pedazo del Santo made
 El suceso más importante y dramático vivido por la Cofradía fue la pérdida del archivo en el incendio que afectó al templo Penitencial, acaecido el 24 de abril de 1806. Durante las obras de restauración de la Iglesia, las imágenes procesionales, que no sufrieron daño alguno, encontraron asilo en la Iglesia Conventual de San Francisco.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>5</integer>
-			<integer>7</integer>
-			<integer>28</integer>
-			<integer>36</integer>
+			<integer>6</integer>
+			<integer>9</integer>
+			<integer>32</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -446,7 +446,7 @@ La Cofradía ha seguido ayudando al necesitado especialmente, a los reos liberad
 		<array>
 			<integer>17</integer>
 			<integer>22</integer>
-			<integer>36</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -472,9 +472,9 @@ En 1835 al decretarse la exclaustración de las órdenes religiosas la estableci
 En 1924 desfilan las terciarias tras el Cristo del Sepulcro. En 1978 Su Santidad Pablo VI ratifica una nueva regla de la orden pasando a denominarse Orden Franciscana Seglar.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>26</integer>
-			<integer>32</integer>
+			<integer>23</integer>
 			<integer>36</integer>
+			<integer>40</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -498,10 +498,9 @@ El último viernes de Cuaresma (Viernes de Dolores) realiza el Ejercicio del Via
 Desde 1991 realiza en la noche del Sábado Santo el emotivo acto del Traslado del Santo Cristo Yacente, que recorre la plaza de Santa Ana portando a hombros la Sagrada Imagen desde la iglesia a la clausura del Real Monasterio. Después de varios años en los que el recorrido se amplía por las calles aledañas a la plaza, finalmente en 2015, el acto procesional pasa a denominarse Santo Entierro de Cristo, con la idea de convertirse en una representación procesional del Entierro de Jesucristo, en este día en que la Iglesia permanece junto al sepulcro del Señor.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>1</integer>
-			<integer>30</integer>
-			<integer>36</integer>
+			<integer>33</integer>
 			<integer>40</integer>
+			<integer>43</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -527,8 +526,8 @@ En el año 2008 adquieren una nueva talla de un Cristo Yacente, para su culto, a
 		<key>procesiones</key>
 		<array>
 			<integer>18</integer>
-			<integer>36</integer>
-			<integer>42</integer>
+			<integer>40</integer>
+			<integer>45</integer>
 		</array>
 		<key>pasos</key>
 		<array>
@@ -555,10 +554,10 @@ A lo largo del siglo XIX la Cofradía experimenta una prolongada crisis como con
 Como señala la vigente Regla la Cofradía proyectada al futuro es respetuosa con su tradición cuando dice que la cofradía reconoce el especial valor que, como expresión de su primigenio espíritu, tienen los capítulos de su Regla de 1569, para inspirar su comportamiento en el presente, y formalmente los declara como dignos de respeto por todos los cofrades y de aplicación directa en cuanto ello pudiere ser posible.</string>
 		<key>procesiones</key>
 		<array>
-			<integer>10</integer>
-			<integer>31</integer>
-			<integer>36</integer>
-			<integer>38</integer>
+			<integer>11</integer>
+			<integer>35</integer>
+			<integer>40</integer>
+			<integer>41</integer>
 		</array>
 		<key>pasos</key>
 		<array>
