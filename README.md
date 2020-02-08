@@ -4,7 +4,7 @@ Gracias a esta aplicación podrás tener en tu móvil la información sobre la S
 
 ## ¿Cómo instalar la app?
 
-Puedes instalar la aplicación directamente desde la App Store o instalando tu mismo esta versión a través de Xcode.
+Puedes instalar la aplicación directamente desde la [App Store](https://apps.apple.com/app/semana-santavalladolid/id1303047750) o instalando tu mismo esta versión a través de Xcode.
 
 
 ### ¿Cómo colaborar?
@@ -17,4 +17,4 @@ Si quieres modificar algún dato erróneo sobre las procesiones o añadir nuevas
 
 ### Créditos
 
-Los datos de la aplicación se obtienen del Ayuntamiento de Valladolid y de la Junta de Cofradías.
+Los datos de la aplicación se obtienen del Ayuntamiento de Valladolid, de la Junta de Cofradías y de ValladolidCofrade.
