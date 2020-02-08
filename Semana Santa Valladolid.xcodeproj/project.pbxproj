@@ -27,8 +27,6 @@
 		0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A220F8F8B700F9E952 /* Main.storyboard */; };
 		0C8F74A620F8F8B800F9E952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A520F8F8B800F9E952 /* Assets.xcassets */; };
 		0C8F74A920F8F8B800F9E952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74A720F8F8B800F9E952 /* LaunchScreen.storyboard */; };
-		0C8F74B420F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74B320F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift */; };
-		0C8F74BF20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */; };
 		0C8F74D220F8FF1D00F9E952 /* Dias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D020F8FF1D00F9E952 /* Dias.plist */; };
 		0C8F74D320F8FF1D00F9E952 /* Cofradias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */; };
 		0C8F74D520F90BF600F9E952 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8F74D420F90BF600F9E952 /* Dia.swift */; };
@@ -59,24 +57,9 @@
 		0CC9FBA22158CD6700097F7D /* Iglesias.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5AFE5120FE188A002B4A54 /* Iglesias.plist */; };
 		0CCE5C3E225CA14F005FD258 /* IncidenciasTrafico.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCE5C3D225CA14F005FD258 /* IncidenciasTrafico.pdf */; };
 		0CCE5C40225CA162005FD258 /* IncidenciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCE5C3F225CA162005FD258 /* IncidenciasViewController.swift */; };
-		0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C8F74B020F8F8B800F9E952 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C8F749320F8F8B700F9E952 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C8F749A20F8F8B700F9E952;
-			remoteInfo = "Semana Santa Valladolid";
-		};
-		0C8F74BB20F8F8B800F9E952 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C8F749320F8F8B700F9E952 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C8F749A20F8F8B700F9E952;
-			remoteInfo = "Semana Santa Valladolid";
-		};
 		0CC9FB812158C3B500097F7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0C8F749320F8F8B700F9E952 /* Project object */;
@@ -131,12 +114,6 @@
 		0C8F74A520F8F8B800F9E952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C8F74A820F8F8B800F9E952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8F74AA20F8F8B800F9E952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C8F74AF20F8F8B800F9E952 /* Semana Santa ValladolidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semana Santa ValladolidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C8F74B320F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana_Santa_ValladolidTests.swift; sourceTree = "<group>"; };
-		0C8F74B520F8F8B800F9E952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semana Santa ValladolidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana_Santa_ValladolidUITests.swift; sourceTree = "<group>"; };
-		0C8F74C020F8F8B800F9E952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C8F74D020F8FF1D00F9E952 /* Dias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dias.plist; sourceTree = "<group>"; };
 		0C8F74D120F8FF1D00F9E952 /* Cofradias.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cofradias.plist; sourceTree = "<group>"; };
 		0C8F74D420F90BF600F9E952 /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
@@ -154,25 +131,10 @@
 		0CC9FB802158C3B500097F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCE5C3D225CA14F005FD258 /* IncidenciasTrafico.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IncidenciasTrafico.pdf; sourceTree = "<group>"; };
 		0CCE5C3F225CA162005FD258 /* IncidenciasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidenciasViewController.swift; sourceTree = "<group>"; };
-		0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C8F749820F8F8B700F9E952 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C8F74AC20F8F8B800F9E952 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C8F74B720F8F8B800F9E952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,8 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				0C8F749D20F8F8B700F9E952 /* Semana Santa Valladolid */,
-				0C8F74B220F8F8B800F9E952 /* Semana Santa ValladolidTests */,
-				0C8F74BD20F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
 				0CC9FB6E2158C3B500097F7D /* SSVLLIntents */,
 				0CC9FB7A2158C3B500097F7D /* SSVLLIntentsUI */,
 				0CC9FB772158C3B500097F7D /* Frameworks */,
@@ -223,8 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				0C8F749B20F8F8B700F9E952 /* Semana Santa Valladolid.app */,
-				0C8F74AF20F8F8B800F9E952 /* Semana Santa ValladolidTests.xctest */,
-				0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */,
 				0CC9FB6D2158C3B500097F7D /* SSVLLIntents.appex */,
 				0CC9FB762158C3B500097F7D /* SSVLLIntentsUI.appex */,
 			);
@@ -245,25 +203,6 @@
 				0C8F74CF20F8FF0300F9E952 /* Support Files */,
 			);
 			path = "Semana Santa Valladolid";
-			sourceTree = "<group>";
-		};
-		0C8F74B220F8F8B800F9E952 /* Semana Santa ValladolidTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C8F74B320F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift */,
-				0C8F74B520F8F8B800F9E952 /* Info.plist */,
-			);
-			path = "Semana Santa ValladolidTests";
-			sourceTree = "<group>";
-		};
-		0C8F74BD20F8F8B800F9E952 /* Semana Santa ValladolidUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C8F74BE20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift */,
-				0CE635DE20FBA5E000A85607 /* SnapshotHelper.swift */,
-				0C8F74C020F8F8B800F9E952 /* Info.plist */,
-			);
-			path = "Semana Santa ValladolidUITests";
 			sourceTree = "<group>";
 		};
 		0C8F74CC20F8F90A00F9E952 /* Controller */ = {
@@ -367,42 +306,6 @@
 			productReference = 0C8F749B20F8F8B700F9E952 /* Semana Santa Valladolid.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C8F74AE20F8F8B800F9E952 /* Semana Santa ValladolidTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C8F74C620F8F8B800F9E952 /* Build configuration list for PBXNativeTarget "Semana Santa ValladolidTests" */;
-			buildPhases = (
-				0C8F74AB20F8F8B800F9E952 /* Sources */,
-				0C8F74AC20F8F8B800F9E952 /* Frameworks */,
-				0C8F74AD20F8F8B800F9E952 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C8F74B120F8F8B800F9E952 /* PBXTargetDependency */,
-			);
-			name = "Semana Santa ValladolidTests";
-			productName = "Semana Santa ValladolidTests";
-			productReference = 0C8F74AF20F8F8B800F9E952 /* Semana Santa ValladolidTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0C8F74B920F8F8B800F9E952 /* Semana Santa ValladolidUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C8F74C920F8F8B800F9E952 /* Build configuration list for PBXNativeTarget "Semana Santa ValladolidUITests" */;
-			buildPhases = (
-				0C8F74B620F8F8B800F9E952 /* Sources */,
-				0C8F74B720F8F8B800F9E952 /* Frameworks */,
-				0C8F74B820F8F8B800F9E952 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C8F74BC20F8F8B800F9E952 /* PBXTargetDependency */,
-			);
-			name = "Semana Santa ValladolidUITests";
-			productName = "Semana Santa ValladolidUITests";
-			productReference = 0C8F74BA20F8F8B800F9E952 /* Semana Santa ValladolidUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		0CC9FB6C2158C3B500097F7D /* SSVLLIntents */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CC9FB8A2158C3B500097F7D /* Build configuration list for PBXNativeTarget "SSVLLIntents" */;
@@ -456,16 +359,6 @@
 							};
 						};
 					};
-					0C8F74AE20F8F8B800F9E952 = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1020;
-						TestTargetID = 0C8F749A20F8F8B700F9E952;
-					};
-					0C8F74B920F8F8B800F9E952 = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1020;
-						TestTargetID = 0C8F749A20F8F8B700F9E952;
-					};
 					0CC9FB6C2158C3B500097F7D = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
@@ -495,8 +388,6 @@
 			projectRoot = "";
 			targets = (
 				0C8F749A20F8F8B700F9E952 /* Semana Santa Valladolid */,
-				0C8F74AE20F8F8B800F9E952 /* Semana Santa ValladolidTests */,
-				0C8F74B920F8F8B800F9E952 /* Semana Santa ValladolidUITests */,
 				0CC9FB6C2158C3B500097F7D /* SSVLLIntents */,
 				0CC9FB752158C3B500097F7D /* SSVLLIntentsUI */,
 			);
@@ -515,20 +406,6 @@
 				0C8F74A420F8F8B700F9E952 /* Main.storyboard in Resources */,
 				0C5AFE5220FE188A002B4A54 /* Iglesias.plist in Resources */,
 				0CCE5C3E225CA14F005FD258 /* IncidenciasTrafico.pdf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C8F74AD20F8F8B800F9E952 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C8F74B820F8F8B800F9E952 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,23 +459,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C8F74AB20F8F8B800F9E952 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C8F74B420F8F8B800F9E952 /* Semana_Santa_ValladolidTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C8F74B620F8F8B800F9E952 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C8F74BF20F8F8B800F9E952 /* Semana_Santa_ValladolidUITests.swift in Sources */,
-				0CE635DF20FBA5E000A85607 /* SnapshotHelper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CC9FB692158C3B500097F7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -630,16 +490,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C8F74B120F8F8B800F9E952 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C8F749A20F8F8B700F9E952 /* Semana Santa Valladolid */;
-			targetProxy = 0C8F74B020F8F8B800F9E952 /* PBXContainerItemProxy */;
-		};
-		0C8F74BC20F8F8B800F9E952 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C8F749A20F8F8B700F9E952 /* Semana Santa Valladolid */;
-			targetProxy = 0C8F74BB20F8F8B800F9E952 /* PBXContainerItemProxy */;
-		};
 		0CC9FB822158C3B500097F7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0CC9FB752158C3B500097F7D /* SSVLLIntentsUI */;
@@ -856,88 +706,6 @@
 			};
 			name = Release;
 		};
-		0C8F74C720F8F8B800F9E952 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M92GJ8T2S2;
-				INFOPLIST_FILE = "Semana Santa ValladolidTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-ValladolidTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana Santa Valladolid.app/Semana Santa Valladolid";
-			};
-			name = Debug;
-		};
-		0C8F74C820F8F8B800F9E952 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M92GJ8T2S2;
-				INFOPLIST_FILE = "Semana Santa ValladolidTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-ValladolidTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana Santa Valladolid.app/Semana Santa Valladolid";
-			};
-			name = Release;
-		};
-		0C8F74CA20F8F8B800F9E952 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M92GJ8T2S2;
-				INFOPLIST_FILE = "Semana Santa ValladolidUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-ValladolidUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Semana Santa Valladolid";
-			};
-			name = Debug;
-		};
-		0C8F74CB20F8F8B800F9E952 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M92GJ8T2S2;
-				INFOPLIST_FILE = "Semana Santa ValladolidUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenfernandez.Semana-Santa-ValladolidUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Semana Santa Valladolid";
-			};
-			name = Release;
-		};
 		0CC9FB882158C3B500097F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1049,24 +817,6 @@
 			buildConfigurations = (
 				0C8F74C420F8F8B800F9E952 /* Debug */,
 				0C8F74C520F8F8B800F9E952 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C8F74C620F8F8B800F9E952 /* Build configuration list for PBXNativeTarget "Semana Santa ValladolidTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C8F74C720F8F8B800F9E952 /* Debug */,
-				0C8F74C820F8F8B800F9E952 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C8F74C920F8F8B800F9E952 /* Build configuration list for PBXNativeTarget "Semana Santa ValladolidUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C8F74CA20F8F8B800F9E952 /* Debug */,
-				0C8F74CB20F8F8B800F9E952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
